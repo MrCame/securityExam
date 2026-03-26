@@ -12236,8 +12236,6 @@ const QUESTIONS_DATA = {
 
     // 选择选项
     function selectOption(index) {
-        if (confirmedQuestions.has(currentIndex)) return;
-
         const question = allQuestions[currentIndex];
         const isMulti = question.type === 'multi';
 
@@ -12302,8 +12300,6 @@ const QUESTIONS_DATA = {
 
     // 选择判断题选项
     function selectJudgeOption(answer) {
-        if (confirmedQuestions.has(currentIndex)) return;
-
         const item = elements.optionsContainer.querySelector('.option-item');
         if (item) {
             const isCorrect = answer === '√';
