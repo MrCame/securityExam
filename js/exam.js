@@ -12049,6 +12049,8 @@ const QUESTIONS_DATA = {
         btnPrev: document.getElementById('btnPrev'),
         btnNext: document.getElementById('btnNext'),
         btnSubmit: document.getElementById('btnSubmit'),
+        jumpInput: document.getElementById('jumpInput'),
+        btnJump: document.getElementById('btnJump'),
         statSingle: document.getElementById('statSingle'),
         statMulti: document.getElementById('statMulti'),
         statJudge: document.getElementById('statJudge'),
@@ -12110,6 +12112,20 @@ const QUESTIONS_DATA = {
         elements.btnNext.addEventListener('click', nextQuestion);
         elements.btnSubmit.addEventListener('click', submitExam);
         elements.btnClose.addEventListener('click', closeModal);
+        elements.btnJump.addEventListener('click', jumpToQuestion);
+        elements.jumpInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') jumpToQuestion();
+        });
+    }
+
+    // 跳转到指定题号
+    function jumpToQuestion() {
+        const num = parseInt(elements.jumpInput.value);
+        if (isNaN(num) || num < 1 || num > allQuestions.length) {
+            alert(`请输入 1 到 ${allQuestions.length} 之间的数字`);
+            return;
+        }
+        showQuestion(num - 1);
     }
 
     // 显示题目
