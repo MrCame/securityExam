@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>安全生产知识答题</title>
+    <link rel="stylesheet" href="css/exam.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 顶部标题栏 -->
+        <div class="header">
+            <h1>安全生产知识答题</h1>
+            <div class="question-info">
+                <span class="question-number" id="questionNumber">1/1662</span>
+            </div>
+        </div>
+
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <!-- 题目面板 -->
+            <div class="question-panel">
+                <div class="question-type" id="questionType">单选题</div>
+                <div class="question-content" id="questionContent">
+                    题目内容将显示在这里
+                </div>
+            </div>
+
+            <!-- 选项面板 -->
+            <div class="options-panel">
+                <div class="options-container" id="optionsContainer">
+                    <!-- 选项将通过JS动态生成 -->
+                </div>
+                <div class="feedback" id="feedback"></div>
+                <button class="btn-confirm" id="btnConfirm">确定</button>
+            </div>
+        </div>
+
+        <!-- 底部导航 -->
+        <div class="footer">
+            <div class="footer-left">
+                <button class="btn-nav" id="btnPrev">上一题</button>
+                <button class="btn-nav" id="btnNext">下一题</button>
+                <button class="btn-submit" id="btnSubmit">交卷</button>
+            </div>
+            <div class="footer-right">
+                <span class="stat-item">单选(<span id="statSingle">0/1383</span>)</span>
+                <span class="stat-item">判断(<span id="statJudge">0/279</span>)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 结果弹窗 -->
+    <div class="modal" id="resultModal">
+        <div class="modal-content">
+            <h2>答题结果</h2>
+            <div class="result-stats">
+                <p>总分：<span id="resultScore">0</span> / <span id="totalScore">100</span></p>
+                <p>正确题数：<span id="resultCorrect">0</span></p>
+                <p>正确率：<span id="resultAccuracy">0%</span></p>
+                <p>已答：<span id="resultAnswered">0</span> / <span id="totalQuestions">1662</span></p>
+            </div>
+            <button class="btn-close" id="btnClose">关闭</button>
+        </div>
+    </div>
+
+    <!-- 加载提示 -->
+    <div class="loading" id="loading">
+        <div class="loading-text">题库加载中...</div>
+    </div>
+
+    <script src="js/exam.js"></script>
+</body>
+</html>
