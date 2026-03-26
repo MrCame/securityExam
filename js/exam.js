@@ -1,8 +1,8 @@
 // 题库数据
 const QUESTIONS_DATA = {
   "total" : 1662,
-  "singleCount" : 1383,
-  "multiCount" : 0,
+  "singleCount" : 992,
+  "multiCount" : 391,
   "judgeCount" : 279,
   "singleQuestions" : [ {
     "id" : 1,
@@ -1508,13 +1508,6 @@ const QUESTIONS_DATA = {
     "content" : "某保安服务公司保安员牛某因其户口所在地的村委会要选举村长，于是向公司请假返家参加选举。牛某参加选举的权利属于宪法赋予公民的（）",
     "options" : [ "A:人身权利", "B:经济权利", "C:平等权利", "D:政治权利" ],
     "answer" : "D",
-    "multiAnswers" : null
-  }, {
-    "id" : 324,
-    "type" : "single",
-    "content" : "下列关于保安服务活动说法正确的是（）",
-    "options" : [ "A:应当文明服务", "B:应当合法经营", "C:不得损害社会公共利益", "D:应当由公安机关监督管理E:不得侵害他人利益" ],
-    "answer" : "A,B,C,D,E",
     "multiAnswers" : null
   }, {
     "id" : 325,
@@ -5283,13 +5276,6 @@ const QUESTIONS_DATA = {
     "answer" : "C",
     "multiAnswers" : null
   }, {
-    "id" : 914,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，（）不得从事保安服务",
-    "options" : [ "A:在校学习期间，受到通报批评的", "B:曾因盗窃被判处3年有期徒刑的", "C:曾因抢劫被判处3年有期徒刑的", "D:曾因抢劫被劳动教养1年的" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
     "id" : 915,
     "type" : "single",
     "content" : "我国保安服务业逐步朝着专业化.规范化方向发展的标志是（）",
@@ -6948,2745 +6934,3149 @@ const QUESTIONS_DATA = {
     "options" : [ "A:可以超越", "B:应当注意避让", "C:可以不让行", "D:应各行其道" ],
     "answer" : "B",
     "multiAnswers" : null
-  }, {
-    "id" : 1165,
-    "type" : "single",
-    "content" : "扑救带电火灾必须使用绝缘性能好.不会发生触电伤人事故的灭火器，下列可以作为扑救带电火灾的有（）",
-    "options" : [ "A:消防水枪直接喷射", "B:泡沫灭火器", "C:干粉灭火器", "D:二氧化碳灭火器E:室内消火栓" ],
-    "answer" : "C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1166,
-    "type" : "single",
-    "content" : "某饭店因线路电量负荷过大，造成火灾。为控制火灾蔓延，应该使用（）灭火",
-    "options" : [ "A:泡沫灭火器", "B:水", "C:二氧化碳灭火器", "D:干粉灭火器E:水型灭火器" ],
-    "answer" : "C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1167,
-    "type" : "single",
-    "content" : "道路交通信号包括（）",
-    "options" : [ "A:交通标志", "B:交通标线", "C:交通警察的指挥", "D:交通信号灯E:交通信息诱导板" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1168,
-    "type" : "single",
-    "content" : "勤务方案是保安员岗位工作的依据和指南，它的编写要求是（）",
-    "options" : [ "A:结构编写合理", "B:全面", "C:细致", "D:文字简练E:操作性强" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1169,
-    "type" : "single",
-    "content" : "骨折固定时，需要注意的事项有（）",
-    "options" : [ "A:皮肤与固定材料之间要加衬垫", "B:超关节固定", "C:不易过紧，避免影响血液循环", "D:暴露肢体末端，以观察血液循环" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1170,
-    "type" : "single",
-    "content" : "现场救护常用的止血方法包括（）",
-    "options" : [ "A:指压止血法", "B:加压包扎止血法", "C:止血带止血法", "D:加垫屈肢止血法E:加垫加压止血法" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1171,
-    "type" : "single",
-    "content" : "加压包扎止血法适用于（）的出血",
-    "options" : [ "A:小动脉", "B:小静脉", "C:毛细血管", "D:大动脉E:大静脉" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1172,
-    "type" : "single",
-    "content" : "现场救护不能达到（）的目的",
-    "options" : [ "A:减少伤残", "B:为伤员节省费用", "C:代替医务人员，为伤员提供专业的救治", "D:为伤员免除去医院的麻烦E:避免后遗症" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1173,
-    "type" : "single",
-    "content" : "在救护现场，救护员正确的做法是（）",
-    "options" : [ "A:触电现场要切断电源", "B:煤气泄漏的现场要关掉总闸", "C:煤气泄漏的现场不要拨打电话", "D:煤气泄漏的现场不要开关电灯" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1174,
-    "type" : "single",
-    "content" : "在现场急救中，对出现（）情况的伤员应实施心肺复苏",
-    "options" : [ "A:心脏失去功能", "B:无呼吸，无心跳", "C:中暑", "D:发高烧E:腿骨折" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1175,
-    "type" : "single",
-    "content" : "在现场急救中，现场救护人在（）条件下，可以终止心肺复苏",
-    "options" : [ "A:伤员家属要求终止", "B:伤病员恢复自主呼吸及循环", "C:有医务人员来接替", "D:经医务人员检查伤员已死亡E:救护人精疲力竭，无法继续进行心肺复苏" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1176,
-    "type" : "single",
-    "content" : "（）受伤出血的伤员，采用其他止血法不能奏效时，可以使用止血带",
-    "options" : [ "A:上臂", "B:小腿", "C:脖子", "D:大腿E:胸" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1177,
-    "type" : "single",
-    "content" : "（）发生火灾可使用泡沫灭火器",
-    "options" : [ "A:石油化工企业", "B:汽车库", "C:柴油仓库", "D:煤矿E:金属" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1178,
-    "type" : "single",
-    "content" : "现场救护前，要注意排除的险情包括（）",
-    "options" : [ "A:落石", "B:泄漏的煤气", "C:易燃易爆危险品", "D:潜藏的违法犯罪嫌疑人E:太阳的照射" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1179,
-    "type" : "single",
-    "content" : "（）发生火灾时，可用二氧化碳灭火器灭火",
-    "options" : [ "A:图书馆", "B:档案馆", "C:燃气公司", "D:加油站E:塑料制品厂塑胶车间" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1180,
-    "type" : "single",
-    "content" : "保护好火灾现场，能为查清火灾发生的真正原因提供许多重要的证据。保护火灾现场的主要措施为（）",
-    "options" : [ "A:划出警戒区，指派专人看护", "B:火灾现场的一切遗留物，燃烧过的物质及其陈设的位置，必须保持原样", "C:火灾现场的一切遗留物，未燃烧过的物质及其陈设的位置，必须保持原样", "D:撤销现场保护，清扫火灾现场，必须得到当地公安消防监督机关的同意" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1181,
-    "type" : "single",
-    "content" : "接.处警是火灾扑救的开端，火灾发生后，快速.果断的接.处警可以（）",
-    "options" : [ "A:为灭火救援工作赢得宝贵的时间", "B:为成功扑救火灾创造条件", "C:将火灾控制在最小范围", "D:将火灾造成的财产损失控制在最小范围" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1182,
-    "type" : "single",
-    "content" : "在消防安全管理中，正确.果断的接.处警应该做到（）",
-    "options" : [ "A:确认火情", "B:启动消防设施", "C:及时报警", "D:启动应急预案E:组织疏散与扑救" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1183,
-    "type" : "single",
-    "content" : "对于进入公共地下停车场的车辆，必须注意的是（）",
-    "options" : [ "A:服从车场管理员的管理", "B:自觉维护停车场的秩序", "C:自觉维护停车场的环境卫生", "D:爱护停车场设施设备" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1184,
-    "type" : "single",
-    "content" : "针对公共停车场保安员的行为，下列说法正确的是（）",
-    "options" : [ "A:礼貌询问有疑问的机动车驾驶人", "B:对出入的车辆进行登记", "C:维护停车场秩序", "D:允许他人在无人的停车场练车E:允许车辆随意停放" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1185,
-    "type" : "single",
-    "content" : "下列是物业小区停车场保安的一些做法，其中正确的是（）",
-    "options" : [ "A:使用停车场长期无人使用的车辆", "B:任由陌生人在车库停留", "C:拒绝未登记车辆进入停车场", "D:制止车主在地下停车场修车" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1186,
-    "type" : "single",
-    "content" : "机动车在距离（）50米以内的路段不得停车",
-    "options" : [ "A:陡坡", "B:急弯路", "C:医院", "D:隧道E:桥梁" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1187,
-    "type" : "single",
-    "content" : "进入物业小区停车场的车辆和驾驶人应当遵守防火安全规定，严禁（）",
-    "options" : [ "A:在停车场吸烟", "B:携带易燃物品", "C:携带易爆物品", "D:携带剧毒物品E:携带打火机" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1188,
-    "type" : "single",
-    "content" : "根据我国有关劳动法律法规的规定，（）可以成为合法的劳动合同主体",
-    "options" : [ "A:身高180厘米.年龄15周岁的甲", "B:身高160厘米.年龄17周岁的乙", "C:个体工商户丙", "D:某市保安服务公司E:某市物业管理公司" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1189,
-    "type" : "single",
-    "content" : "根据我国有关劳动法律法规的规定，劳动者在劳动过程中享有（）等多项权利",
-    "options" : [ "A:社会福利权", "B:劳动报酬权", "C:休息休假权", "D:社会保险权E:获得劳动保护权" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1190,
-    "type" : "single",
-    "content" : "下列灭火器可用于扑救B类火灾的是（）",
-    "options" : [ "A:水型灭火器", "B:泡沫灭火器", "C:干粉灭火器", "D:二氧化碳灭火器E:干砂" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1191,
-    "type" : "single",
-    "content" : "在拨打急救电话时，应该将（）等内容报告清楚",
-    "options" : [ "A:意外发生的准确地点", "B:伤病员目前最危重的情况", "C:拨打电话人的电话及姓名", "D:伤病员家庭成员的具体情况及病史" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1192,
-    "type" : "single",
-    "content" : "机动车在距离（）30米以内的地方不得停车",
-    "options" : [ "A:医院", "B:幼儿园", "C:急救站", "D:加油站E:桥梁" ],
-    "answer" : "C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1193,
-    "type" : "single",
-    "content" : "进出公共地下停车场的机动车，应当注意（）",
-    "options" : [ "A:遵守交通标志", "B:只要保证安全，行车速度可以自己决定", "C:可以逆行", "D:遵守交通标线E:停车场无车时飙车" ],
-    "answer" : "A,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1194,
-    "type" : "single",
-    "content" : "物业小区保安巡查的内容包括（）",
-    "options" : [ "A:检查停车所有车辆，有无丢标志，车辆有无损伤，车门窗.后备箱有无撬痕", "B:车辆出库时，应仔细核对出库之车和驾驶人(车主)，有疑问时，应有礼貌盘问", "C:指挥车辆按照规定的秩序停放", "D:及时清扫，保持停车场内清洁" ],
-    "answer" : "A,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1195,
-    "type" : "single",
-    "content" : "停车场保安员应当严格遵循（）",
-    "options" : [ "A:安全技术检验制度", "B:累计计分制度", "C:巡视检查制度", "D:停车场管理制度" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1196,
-    "type" : "single",
-    "content" : "物业停车场常用的管理设施有（）",
-    "options" : [ "A:出入登记制度", "B:雷达测速系统", "C:监控系统", "D:智能通行系统E:机动车安全技术检验系统" ],
-    "answer" : "C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1197,
-    "type" : "single",
-    "content" : "我国的社会保险主要包括（）保险等种类",
-    "options" : [ "A:劳动", "B:救济", "C:生活", "D:失业E:生育" ],
-    "answer" : "D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1198,
-    "type" : "single",
-    "content" : "常见违反治安管理的行为有（）等几类",
-    "options" : [ "A:扰乱公共秩序", "B:侵犯他人权益", "C:妨害社会管理", "D:妨害公共安全E:无证经营" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1199,
-    "type" : "single",
-    "content" : "犯罪的主观方面是行为人对于犯罪行为所造成的危害结果所持的心理态度等。下列属于犯罪的主观方面的选项有（）等",
-    "options" : [ "A:犯罪故意", "B:犯罪过失", "C:疏忽大意", "D:过于自信E:意外事件" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1200,
-    "type" : "single",
-    "content" : "关于保安员对出入车辆和物品的登记，下列说法正确的是（）",
-    "options" : [ "A:保安员一般是在查验出入人员身份证明的基础上登记出入车辆和物品", "B:保安员一般是在登记了出入车辆和物品之后查验出入人员身份证明", "C:保安员登记的方式主要是对出入车辆和物品进行书面记录", "D:保安员登记的对象可以包括所有出入服务区域的人员.车辆和物品的往来情况" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1201,
-    "type" : "single",
-    "content" : "关于查验出入人员证件，下列说法正确的是（）",
-    "options" : [ "A:查验证件的主要方式是查看.识别和确认", "B:查验证件主要目的是为了明确出入人员的身份证明是否符合安全管理的要求", "C:查验出入证件是门卫工作的主要任务", "D:查验出入证件包括一切出入服务区域的人员的证件" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1202,
-    "type" : "single",
-    "content" : "下列行为属于违反治安管理行为的是（）",
-    "options" : [ "A:把别人打成轻微伤", "B:私拆他人的信件", "C:偷盗他人的自行车", "D:捡拾他人的钱包E:盗用他人的电话" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1203,
-    "type" : "single",
-    "content" : "在守卫工作中按照出入人员.车辆归属不同将出入口分为（）出入口",
-    "options" : [ "A:内部人员", "B:来访人员", "C:内部车辆", "D:来访车辆E:货物车辆" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1204,
-    "type" : "single",
-    "content" : "机动车通过既没有交通信号灯控制也没有交通警察指挥的交叉路口时（）",
-    "options" : [ "A:准备进入环形路口的，应当让已在路口内的车辆先行", "B:有交通标志.交通标线控制的，让优先通行的一方先行", "C:转弯的机动车让直行的车辆先行", "D:相对方向行驶的右转弯机动车让左转弯的机动车先行" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1205,
-    "type" : "single",
-    "content" : "火灾应急预案中，必须明确人员分工，可以划分为（）",
-    "options" : [ "A:抢救物资组", "B:火灾发生后的报警组", "C:灭火救援组", "D:医疗救护组" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1206,
-    "type" : "single",
-    "content" : "厨房煤气罐发生火灾，如果你在现场，应该做的是（）",
-    "options" : [ "A:立刻关闭可燃气阀门", "B:立刻逃离现场", "C:使用泡沫灭火器", "D:使用二氧化碳作为灭火器" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1207,
-    "type" : "single",
-    "content" : "保安员甲与其所在的某市保安服务公司乙发生了劳动争议，甲乙的劳动争议可以通过（）的调解解决",
-    "options" : [ "A:乙公司的工会组织", "B:乙公司劳动争议调解委员会", "C:乙公司所在地街道办事处民事调解室", "D:乙公司所在地公安机关" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1208,
-    "type" : "single",
-    "content" : "下列叙述涉嫌构成妨害公务罪的是（）",
-    "options" : [ "A:保安员以暴力.威胁方法阻碍某省人大代表团的视察活动", "B:保安员以威胁的方法阻碍着便装的税务人员到其服务的歌厅消费", "C:在抗震救灾中以危险为由阻止红十字会工作人员进入灾区", "D:某歌厅保安员故意设置障碍拒绝民警入内进行安全检查" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1209,
-    "type" : "single",
-    "content" : "保安押运服务中，发生被押物品丢失时，正确的处理方法是（）",
-    "options" : [ "A:沿途查找", "B:立即报警", "C:向本单位报告", "D:隐瞒不报E:联系客户单位说明情况" ],
-    "answer" : "B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1210,
-    "type" : "single",
-    "content" : "对人员密集场所可疑情况的识别包括（）",
-    "options" : [ "A:对可疑人员的识别", "B:对重点人口的识别", "C:对可疑物品的识别", "D:对贵重物品的识别E:对车辆的识别" ],
-    "answer" : "A,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1212,
-    "type" : "single",
-    "content" : "押运中，发现可疑车辆时应该（）",
-    "options" : [ "A:高度警惕，做好应急准备", "B:不继续执行任务，返回单位", "C:将可疑车辆情况报本单位", "D:严密监视可疑车辆动向" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1213,
-    "type" : "single",
-    "content" : "下列属于人员密集场所巡逻勤务特点的是（）",
-    "options" : [ "A:危险因素不确定", "B:勤务难度大", "C:精力消耗大", "D:处置要求高" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1214,
-    "type" : "single",
-    "content" : "对脊柱损伤并伴有脊髓损伤的伤员，现场处理的原则是（）",
-    "options" : [ "A:不要轻易搬动伤员", "B:让伤员在原地保持原位不动", "C:迅速拨打急救电话", "D:由两人将伤员抬到车上送医院" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1215,
-    "type" : "single",
-    "content" : "使用止血带止血时，需要注意的是（）",
-    "options" : [ "A:止血带可以直接扎在出血的肢体上", "B:止血带止血法仅用于四肢的大出血", "C:上好止血带后，要标明时间，定期开放", "D:上止血带时，要松紧适度" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1216,
-    "type" : "single",
-    "content" : "保安员在遇到丧失意识的病人时，紧急呼救的内容有（）",
-    "options" : [ "A:快来人呀，有人晕倒了", "B:我是保安员，这里有人生病，快来帮忙", "C:请帮忙拨打120急救电话", "D:谁是医生，快来帮帮忙" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1217,
-    "type" : "single",
-    "content" : "火灾发生时，要按照应急照明指示设施所指引的方向迅速逃生，下列属于逃生出口的有（）",
-    "options" : [ "A:太平门", "B:出入口", "C:非常出口", "D:紧急出口E:安全出口" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1219,
-    "type" : "single",
-    "content" : "在火灾现场，若选择火势.烟雾难以蔓延的房间作为紧急避难间，应该做的是（）",
-    "options" : [ "A:利用自制灭火器材，阻止或减缓火势和烟雾的蔓延", "B:关好门窗，堵塞间隙", "C:只等待救援", "D:如有水源，要立刻将门.窗和各种可燃物浇湿" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1221,
-    "type" : "single",
-    "content" : "根据我国有关劳动法律法规的规定，劳动者的合法权益应当受到保护，不能因（）等不同而受歧视",
-    "options" : [ "A:民族", "B:性别", "C:宗教信仰", "D:文化程度E:财产状况" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1222,
-    "type" : "single",
-    "content" : "保安从业单位应当定期对保安员进行考核，发现（）等品行问题，需要解除劳动合同的，应依法办理",
-    "options" : [ "A:保安员违法犯罪", "B:严重违反管理制度", "C:未取得大专以上文凭", "D:未取得本科文凭E:严重违纪" ],
-    "answer" : "A,B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1223,
-    "type" : "single",
-    "content" : "下列属于保安员基本条件的是（）",
-    "options" : [ "A:经过保安员资格考试合格", "B:经公安机关审查通过", "C:持有中华人民共和国居民身份证", "D:年满16周岁，身体健康E:具有初中以上文化程度" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1224,
-    "type" : "single",
-    "content" : "出现（）症状的患者可能是危重伤病员",
-    "options" : [ "A:突然倒地，呼之不应", "B:口涎外泄，半身活动受限", "C:表情淡漠不语.呼吸急促.出冷汗", "D:手背出血，大声呼喊E:额头擦破，大声呼" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
+  }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , {
     "id" : 1225,
     "type" : "single",
     "content" : "刑法是以国家的名义规定什么是犯罪和应负（），并给犯罪人何种处罚的法律",
     "options" : [ "A:刑事责任", "B:行政责任", "C:民事责任", "D:刑事赔偿" ],
     "answer" : "A",
     "multiAnswers" : null
-  }, {
-    "id" : 1226,
-    "type" : "single",
-    "content" : "保安员在提供保安服务时遭遇意外伤害可能性较大的有（）",
-    "options" : [ "A:制止不法侵害", "B:调解矛盾纠纷", "C:扑救火灾", "D:紧急救援E:对出入人员进行登记" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1227,
-    "type" : "single",
-    "content" : "保安服务公司可以为（）提供保安服务",
-    "options" : [ "A:学校", "B:机关", "C:企业", "D:游乐场E:演艺明星" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1228,
-    "type" : "single",
-    "content" : "某企业必须具备（）条件才能申请成为自行招用保安员的单位",
-    "options" : [ "A:注册资本100万元以上", "B:负责人具有高级保安师资格", "C:具有法人资格", "D:相应的管理制度E:有符合条件的保安员" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1229,
-    "type" : "single",
-    "content" : "某保安服务公司的保安员肖某与同事被派到某中学提供保安服务，则下列选项中属于肖某与同事的任务有（）",
-    "options" : [ "A:维护该中学内的正常秩序", "B:协助保护发生在该中学内的违法犯罪现场", "C:查破学生自行车丢失案件", "D:在该中学内开展巡逻活动E:在该中学大门口进行巡视并对出入人员进行登记" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1230,
-    "type" : "single",
-    "content" : "保安服务具有（）等特点",
-    "options" : [ "A:安全性", "B:自助性", "C:防范性", "D:服务性E:有偿性" ],
-    "answer" : "C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1232,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
-    "options" : [ "A:曾被收容教育", "B:曾被领导批评教育", "C:曾被公安机关行政拘留", "D:曾受学校行政处分E:曾被劳动教养" ],
-    "answer" : "A,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1233,
-    "type" : "single",
-    "content" : "安全防范服务的内容主要包括（）",
-    "options" : [ "A:人防服务", "B:物防服务", "C:技防服务", "D:治安服务E:社会公共秩序维护服务" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1234,
-    "type" : "single",
-    "content" : "我国刑法对刑事责任年龄作了详细的规定，下列涉及刑事责任年龄的说法正确的是（）",
-    "options" : [ "A:未满16周岁的人犯罪，不负刑事责任", "B:已满16周岁的人犯罪，应当负刑事责任", "C:未满18周岁的人犯罪，不负刑事责任", "D:已满18周岁的人犯罪，应当负刑事责任E:已满14周岁不满16周岁的人犯故意杀人.强奸.投毒等罪的，应当负刑事责任" ],
-    "answer" : "B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1235,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
-    "options" : [ "A:被刑事拘留", "B:被取保候审", "C:被刑事处罚", "D:被行政拘留E:被劳动教养" ],
-    "answer" : "C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1236,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
-    "options" : [ "A:被处一次行政警告", "B:被处1次行政拘留", "C:被处2次行政拘留", "D:被处3次以上行政拘留E:被处1次劳动教养" ],
-    "answer" : "D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1237,
-    "type" : "single",
-    "content" : "保安服务公司安全防范服务的对象是（）",
-    "options" : [ "A:公民", "B:法人", "C:社会组织", "D:犯罪份子E:犯罪团伙" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1238,
-    "type" : "single",
-    "content" : "作为保安员，应为公民.法人和其他社会组织提供()服务",
-    "options" : [ "A:人身方面的安全防范", "B:人身方面的治安管理", "C:信息方面的安全防范", "D:信息方面的治安管理E:财产方面的安全防范" ],
-    "answer" : "A,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1239,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，（）文化程度的，可以从事保安服务",
-    "options" : [ "A:高中", "B:初中", "C:中专", "D:小学E:大专" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1240,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
-    "options" : [ "A:曾有盗窃嫌疑", "B:曾有抢劫嫌疑", "C:曾因过失被判刑", "D:曾因盗窃被处2年有期徒刑E:曾因抢劫被处3年有期徒刑" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1241,
-    "type" : "single",
-    "content" : "我国刑法规定，构成犯罪必须具备（）和犯罪的主观方面等要件",
-    "options" : [ "A:犯罪故意", "B:犯罪主体", "C:犯罪客体", "D:犯罪过失E:犯罪客观方面" ],
-    "answer" : "B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1242,
-    "type" : "single",
-    "content" : "保安从业单位制定的紧急情况应急预案中应当包括（）等内容",
-    "options" : [ "A:应急措施", "B:职责分工", "C:力量配备", "D:任务目的E:通信联络" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1243,
-    "type" : "single",
-    "content" : "保安从业单位应当依法建立健全的（）等管理制度",
-    "options" : [ "A:保安服务管理制度", "B:保安员身份证管理制度", "C:保安员管理制度", "D:保安服务岗位责任制E:紧急情况应急预案" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1244,
-    "type" : "single",
-    "content" : "保安员甲与其所在的某市保安服务公司乙发生了劳动争议，甲乙的劳动争议可以通过（）解决",
-    "options" : [ "A:申请调解", "B:劳动仲裁", "C:甲乙协商", "D:信访上访E:提起诉讼" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1245,
-    "type" : "single",
-    "content" : "根据我国有关劳动法律法规的规定，劳动者在劳动过程中的基本义务是（）等",
-    "options" : [ "A:完成劳动任务", "B:服从管理", "C:听从指挥", "D:保守工作秘密E:提高劳动技能" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1246,
-    "type" : "single",
-    "content" : "保安员制止违法犯罪行为时，应当注意的事项有（）",
-    "options" : [ "A:不要采取侵害公民权利的行为", "B:要把自身安全置之度外", "C:制止无效时应当立即报警", "D:制止无效时应当采取措施保护现场E:要注意自身安全" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1247,
-    "type" : "single",
-    "content" : "保安员制止违法犯罪行为的方式主要有（）",
-    "options" : [ "A:劝说", "B:隔离", "C:堵截", "D:正当防卫E:紧急避险" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1248,
-    "type" : "single",
-    "content" : "根据《治安管理处罚法》的规定，违法行为人侵犯财产权利的行为有（）",
-    "options" : [ "A:非法种植罂粟", "B:携带管制刀具", "C:敲诈勒索", "D:抢夺他人手机E:故意毁损单位桌椅" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1249,
-    "type" : "single",
-    "content" : "保安员设立隔离区的要求是（）",
-    "options" : [ "A:要根据任务需要来确定是否需要设立", "B:设立隔离区必须是临时性的", "C:一旦保安服务任务完成应立即解除", "D:设立隔离区的必要条件是不影响公民正常活动E:设立隔离区要注意最大限度地减少对公民正常活动的妨碍" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1250,
-    "type" : "single",
-    "content" : "保安员维护公共场所秩序，具体包括维护（）的正常秩序",
-    "options" : [ "A:公共交通场所", "B:观光游览场所", "C:购物场所", "D:娱乐休闲场所E:生产科研活动场所" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1251,
-    "type" : "single",
-    "content" : "根据《治安管理处罚法》的规定，对违法行为人（）的处罚决定只能由县级以上公安机关作出",
-    "options" : [ "A:依法拘役3个月", "B:治安拘留5日", "C:吊销保安服务许可证", "D:罚款200元E:强行带离现场" ],
-    "answer" : "B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1252,
-    "type" : "single",
-    "content" : "保安员在保护区域开展报警监控活动的意义体现在（）",
-    "options" : [ "A:是确保客户单位或服务区域内人身财产安全的有效措施", "B:是消除各种安全隐患的有效措施", "C:是预防违法犯罪的有效措施", "D:是区域保安服务工作的基本任务E:是打击各类违法犯罪的主要手段" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1253,
-    "type" : "single",
-    "content" : "根据《治安管理处罚法》的规定，下列（）属于公安机关在治安管理中可以采取的其他法律措施",
-    "options" : [ "A:没收非法财物", "B:责令改正", "C:责令赔偿", "D:退赔损失E:责令看管" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1254,
-    "type" : "single",
-    "content" : "根据《治安管理处罚法》的规定，下列（）属于公安机关在治安管理中可以采取的其他法律措施",
-    "options" : [ "A:管制", "B:拘役", "C:没收违法所得", "D:责令赔偿E:限期改正" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1255,
-    "type" : "single",
-    "content" : "保安员在保护区域开展巡逻的意义体现在（）",
-    "options" : [ "A:是打击各类违法犯罪的主要手段", "B:是消除各种安全隐患的有效措施", "C:是预防违法犯罪的有效措施", "D:是确保客户单位或服务区域内人身安全的有效措施" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1256,
-    "type" : "single",
-    "content" : "保安员在保护区域开展守护的意义体现在（）",
-    "options" : [ "A:是区域保安服务工作的基本任务", "B:能够发现各种安全隐患", "C:能够预防违法犯罪行为", "D:确保客户单位或服务区域内人身财产安全" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1258,
-    "type" : "single",
-    "content" : "下列违反治安管理的行为属于妨害社会管理行为的是（）",
-    "options" : [ "A:吸食毒品", "B:毁损公共设施", "C:强迫劳动", "D:谎报警情E:购买赃物" ],
-    "answer" : "A,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1259,
-    "type" : "single",
-    "content" : "治安管理处罚是公安机关以国家的名义依法强制剥夺违反治安管理行为人的（）或其他权利的行政法律制裁",
-    "options" : [ "A:政治权", "B:人身自由权", "C:名誉权", "D:财产权E:宗教信仰权" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1260,
-    "type" : "single",
-    "content" : "根据《治安管理处罚法》的规定，治安处罚分为（）等几类",
-    "options" : [ "A:警告", "B:罚款", "C:拘役", "D:治安拘留E:吊销许可证" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1261,
-    "type" : "single",
-    "content" : "保安员的职责任务主要有（）",
-    "options" : [ "A:查验出入人员证件", "B:登记出入车辆和物品", "C:开展守卫.巡逻.安全检查活动", "D:侦查破案E:设立临时隔离区" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1262,
-    "type" : "single",
-    "content" : "对违反治安管理行为人的治安处罚有（）等几类",
-    "options" : [ "A:警告", "B:罚款", "C:拘役", "D:治安拘留E:管制" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1263,
-    "type" : "single",
-    "content" : "违反治安管理行为必须具备（）等特征",
-    "options" : [ "A:社会危害性", "B:侵害公共财产", "C:违反治安管理法律法规", "D:应受行政处罚" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1264,
-    "type" : "single",
-    "content" : "依据保安服务合同的约定或者自招保安员单位的要求，保安员的职责任务是（）",
-    "options" : [ "A:维护客户单位及服务区域的正常秩序", "B:预防治安灾害事故的发生", "C:及时发现.制止违法犯罪", "D:确保人身与财产安全E:预防自然灾害事故的发生" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1266,
-    "type" : "single",
-    "content" : "特种车辆在执行紧急任务时，可以（）",
-    "options" : [ "A:使用警报器", "B:使用标志灯具", "C:遵守交通信号", "D:不受行驶路线.行驶方向限制E:不受行驶速度限制" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1267,
-    "type" : "single",
-    "content" : "行人在道路上，应注意（）",
-    "options" : [ "A:遵守右侧通行原则", "B:在人行道内行走", "C:若没有人行道，靠路边行走", "D:通过路口或者横过道路，走人行横道或走过街设施" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1268,
-    "type" : "single",
-    "content" : "我国刑法对防卫过当作了规定，下列行为属于防卫过当的是（）",
-    "options" : [ "A:甲用木棍将正在盗窃的乙打昏在地", "B:甲用木棍将正在持刀抢劫的乙打昏在地", "C:甲用木棍将正在抢夺的乙打昏在地", "D:甲用木棍将正在侮辱他人的乙打昏在地" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1269,
-    "type" : "single",
-    "content" : "某保安培训单位必须开设的培训内容有（）等",
-    "options" : [ "A:刑事侦查手段", "B:守护巡逻技能", "C:火灾预防技能", "D:礼仪礼貌知识E:犯罪现场勘查方法" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1270,
-    "type" : "single",
-    "content" : "保安从业单位制定的紧急情况应急预案中应当包括（）等内容",
-    "options" : [ "A:组织指挥", "B:应急措施", "C:力量配备", "D:职责分工E:通信联络" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1271,
-    "type" : "single",
-    "content" : "保安员维护客户单位及服务区域内的正常秩序，是（）的前提，也是保安服务的基本任务",
-    "options" : [ "A:制止违法犯罪活动", "B:消除治安灾害事故隐患", "C:公安机关侦破案件", "D:确保人身安全E:化解社会矛盾" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1272,
-    "type" : "single",
-    "content" : "保安员对巡逻中发现的案件.事故.事件现场应当立即进行保护。以下做法正确的是（）",
-    "options" : [ "A:划定现场保护区域", "B:设置警戒标志", "C:不准无关人员进入", "D:保护好现场证据E:抢救伤员" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1273,
-    "type" : "single",
-    "content" : "在区域巡逻中需要重点检查安全照明的场所是（）",
-    "options" : [ "A:高层建筑的楼梯间", "B:居民楼各单元门口", "C:居民楼楼梯间", "D:区域内人行便道E:区域内主要交通通道" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1274,
-    "type" : "single",
-    "content" : "现场救护人员应从（）方面区别动脉和静脉出血",
-    "options" : [ "A:颜色", "B:部位", "C:血流速度", "D:伤口的深浅E:伤口大小" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1275,
-    "type" : "single",
-    "content" : "伤员大腿有很深的刀伤，现场救护员正确的处理方法是（）",
-    "options" : [ "A:用干净的敷料将伤口填塞", "B:加压包扎", "C:必要时可使用止血带", "D:不作处理，直接送医院E:可用电线止血" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1276,
-    "type" : "single",
-    "content" : "小区内有人斗殴，其中一人右前臂大出血，这时，保安员正确的做法是（）",
-    "options" : [ "A:置之不理", "B:拨打110.120", "C:排除险情，确保安全", "D:为伤员止血E:可使用绳索止血" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1277,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，保安员应享有的权利有（）",
-    "options" : [ "A:正当防卫", "B:接受安全教育", "C:开展巡逻守护", "D:享受社会保险E:登记出入车辆" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1278,
-    "type" : "single",
-    "content" : "我国刑法明确规定了以危险方法危害公共安全罪，下列不属于以危险方法危害公共安全的行为是（）",
-    "options" : [ "A:放火", "B:驾车撞人", "C:爆炸", "D:投放危险物质E:故意传播突发传染病病原体" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1279,
-    "type" : "single",
-    "content" : "下列选项中属于职业道德作用的是()",
-    "options" : [ "A:增强员工的独立性", "B:增强企业的凝聚力", "C:决定企业的经济效益", "D:增加员工的福利E:塑造良好的企业形象" ],
-    "answer" : "B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1280,
-    "type" : "single",
-    "content" : "保安员职业道德的作用有()",
-    "options" : [ "A:规范保安员的服务行为", "B:提高保安员职业素养", "C:塑造良好的企业形象", "D:形成和谐的人际关系E:增强组织的凝聚力" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1281,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》的规定，下列说法正确的是（）",
-    "options" : [ "A:保安员在保安服务过程中，不允许接触商业秘密", "B:不得泄露客户信息属于保安员的义务", "C:不得泄露客户信息属于保安员的权利", "D:泄露客户单位的秘密可能会给国家利益造成损害" ],
-    "answer" : "B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1282,
-    "type" : "single",
-    "content" : "在道路交通活动中，（）情况可以超车",
-    "options" : [ "A:没有中心线的道路", "B:前车为正在作业的洒水车", "C:前车为前去加油的救护车", "D:行经隧道E:行经窄桥" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1283,
-    "type" : "single",
-    "content" : "在没有中心线的道路上，机动车相遇相对方向来车时应当（）",
-    "options" : [ "A:减速靠右行驶", "B:保持原有速度行驶", "C:与其他车辆保持必要的安全距离", "D:与行人保持必要的安全距离E:鸣喇叭并迅速通过" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1284,
-    "type" : "single",
-    "content" : "机动车载人时应当遵守的规定有（）",
-    "options" : [ "A:公路载客汽车在载客人数已满的情况下，按照规定免票的儿童不得超过核定载客人数的15％", "B:载货汽车载物高度超过车厢栏板时，货物上最多可以搭载2名乘客", "C:城市道路上，中型货载货汽车在留有安全位置的情况下，车厢内最多可以附载临时作业人员5人", "D:公路载客汽车不得超过核定的载客人数" ],
-    "answer" : "C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1285,
-    "type" : "single",
-    "content" : "在道路交通活动中，机动车载物时需要注意的是（）",
-    "options" : [ "A:机动车载物，长度不得超出车厢", "B:机动车载物，高度从地面起不得超出车厢2米", "C:载客汽车不得载货", "D:载货汽车车厢不得载客" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1286,
-    "type" : "single",
-    "content" : "我国的社会保险主要包括（）保险等种类",
-    "options" : [ "A:养老", "B:救济", "C:医疗", "D:失业E:住房" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1287,
-    "type" : "single",
-    "content" : "在物业小区内行驶的机动车，应注意（）",
-    "options" : [ "A:按指挥慢行", "B:最高时速不超过２５公里", "C:禁止鸣号", "D:按规定行驶方向行驶E:车辆停放位置适当" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1288,
-    "type" : "single",
-    "content" : "以下关于停车管理的说法中，正确的是（）",
-    "options" : [ "A:停车管理是静态交通管理的重要组成部分", "B:停车管理包括对车辆的存放管理", "C:停车管理是动态交通管理的重要组成部分", "D:停车管理包括对车辆的停驶管理" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1289,
-    "type" : "single",
-    "content" : "下列做法正确的是（）",
-    "options" : [ "A:城市公共汽车在站点前5米处停车下客", "B:出租车在没有公交车的公交站点停车上下乘客", "C:出租车在距离加油站１０米左右停车等候加油", "D:在道路上行驶的汽车爆胎时，驾驶人应立即停车，就地更换轮胎" ],
-    "answer" : "C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1290,
-    "type" : "single",
-    "content" : "保安员在车站候车室座椅下发现一无人认领的包裹，不正确的做法是（）",
-    "options" : [ "A:打开包裹查看", "B:把包裹拿到值班室", "C:立即报警", "D:寻找失主E:记录情况，继续巡逻" ],
-    "answer" : "A,B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1291,
-    "type" : "single",
-    "content" : "保安员在人员密集场所经常使用的安全探测仪器包括（）",
-    "options" : [ "A:金属探测仪", "B:爆炸物品探测仪", "C:红外体温探测仪", "D:放射性物品探测仪E:有毒气体探测仪" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1292,
-    "type" : "single",
-    "content" : "保安员李某和王某在某大型人才交流会现场巡逻，应当作为可疑人重点观察的是（）",
-    "options" : [ "A:某甲：举止怪异，神情慌张", "B:某乙：行为局促，对现场保安员的行踪过分关注", "C:某丙：一直尾随一名携包女子", "D:某丁：在现场推销保险E:某戊：行为诡秘，动作反常" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1293,
-    "type" : "single",
-    "content" : "物业小区停车场保安要严格履行值班制度.巡视检查制度等，主要是为了防止（　　）等事故事件的发生",
-    "options" : [ "A:火灾", "B:盗窃", "C:漏油", "D:水灾E:漏水" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1294,
-    "type" : "single",
-    "content" : "机动车应该在（　　）停放",
-    "options" : [ "A:规划的停车场", "B:规划的停车位", "C:规划停车位的人行道上严格按规定的时间", "D:规划停车位的人行道上可以超出规定的时间E:人行道上" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1295,
-    "type" : "single",
-    "content" : "公共停车场管理中，保安的职责是（）",
-    "options" : [ "A:规划好停车位及进出通道", "B:加强停车场巡视检查", "C:车辆出入登记", "D:负责车内物品的看管E:协助驾驶人按顺序停放" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1296,
-    "type" : "single",
-    "content" : "属于特种车辆的是（）",
-    "options" : [ "A:前往抢救病人的救护车", "B:执行完救火任务的消防车", "C:赶往案发现场的警车", "D:赶往坍塌桥梁现场的工程救险车E:运送邮件的邮政车辆" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1297,
-    "type" : "single",
-    "content" : "在现场急救中，出现下列（）症状不需做心肺复苏",
-    "options" : [ "A:意识障碍", "B:骨折", "C:呼吸心跳骤停", "D:轻度中暑E:发高烧" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1298,
-    "type" : "single",
-    "content" : "在搬运伤员中，双人徒手搬运的方式有（）",
-    "options" : [ "A:杠轿式", "B:椅托式", "C:拉车式", "D:扶持法E:背负法" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1299,
-    "type" : "single",
-    "content" : "在找不到止血带的现场，为避免造成皮肤损伤，不能用（）代替止血带",
-    "options" : [ "A:电线", "B:领带", "C:布条", "D:围巾E:细绳" ],
-    "answer" : "A,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1300,
-    "type" : "single",
-    "content" : "救护大腿骨折的伤员，正确的做法是（）",
-    "options" : [ "A:可以利用健肢对伤肢进行固定", "B:固定时一定要超关节", "C:绑扎越紧越好", "D:固定后要观察末梢血液循环E:固定材料不直接接触皮肤" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1301,
-    "type" : "single",
-    "content" : "指压止血法包括（）",
-    "options" : [ "A:直接压迫法", "B:间接压迫法", "C:加压包扎法", "D:止血带法E:三角巾法" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1302,
-    "type" : "single",
-    "content" : "在救护现场可采用（）作为止血带",
-    "options" : [ "A:电线", "B:领带", "C:布条", "D:围巾E:细绳" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1303,
-    "type" : "single",
-    "content" : "需要为大腿较深的伤口进行填塞止血时，救护员正确的做法是（）",
-    "options" : [ "A:立即用止血带", "B:用干净的敷料填塞伤口", "C:加压包扎", "D:用绳索绑扎伤口E:如果条件不允许，可以用不干净的敷料" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1304,
-    "type" : "single",
-    "content" : "火灾得到确认后，保安员在消防控制室可以实施的灭火行为有（）",
-    "options" : [ "A:立即将火灾报警联动控制开关转入自动状态", "B:立即将火灾报警联动控制开关转入手动状态", "C:开启防火门.防火卷帘", "D:立刻拨打“119”报警" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1305,
-    "type" : "single",
-    "content" : "现场救护的要求是（）",
-    "options" : [ "A:立即将伤病员送医院", "B:在现场展开紧急救护", "C:救护时要注意排除险情", "D:必须由医务人员对伤病员实施救护" ],
-    "answer" : "B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1306,
-    "type" : "single",
-    "content" : "在人员密集场所的活动中，设置隔离区通常采用的方法包括（）",
-    "options" : [ "A:穿插隔离", "B:包围隔离", "C:设置隔离带", "D:单向隔离E:事先划定隔离区" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1307,
-    "type" : "single",
-    "content" : "关于骑巡说法正确的有（）",
-    "options" : [ "A:是指骑自行车.骑马的巡逻", "B:是指骑电动车的巡逻", "C:速度较快.行动敏捷", "D:适用于区域范围不大.巡逻中能够将区域全部纳入视线的情况" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1308,
-    "type" : "single",
-    "content" : "下列关于道路交通标线叙述正确的是（）",
-    "options" : [ "A:颜色可以为白色.黄色", "B:颜色可以为蓝色.橙色", "C:路面图形标记中可以出现红色的图案或文字", "D:路面图形标记中可以出现黑色的图案或文字" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1309,
-    "type" : "single",
-    "content" : "在保安巡逻勤务中，以下关于交叉巡逻说法正确的是（）",
-    "options" : [ "A:是徒步巡逻的常见形式", "B:是两组以上保安员分别从不同方位沿相互交叉的路线进行的巡逻", "C:可以每名保安员单独编组", "D:可以使保安员相互呼应，相互支援" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1310,
-    "type" : "single",
-    "content" : "机动车行经交通信号灯控制的交叉路口时，应当（）",
-    "options" : [ "A:夜间行驶开启远光灯", "B:向左转弯时，靠路口中心点左侧转弯", "C:准备进入环形路口的让已在路口内的机动车先行", "D:在没有方向指示信号灯的交叉路口，转弯的机动车让直行的车辆.行人先行" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1311,
-    "type" : "single",
-    "content" : "非机动车在道路上通行时，（）",
-    "options" : [ "A:可以在任何车行道内行驶", "B:没有非机动车道的，应在人行道上行驶", "C:没有非机动车道的，应在车行道的右侧行驶", "D:不得进入高速公路行驶E:应当在非机动车道内行驶" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1312,
-    "type" : "single",
-    "content" : "道路养护车辆进行作业时，在不影响过往车辆通行的前提下，（）",
-    "options" : [ "A:行驶方向不受交通标线限制", "B:行驶不受交通信号灯限制", "C:行驶路线不受交通标志限制", "D:行驶不受速度限制E:不得逆行" ],
-    "answer" : "A,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1313,
-    "type" : "single",
-    "content" : "特种车辆在执行紧急任务时可以（）",
-    "options" : [ "A:撞伤行人不承担责任", "B:闯红灯", "C:逆行", "D:超速E:压禁停线" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1314,
-    "type" : "single",
-    "content" : "机动车会车时应当遵守（）规则",
-    "options" : [ "A:在有障碍的路段，无障碍的一方先行", "B:夜间在窄桥与非机动车会车时应使用远光灯", "C:夜间在窄路与非机动车会车时应使用近光灯", "D:在有障碍的路段，有障碍的一方已经驶入障碍路段而无障碍的一方未驶入的，有障碍的一方先行" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1315,
-    "type" : "single",
-    "content" : "在（）的情况下，禁止超车",
-    "options" : [ "A:前车示意左转弯", "B:行经人行横道", "C:前车正在超车时", "D:前车是赶往医院的救护车E:前车是正常行驶.未鸣警笛的警车" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1316,
-    "type" : "single",
-    "content" : "在目标部位守护中，（）需要设置瞭望岗",
-    "options" : [ "A:危险物品储存单位", "B:单位办公楼", "C:人员密集区域", "D:居民生活区E:电影院" ],
-    "answer" : "A,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1318,
-    "type" : "single",
-    "content" : "人员密集场所巡逻发现（）时，保安员应当报告场所管理部门，必要时应当立即报警",
-    "options" : [ "A:人潮涌动的地铁站突然发生火灾", "B:演唱会的现场突然天降暴雨", "C:展销会的现场两人因故扭打起来，周围大量围观人员", "D:火车站入口处，两乘客因故发生争吵，经保安员规劝后停止吵闹" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1319,
-    "type" : "single",
-    "content" : "下列关于物业小区停车场的叙述中，正确的是（）",
-    "options" : [ "A:属于业主等特定对象使用的停车场", "B:属于公共停车场", "C:一般实行封闭式管理", "D:一般实行开放式管理E:一般实行机动车与非机动车分开存放" ],
-    "answer" : "A,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1320,
-    "type" : "single",
-    "content" : "文明服务要求保安员在保安服务活动中必须()",
-    "options" : [ "A:仪表端庄", "B:语言规范", "C:客观公正", "D:心胸开阔E:尊重客户" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1321,
-    "type" : "single",
-    "content" : "下面关于团结互助的说法中,错误的是()",
-    "options" : [ "A:可以营造和谐的人际关系", "B:与企业的凝聚力无关", "C:要求大家宽容相待", "D:要求大家加强协作E:要求大家不要竞争" ],
-    "answer" : "B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1322,
-    "type" : "single",
-    "content" : "关于保安员劳动合同的正确说法是（）",
-    "options" : [ "A:履行合同不仅是保安员的权利，也是保安员的义务", "B:履行合同是保安员的权利", "C:履行合同是保安员的义务", "D:劳动合同是一个整体，各项条款相互联系" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1323,
-    "type" : "single",
-    "content" : "作为一名保安员，除了依法享有权利，还须履行相应的（）义务",
-    "options" : [ "A:遵守法律", "B:遵守纪律", "C:正当防卫", "D:紧急避险E:勘查现场" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1324,
-    "type" : "single",
-    "content" : "下列单位属于安全技术防范重点单位的是（）",
-    "options" : [ "A:铁路车站", "B:公园街道", "C:文物系统", "D:国家机关E:居民家庭" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1325,
-    "type" : "single",
-    "content" : "安全技术防范工程以维护社会公共安全为目的，综合运用安全防范技术和其他科学技术，为建立具有（）.防爆安全检查等功能（或其组合）的系统而实施的工程。通常也称为技防工程",
-    "options" : [ "A:防入侵", "B:防自然灾害", "C:防破坏", "D:防抢劫E:防盗窃" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1326,
-    "type" : "single",
-    "content" : "在有交通信号灯的交叉路口，非机动车应注意（）",
-    "options" : [ "A:转弯时让直行的车辆.行人先行", "B:遇有停止信号时，没有停止线的，停在路口以外", "C:遇前方交叉路口堵塞时，可以进入交叉路口等候", "D:右转弯时遇有同方向前车正在等候放行信号的，在本车道内能够转弯的，可以通行" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1327,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，（）不属于保安员享有的权利",
-    "options" : [ "A:查验出入证件", "B:登记出入车辆", "C:开展巡逻守护", "D:享受劳动条件E:享受劳动保护" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1328,
-    "type" : "single",
-    "content" : "道路交通标志的构成要素是（）",
-    "options" : [ "A:交通信号灯", "B:图形", "C:颜色", "D:字符E:形状" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1329,
-    "type" : "single",
-    "content" : "道路交通信号灯包括（）",
-    "options" : [ "A:人行横道信号灯", "B:方向指示信号灯", "C:闪光警告信号灯", "D:道口信号灯E:非机动车道信号灯" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1330,
-    "type" : "single",
-    "content" : "下列关于导流岛的叙述正确的是（）",
-    "options" : [ "A:用以诱导车辆运行路线的岛状构筑物", "B:用以控制车辆运行路线的岛状构筑物", "C:用来供过街行人避让车辆", "D:常与道路交通标线配合使用" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1331,
-    "type" : "single",
-    "content" : "道路交通安全设施中的物理隔离设施有（）",
-    "options" : [ "A:交通护栏", "B:交通信息提示板", "C:交通隔离带", "D:交通岛E:隔离栅栏" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1332,
-    "type" : "single",
-    "content" : "道路交通标志适用于（）",
-    "options" : [ "A:公路", "B:城市道路", "C:广场", "D:公共停车场E:物业小区内" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1333,
-    "type" : "single",
-    "content" : "在保安巡逻勤务中，以下关于点线巡逻说法正确的（）",
-    "options" : [ "A:是徒步巡逻的常见形式", "B:须事先确定警戒点部署警戒", "C:须事先确定巡逻路线", "D:巡逻路线应当经过警戒点" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1334,
-    "type" : "single",
-    "content" : "道路交通标志设置方式有（）",
-    "options" : [ "A:柱式", "B:悬臂式", "C:门架式", "D:附着式E:放置式" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1335,
-    "type" : "single",
-    "content" : "我国道路交通标志可以分为（）两大类",
-    "options" : [ "A:警告标志", "B:主标志", "C:禁令标志", "D:辅助标志E:指示标志" ],
-    "answer" : "B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1336,
-    "type" : "single",
-    "content" : "道路交通信号灯由（）组成",
-    "options" : [ "A:红灯", "B:蓝灯", "C:黄灯", "D:绿灯E:橙色灯" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1337,
-    "type" : "single",
-    "content" : "道路交通标线按照功能可以分为（）",
-    "options" : [ "A:横向标线", "B:指示标线", "C:警告标线", "D:禁止标线E:纵向标线" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1338,
-    "type" : "single",
-    "content" : "下列关于道路交通安全设施的叙述正确的是（）",
-    "options" : [ "A:设置的目的是保障道路交通的安全和畅通", "B:管制和引导交通的设备", "C:道路交通系统不可缺少的重要组成部分", "D:功能齐全.完备的道路交通设施是保证行车安全.减少和减轻交通事故的重要保障" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1339,
-    "type" : "single",
-    "content" : "道路交通设施包括（）",
-    "options" : [ "A:交通信号灯", "B:交通警察手势指挥", "C:交通标志", "D:交通标线E:物理隔离设施" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1340,
-    "type" : "single",
-    "content" : "保安员在查验货物出库单时，应着重查验单据中写明的（）",
-    "options" : [ "A:货物的外形", "B:货物的名称", "C:货物的规格", "D:货物的数量E:货物的型号" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1341,
-    "type" : "single",
-    "content" : "保安员在（）情况下应立即报警",
-    "options" : [ "A:发现客户单位安全隐患", "B:发现客户单位物资被盗", "C:客户单位发生火灾", "D:发现有人破坏重要设施E:客户单位出现水管爆裂" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1342,
-    "type" : "single",
-    "content" : "保安员对进入客户单位的车辆进行登记时，应登记的内容有（）",
-    "options" : [ "A:驾驶员姓名", "B:车辆颜色", "C:来访原因", "D:车牌号码E:车辆型号" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1343,
-    "type" : "single",
-    "content" : "保安员小王在化工厂门卫值勤时，司机小李驾车送货离开。在通过出入口时，小王请其停车核对货物出库单并进行查验，小王的正确做法是（）",
-    "options" : [ "A:对小李说：“你好，请停车，请出示货物出库单。”", "B:在小李停车后，保安员小王打开车门查验货物", "C:请小李打开车门，对照货物出库单进行核对", "D:小李向小王说明货物没问题后，小王放行" ],
-    "answer" : "A,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1344,
-    "type" : "single",
-    "content" : "文明服务要求保安员在保安服务活动中必须()",
-    "options" : [ "A:仪表端庄", "B:遵纪守法", "C:举止得体", "D:礼貌待人E:心胸开阔" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1345,
-    "type" : "single",
-    "content" : "文明服务要求保安员在保安服务活动中必须()",
-    "options" : [ "A:仪表端庄", "B:语言规范", "C:举止得体", "D:礼貌待人E:尊重客户" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1346,
-    "type" : "single",
-    "content" : "下面关于团结互助的说法中,正确的是()",
-    "options" : [ "A:可以营造和谐的人际关系", "B:可以增强企业的凝聚力", "C:要求大家宽容相待", "D:要求大家加强协作E:要求大家不要竞争" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1347,
-    "type" : "single",
-    "content" : "下面关于团结互助的说法中,正确的是()",
-    "options" : [ "A:可以营造和谐的人际关系", "B:与企业的凝聚力无关", "C:要求大家宽容相待", "D:要求大家加强协作E:要求大家不要竞争" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1348,
-    "type" : "single",
-    "content" : "保安员遵守职业道德能够()",
-    "options" : [ "A:增强员工的独立性", "B:增强保安从业单位的凝聚力", "C:规范保安员的服务行为", "D:形成高尚的职业情操E:塑造良好的企业形象" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1349,
-    "type" : "single",
-    "content" : "下列设备是停车场管理系统中出口设备的有（）",
-    "options" : [ "A:发卡机", "B:挡车器", "C:车辆检测线圈", "D:摄像机E:视频监视器" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1350,
-    "type" : "single",
-    "content" : "下列设备是停车场管理系统中入口设备的有（）",
-    "options" : [ "A:发卡机", "B:挡车器", "C:车辆检测线圈", "D:全方位云台E:视频监视器" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1351,
-    "type" : "single",
-    "content" : "目前常用的周界报警设备有（）报警器",
-    "options" : [ "A:红外对射", "B:被动红外", "C:激光对射", "D:泄漏电缆E:电子围栏" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1352,
-    "type" : "single",
-    "content" : "入侵报警系统是指利用（）技术探测，并指示非法进入或试图非法进入设防区域的行为，处理报警信息，发出报警信息的电子系统或网络",
-    "options" : [ "A:传感器", "B:视频压缩", "C:综合布线", "D:电子信息E:生物识别" ],
-    "answer" : "A,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1353,
-    "type" : "single",
-    "content" : "纵深防护体系是兼有（）的防护体系",
-    "options" : [ "A:周界", "B:盲区", "C:禁区", "D:监视区E:防护区" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1354,
-    "type" : "single",
-    "content" : "爱岗敬业是一个保安员做好本职工作的重要前提。提倡爱岗敬业，就是要求保安员（）",
-    "options" : [ "A:不要转行", "B:勇于承担职业责任", "C:提高保安服务技能", "D:认识保安服务的社会价值E:不能玩忽职守" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1355,
-    "type" : "single",
-    "content" : "下列关于保安员的守法义务中，说法正确的是（）",
-    "options" : [ "A:守法是每一个保安员必须履行的基本义务", "B:对于保安员来说，守法有更高的要求", "C:必须遵守《保安服务管理条例》中对保安员行为的禁止性规定", "D:遵守法律法规的有关规定是保安员的基本义务" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1357,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》的规定，作为保安员必须履行的义务有（）",
-    "options" : [ "A:报警监控", "B:遵守纪律", "C:遵守合同", "D:保守秘密E:遵守法律" ],
-    "answer" : "B，C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1358,
-    "type" : "single",
-    "content" : "在职业活动中形成的（）就是职业道德",
-    "options" : [ "A:行为准则", "B:劳动技能", "C:基本规范", "D:思维习惯E:操作程序" ],
-    "answer" : "A,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1359,
-    "type" : "single",
-    "content" : "作为一名保安员，除了依法享有权利，还须履行相应的（）义务",
-    "options" : [ "A:保守秘密", "B:勘查现场", "C:正当防卫", "D:紧急避险E:遵守纪律" ],
-    "answer" : "A,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1360,
-    "type" : "single",
-    "content" : "在现场急救中，现场心肺复苏的三个步骤包括（）",
-    "options" : [ "A:判断意识", "B:人工呼吸", "C:胸外心脏按压", "D:打开气道E:大声呼救" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1361,
-    "type" : "single",
-    "content" : "加压包扎止血的正确做法是（）",
-    "options" : [ "A:用大块干净的毛巾.手绢等，覆盖伤口", "B:用绷带加压包扎伤口", "C:胸部伤口不能加敷料", "D:观察末梢血液循环" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1362,
-    "type" : "single",
-    "content" : "用担架抬脊柱损伤伤员时，应注意（）",
-    "options" : [ "A:将伤员固定在担架上，避免摔伤", "B:伤员头部朝前，脚朝后", "C:移动时注意脊柱的稳定", "D:首先要上好颈托E:采用硬质的担架" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1363,
-    "type" : "single",
-    "content" : "保安员需要掌握的火灾应急疏散基本常识包括（）",
-    "options" : [ "A:常用灭水器材的使用方法", "B:扑救初起火灾的知识", "C:消防控制主机的工作原理", "D:报火警的方法E:自救逃生的知识" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1364,
-    "type" : "single",
-    "content" : "在发生火灾的房屋里，浓烟弥漫.充满毒气，这时保安员需要做的是（）",
-    "options" : [ "A:先帮助老人.小孩.病人疏散", "B:稳定人员情绪，维护现场秩序", "C:能够安全疏散时，阻止人员跳楼", "D:防止脱离险境的人员再入“火口”" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1365,
-    "type" : "single",
-    "content" : "发生火灾被迫跳楼时，保安员需要提醒逃生人员注意的是()",
-    "options" : [ "A:将绳子或布条的一端紧拴在牢固的门窗格或其它重物上，再顺着滑下", "B:手扶窗台往下滑，以缩小跳楼高度", "C:保证上肢先着地", "D:向地面抛下一些棉被等物，以增加缓冲E:可以借助木板或竹竿等逃往相邻阳台" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1366,
-    "type" : "single",
-    "content" : "高层建筑物发生火灾时，保安员需要做好的应急工作有()",
-    "options" : [ "A:拨打“119”电话报警", "B:组织引导疏散", "C:对通风.煤气.电源做应急处理", "D:启动消防水泵E:立即制定应急疏散预案" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1367,
-    "type" : "single",
-    "content" : "下列属于以生物特征作为识别凭证的出入口目标识别子系统的设备是（）",
-    "options" : [ "A:指纹仪", "B:掌形仪", "C:韦根卡", "D:乱序键盘E:红外探测器" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1368,
-    "type" : "single",
-    "content" : "文明服务要求保安员在保安服务活动中必须()",
-    "options" : [ "A:客观公正", "B:遵纪守法", "C:举止得体", "D:礼貌待人E:尊重客户" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1369,
-    "type" : "single",
-    "content" : "保安员张某在享受公民基本权利的同时，还可以享受（）的权利",
-    "options" : [ "A:查验出入证件", "B:登记出入车辆", "C:开展巡逻守护", "D:社会保险E:接受安全教育和技能培训" ],
-    "answer" : "D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1370,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，（）是保安员应享有的权利",
-    "options" : [ "A:开展安全检查", "B:登记出入车辆", "C:签订劳动合同", "D:开展巡逻守护" ],
-    "answer" : "C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1371,
-    "type" : "single",
-    "content" : "成为一名合格的保安员需要做到品行良好，品行良好的具体含义包括（）",
-    "options" : [ "A:遵守社会主义道德规范", "B:熟悉并遵守保安员道德要求", "C:没有犯罪记录", "D:未曾受过劳动教养E:遵纪守法" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1372,
-    "type" : "single",
-    "content" : "下列人员中，符合保安员任职资格年龄的有（）",
-    "options" : [ "A:年满16周岁", "B:年满17周岁", "C:年满19周岁", "D:年满30周岁E:年满55周岁" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1373,
-    "type" : "single",
-    "content" : "在保安巡逻勤务中，以下关于往返巡逻说法正确的是（）",
-    "options" : [ "A:巡逻路线是事先确定的", "B:是由起点到终点，再由终点原路返回到起点", "C:适用于两组以上的保安员相向巡逻", "D:巡逻可以每名保安员单独编组" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1374,
-    "type" : "single",
-    "content" : "在保安巡逻勤务中，单线巡逻的特点是（）",
-    "options" : [ "A:巡逻路线固定", "B:巡视范围固定", "C:看护对象固定", "D:巡逻范围大E:巡逻人员多" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1375,
-    "type" : "single",
-    "content" : "在保安巡逻勤务中，常采用的区域巡逻方式有（）",
-    "options" : [ "A:机巡", "B:步巡", "C:骑巡", "D:车巡E:舟巡" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1376,
-    "type" : "single",
-    "content" : "区域巡逻具有如下特点（）",
-    "options" : [ "A:对象固定", "B:被动性强", "C:主动性强", "D:流动性大E:风险度高" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1377,
-    "type" : "single",
-    "content" : "小张想成为一名保安员，他需要()才能取得《保安员证》",
-    "options" : [ "A:经设区的市级公安机关考试合格", "B:经设区的市级教育行政机关考试合格", "C:经设区的市级公安机关审查通过", "D:在设区的市级公安机关留存指纹信息" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1378,
-    "type" : "single",
-    "content" : "火灾报警控制器按其用途不同可分为（）火灾报警控制器几种基本类型",
-    "options" : [ "A:主动型", "B:区域型", "C:集中型", "D:被动性E:通用型" ],
-    "answer" : "B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1379,
-    "type" : "single",
-    "content" : "（）是全球卫星定位系统的功能",
-    "options" : [ "A:车辆监控", "B:反劫防盗", "C:导航", "D:最优路径向导E:倒车防撞" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1380,
-    "type" : "single",
-    "content" : "我国刑法规定的刑罚有（）等种类",
-    "options" : [ "A:管制", "B:拘役", "C:罚金", "D:驱逐出境E:死缓" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1381,
-    "type" : "single",
-    "content" : "我国刑法规定刑罚的目的并非单纯给犯罪人造成一定的痛苦，而是通过刑罚处罚达到（）的目的",
-    "options" : [ "A:侦查犯罪", "B:预防犯罪", "C:查处犯罪", "D:教育罪犯E:关押罪犯" ],
-    "answer" : "B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1382,
-    "type" : "single",
-    "content" : "下列不属于犯罪行为的是（）",
-    "options" : [ "A:正当防卫", "B:见义勇为", "C:故意伤害", "D:自救行为E:紧急避险" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1383,
-    "type" : "single",
-    "content" : "在某单位财务室内安装入侵报警设备可选择（　　）",
-    "options" : [ "A:双技术报警器", "B:振动报警器", "C:电子围栏", "D:云台E:读卡器" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1384,
-    "type" : "single",
-    "content" : "防爆安检系统主要检测的目标是（）",
-    "options" : [ "A:爆炸物品", "B:武器", "C:金属器械", "D:毒品E:有毒食品" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1385,
-    "type" : "single",
-    "content" : "火灾报警系统一般由（）等部分组成",
-    "options" : [ "A:火灾探测报警器件", "B:火灾报警装置", "C:火灾警报装置", "D:火灾灭火装置" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1386,
-    "type" : "single",
-    "content" : "下列设备属于防爆安检设备的有（）",
-    "options" : [ "A:X射线检查设备", "B:半球形摄像机", "C:质谱分析设备", "D:毫米波探测设备" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1387,
-    "type" : "single",
-    "content" : "下列设备是停车场管理系统中控制管理中心设备的有（）",
-    "options" : [ "A:视频矩阵控制器", "B:报表打印机", "C:计算机", "D:收费显示屏E:发卡机" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1388,
-    "type" : "single",
-    "content" : "“发生火灾时不能使用普通电梯”是国内外消防界的共识。主要原因是（）",
-    "options" : [ "A:普通电梯不能直通安全疏散楼梯间", "B:火灾时的高温烟气和灭火积水蔓延.流淌到前室和电梯井，导致普通电梯故障", "C:普通电梯没有备用电源", "D:普通电梯容易造成人员被困" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1389,
-    "type" : "single",
-    "content" : "在火场中，防烟是逃生自救的关键。穿越浓烟区时()",
-    "options" : [ "A:用毛巾.口罩.床单.衣服作为临时的“空气呼吸器”", "B:用湿衣服.湿床单.湿毛毯将身体裹好", "C:若感到呼吸困难，可将毛巾从口鼻上拿开", "D:保持冷静.清醒的头脑E:低腰.匍匐前进" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1390,
-    "type" : "single",
-    "content" : "建筑物在高层发生火灾，在火势较大.无路可逃的情况下，保安员在引导人员疏散时，可以()",
-    "options" : [ "A:向室外扔出小东西，引起救援人员的注意", "B:试图从火中冲出去", "C:大声呼救", "D:清除障碍物后跳楼逃生E:从阳台直接往下跳" ],
-    "answer" : "A,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1391,
-    "type" : "single",
-    "content" : "高层建筑物发生火灾时，如果楼梯已经烧断，可利用()逃生",
-    "options" : [ "A:建筑物的避雷网（线）", "B:带电电线", "C:落水管", "D:房屋向外突出部分" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1392,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，（）是保安员应享有的权利",
-    "options" : [ "A:接受表彰奖励", "B:登记出入车辆", "C:开展巡逻守护", "D:参加社会保险" ],
-    "answer" : "A,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1393,
-    "type" : "single",
-    "content" : "关于保安员享受劳动条件和劳动保护的权利，下列说法正确的是（）",
-    "options" : [ "A:劳动保护是用人单位保障保安员身体健康的有效措施", "B:劳动保护是用人单位保障保安员生命安全的有效措施", "C:劳动保护是用人单位预防保安员伤亡事故的有效措施", "D:劳动保护是用人单位避免保安员生病的唯一措施" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1394,
-    "type" : "single",
-    "content" : "在保安巡逻勤务中，车巡存在的工作缺陷有（）",
-    "options" : [ "A:速度快.行程长.成本高", "B:巡查范围大.机动性不强", "C:速度快.难以细致观察情况", "D:目标明显.隐蔽性不强" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1395,
-    "type" : "single",
-    "content" : "道路交通标志中的辅助标志按照作用可以分为表示（）的辅助标志",
-    "options" : [ "A:警告", "B:车辆的种类", "C:时间范围", "D:区域E:距离" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1396,
-    "type" : "single",
-    "content" : "在现场急救中，心肺复苏的有效指征包括（）",
-    "options" : [ "A:伤病员面色由苍白.青紫转向红润", "B:恢复自主呼吸及循环", "C:瞳孔由大变小", "D:眼球转动.呻吟E:瞳孔由小变大" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1397,
-    "type" : "single",
-    "content" : "在现场急救中，为了使胸外按压更加有效，正确的方法是（）",
-    "options" : [ "A:按压时间长一些，能压出更多的血", "B:按压和解除按压时间相等", "C:按压后，多放松一段时间，使心脏更好的充盈", "D:压5次，休息5分钟后，再压5次，反复操作不间断E:尽量减少按压中断" ],
-    "answer" : "B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1399,
-    "type" : "single",
-    "content" : "在目标部位守护中，固定岗位应设立在目标部位的（）",
-    "options" : [ "A:出入口", "B:重要地段", "C:便于控制的位置", "D:人员密集区域E:服务人员区域" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1400,
-    "type" : "single",
-    "content" : "在目标部位守护工作中，流动岗工作的特点是（）",
-    "options" : [ "A:必须注意活动区域内的地形地貌", "B:按照规定的路线和区域巡查", "C:随时加强重要部位的巡查", "D:根据天气变化情况选择巡查路线" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1401,
-    "type" : "single",
-    "content" : "在保安服务中，目标部位容易发生的问题有（）",
-    "options" : [ "A:群体上访", "B:违法分子破坏", "C:恐怖袭击", "D:不法分子的侵入" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1402,
-    "type" : "single",
-    "content" : "在保安服务中，针对保安员依法享有的权利，下列说法正确的是（）",
-    "options" : [ "A:保安员有行使紧急避险的权利", "B:保安员有行使正当防卫的权利", "C:保安员依法采取紧急避险，不负刑事责任", "D:保安员依法采取正当防卫，不负刑事责任E:保安员依法采取紧急避险，不负任何责任" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1403,
-    "type" : "single",
-    "content" : "某公司的保安员小周工作多年，因表现突出，未参加过岗上培训，根据《保安服务管理条例》规定，小周没有享受到（）的权利",
-    "options" : [ "A:劳动保护", "B:技能培训", "C:劳动条件", "D:社会保险E:安全教育" ],
-    "answer" : "B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1404,
-    "type" : "single",
-    "content" : "下列选项中属于职业道德作用的是()",
-    "options" : [ "A:增强员工的独立性", "B:增强企业的凝聚力", "C:规范保安员的服务行为", "D:增加员工的福利E:塑造良好的企业形象" ],
-    "answer" : "B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1405,
-    "type" : "single",
-    "content" : "我国的社会保险主要包括（）保险等种类",
-    "options" : [ "A:养老", "B:救济", "C:医疗", "D:失业E:生育" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1406,
-    "type" : "single",
-    "content" : "一名外国人因为在中国境内贩卖毒品于2009年被我国某市中级人民法院判处有期徒刑8年，没收其财产，并处罚金10万元，同时判决在刑满释放后予以驱逐出境。对这名外国人的处罚中，属于附加刑的有（）",
-    "options" : [ "A:有期徒刑8年", "B:没收财产", "C:罚金", "D:刑满释放E:驱逐出境" ],
-    "answer" : "B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1407,
-    "type" : "single",
-    "content" : "我国刑法规定的刑罚中，属于附加刑的有（）",
-    "options" : [ "A:管制", "B:罚金", "C:没收财产", "D:拘役E:死缓" ],
-    "answer" : "B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1408,
-    "type" : "single",
-    "content" : "某市保安服务公司因为经营状况发生严重困难，准备单方面裁减保安员，该保安服务公司不能裁减（）等人员",
-    "options" : [ "A:该公司中层领导", "B:在孕期.产期的女保安员", "C:年龄57岁.连续在该公司工作16年的员工", "D:因提供保安服务而受伤且在治疗期内的保安员E:受过保安专业技能培训的人员" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1409,
-    "type" : "single",
-    "content" : "下列属于保安员职责任务的是（）",
-    "options" : [ "A:维护客户单位及服务区域的正常秩序", "B:开展守护.巡逻活动", "C:设置临时隔离区", "D:严厉打击违法犯罪活动E:登记出入车辆和物品" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1410,
-    "type" : "single",
-    "content" : "在治安灾害事故现场，发现现行违法犯罪分子时，保安员应（）",
-    "options" : [ "A:及时堵截", "B:及时扭送到公安机关", "C:没收赃款赃物", "D:及时讯问，掌握证据" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1411,
-    "type" : "single",
-    "content" : "发生治安灾害事故后，保安员应该做到（）",
-    "options" : [ "A:保护现场", "B:紧急救护受伤人员", "C:排除险情，抢救物资", "D:扣押违法犯罪嫌疑人E:讯问违法犯罪嫌疑人" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1413,
-    "type" : "single",
-    "content" : "我国的社会保险主要包括（）保险等种类",
-    "options" : [ "A:就业", "B:失业", "C:养老", "D:医疗E:工伤" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1414,
-    "type" : "single",
-    "content" : "劳动者与用人单位发生劳动争议后申请劳动仲裁，（）争议的劳动仲裁为终局裁决",
-    "options" : [ "A:劳动者追索工伤医疗费不超过当地月最低工资标准12个月金额的", "B:劳动者追索劳动报酬超过当地月最低工资标准12个月金额的", "C:用人单位要求劳动者支付培训费及违约金的", "D:社会保险方面的" ],
-    "answer" : "A,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1415,
-    "type" : "single",
-    "content" : "区域保安服务工作的基本任务是在服务区域开展（）活动",
-    "options" : [ "A:守护", "B:巡逻", "C:安全检查", "D:报警监控E:隔离犯罪嫌疑人" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1416,
-    "type" : "single",
-    "content" : "关于设立隔离区的方式，下列说法正确的是（）",
-    "options" : [ "A:拉设警戒线", "B:拉设隔离带", "C:保安员站位", "D:强制隔离可疑人员" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1417,
-    "type" : "single",
-    "content" : "犯罪的客观方面是犯罪的客观外在表现。下列属于犯罪的客观方面的内容有（）等",
-    "options" : [ "A:危害结果", "B:因果关系", "C:犯罪工具", "D:犯罪客体E:犯罪地点" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1418,
-    "type" : "single",
-    "content" : "保安员甲看到保安员乙有一部3G手机，心里就盘算趁乙不注意的时候把手机偷了送给其女朋友。但由于乙把手机看管的比较严，甲一直没有机会偷走这部手机。下列说法正确的是（）",
-    "options" : [ "A:甲有犯罪的故意", "B:甲的行为属于犯罪未遂", "C:甲的行为不具备犯罪的客观要件", "D:甲的行为构不成犯罪E:甲的行为属于犯罪中止" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1419,
-    "type" : "single",
-    "content" : "我国刑法规定，构成犯罪必须具备（）.犯罪客观方面和犯罪的主观方面等要件",
-    "options" : [ "A:犯罪主体", "B:犯罪客体", "C:犯罪年龄", "D:犯罪故意E:犯罪过失" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1420,
-    "type" : "single",
-    "content" : "保安员在保安服务过程中，要树立（），尽量避免或降低自身伤害风险",
-    "options" : [ "A:主动进攻意识", "B:主动打击意识", "C:安全防范意识", "D:保护证人意识" ],
-    "answer" : "C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1421,
-    "type" : "single",
-    "content" : "运钞车通过桥梁.隧道.港口遇到险情时，押运人员应该（）",
-    "options" : [ "A:驾驶车辆继续行驶", "B:驾驶车辆离开该路段，绕行其他路段", "C:加强观察，在险情排除后再通过", "D:保持高度警惕，在确保安全情况下通过" ],
-    "answer" : "C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1422,
-    "type" : "single",
-    "content" : "押运人员站位警戒时，有人进入安全区域，应该（）",
-    "options" : [ "A:将该人强行带离安全区域", "B:保持警惕，及时劝阻", "C:不听劝阻时，求助公安机关协助解决", "D:对无理取闹的要积极劝阻" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1423,
-    "type" : "single",
-    "content" : "保安押运服务中，勘察的目的是（）",
-    "options" : [ "A:选择交通工具", "B:掌握单程距离及时间", "C:掌握甲方经营及付款方式", "D:掌握沿途周边的社会治安情况E:掌握物品交接的位置及迂回路线" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1424,
-    "type" : "single",
-    "content" : "在大型活动保卫工作中，保安员所采取的事先划定隔离区的方法有（）",
-    "options" : [ "A:划线隔离", "B:利用专用设施隔离", "C:采用人墙隔离", "D:利用汽车隔离E:活动进行中设置隔离区" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1425,
-    "type" : "single",
-    "content" : "春运期间，保安员李某和张某在候车大厅巡逻时发现两名乘客因相互碰撞而大声争吵，引来不少围观人员。保安员张某和李某的正确做法是（）",
-    "options" : [ "A:两人对争吵人员进行劝说，使其停止争吵", "B:由于双方争吵激烈，两名保安员将两人分开进行劝解", "C:在争吵的过程中，围观人员越来越多，两名保安员劝解两人，并疏散围观群众", "D:两名保安员劝说无效后，继续巡逻" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1426,
-    "type" : "single",
-    "content" : "保安员在巡逻过程中，发现地震等自然灾害事故，应当（）",
-    "options" : [ "A:报告", "B:报警", "C:协助有关部门做好应急处置工作", "D:保护现场，防止有人趁火打劫E:抓捕趁火打劫者" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1427,
-    "type" : "single",
-    "content" : "在区域巡逻服务中，需要重点检查消防设备的场所有（）",
-    "options" : [ "A:交通干道", "B:重要仓库", "C:易燃易爆品集中地", "D:工程施工现场E:室外休闲场地" ],
-    "answer" : "B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1428,
-    "type" : "single",
-    "content" : "区域巡逻中要排除的各种不安全因素包括（）",
-    "options" : [ "A:有无照明灯具", "B:有无漏电", "C:有无断线", "D:有无电火花" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1429,
-    "type" : "single",
-    "content" : "在区域巡逻勤务中，属于区域巡逻任务的是（）",
-    "options" : [ "A:维护巡逻区域内秩序", "B:协助处置区域内的自然灾害事故", "C:排除各种不安全因素", "D:为区域内群众需求提供服务E:抓捕犯罪嫌疑人" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1430,
-    "type" : "single",
-    "content" : "我国刑法明确规定了以危险方法危害公共安全罪，下列属于以危险方法危害公共安全的行为是（）",
-    "options" : [ "A:放火", "B:驾车撞人", "C:爆炸", "D:投放危险物质E:故意传播突发传染病病原体" ],
-    "answer" : "B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1431,
-    "type" : "single",
-    "content" : "根据《保安服务管理条例》规定，（）不得从事保安服务",
-    "options" : [ "A:曾被劳动教养2年的", "B:被吊销《保安员证》未满2年的", "C:曾经被吊销《保安员证》2次的", "D:曾经被吊销《保安员证》1次的" ],
-    "answer" : "A,B,C",
-    "multiAnswers" : null
-  }, {
-    "id" : 1433,
-    "type" : "single",
-    "content" : "机动车载运易燃易爆化学物品时（）",
-    "options" : [ "A:应取得公安机关批准", "B:机动车驾驶人可以在车内吸烟", "C:按指定的速度行驶", "D:按指定的时间.路线E:悬挂警示标志" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1434,
-    "type" : "single",
-    "content" : "机动车超车时，应注意（）",
-    "options" : [ "A:超车前应开启左转向灯", "B:发超车信号，示意前车做好被超越准备", "C:超车完毕返回原车道时，关闭左转向灯，开启右转向灯", "D:在确认安全的情况下驶回原车道" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1435,
-    "type" : "single",
-    "content" : "交通主体参与交通活动时，必须遵守（）",
-    "options" : [ "A:左侧通行原则", "B:右侧通行原则", "C:各行其道原则", "D:优先通行原则" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1436,
-    "type" : "single",
-    "content" : "在目标部位守护中，瞭望岗一般设置在（）部位的最高处",
-    "options" : [ "A:分布面广", "B:区域较大", "C:地形复杂", "D:视线障碍多E:能见度低" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1437,
-    "type" : "single",
-    "content" : "在固定岗位工作的保安员应了解（）等通讯.报警设备的位置和使用方法",
-    "options" : [ "A:电闸", "B:保安棍", "C:电铃", "D:电话E:手电筒" ],
-    "answer" : "C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1438,
-    "type" : "single",
-    "content" : "在固定岗位工作的保安员应了解电闸.灭火器.消火栓等安全设备的（）",
-    "options" : [ "A:所在位置", "B:工作原理", "C:使用方法", "D:性能E:维修方法" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1439,
-    "type" : "single",
-    "content" : "在大型活动保卫工作中，出现（）情况时，保安员可以在活动现场设置隔离区",
-    "options" : [ "A:个别观众大声喧哗", "B:人员无序涌动", "C:场内设施异常", "D:人员拥挤的苗头" ],
-    "answer" : "B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1440,
-    "type" : "single",
-    "content" : "按照使用交通工具的不同，保安押运可划分为（）",
-    "options" : [ "A:长途押运", "B:短途押运", "C:空中押运", "D:汽车押运E:船舶押运" ],
-    "answer" : "C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1441,
-    "type" : "single",
-    "content" : "保安公司在进行押运勘察时，（）均应参加",
-    "options" : [ "A:主管勤务的工作人员", "B:主管业务的工作人员", "C:主管消防的工作人员", "D:主管后勤的工作人员E:派出所民警" ],
-    "answer" : "A,B",
-    "multiAnswers" : null
-  }, {
-    "id" : 1442,
-    "type" : "single",
-    "content" : "保安押运服务方案的内容包括（）",
-    "options" : [ "A:确定交通工具", "B:制定较为完备的通讯联络方案", "C:确定枪弹及其他械具的配备", "D:制定巡逻方案E:制定应急预案" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1443,
-    "type" : "single",
-    "content" : "在一起大型的展销会现场出现了大量的人员哄抢行为，这时，保安人员应该采取的处置措施为（）",
-    "options" : [ "A:会同场所的工作人员制止哄抢", "B:通过扩音设备进行劝告", "C:设置隔离区，疏导围观人员", "D:报告现场管理部门E:抓捕哄抢人员" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1444,
-    "type" : "single",
-    "content" : "制定押运应急预案的主要内容包括（）",
-    "options" : [ "A:防盗抢预案", "B:车辆事故预案", "C:技术防范预案", "D:自然灾害预案" ],
-    "answer" : "A,B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1445,
-    "type" : "single",
-    "content" : "在保安押运过程中，运钞车辆临时停驶的要求是（）",
-    "options" : [ "A:车辆停到安全位置", "B:押运人员可下车休息", "C:时刻观察周围情况", "D:妥善保管枪支弹药E:可不采取相应的警戒措施" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1446,
-    "type" : "single",
-    "content" : "上下款过程中，发现可疑人时，下列正确的做法是（）",
-    "options" : [ "A:做好应急准备", "B:不执行上下款任务，车辆返回原单位", "C:将可疑人扭送公安机关", "D:立即向本单位报告E:严密监视可疑人员动向" ],
-    "answer" : "A,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1447,
-    "type" : "single",
-    "content" : "通常情况下武装押运的物品是（）",
-    "options" : [ "A:现金", "B:钢材", "C:剧毒物品", "D:黄金E:防水材料" ],
-    "answer" : "A,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1448,
-    "type" : "single",
-    "content" : "保安员人员密集场所情况处置的内容包括（）",
-    "options" : [ "A:人员密集场所可疑情况的识别", "B:人员密集场所纠纷的处理", "C:人员密集场所人群的疏导", "D:人员密集场所隔离区的设置" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1449,
-    "type" : "single",
-    "content" : "下列属于人员密集场所可疑情况的是（）",
-    "options" : [ "A:保安员甲在演唱会的入口处发现一个黑色的袋子，内装不明物品", "B:保安员乙在展览会的现场发现一青年手拿镊子尾随一带包女子", "C:保安员丙在候机厅外发现有人抽烟", "D:保安员丁在候车室内发现有三名青年随身携带管制刀具" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1450,
-    "type" : "single",
-    "content" : "识别人员密集场所可疑情况的方法包括（）",
-    "options" : [ "A:直接观察法", "B:仪器探测法", "C:查问法", "D:接受群众举报E:秘密工作发现" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1451,
-    "type" : "single",
-    "content" : "有关保安押运任务实施前的准备，下列描述正确的是（）",
-    "options" : [ "A:勘察", "B:制作合同文本", "C:签订合同意向书", "D:制定押运方案" ],
-    "answer" : "A,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1452,
-    "type" : "single",
-    "content" : "押运中发生交通事故时，正确的处理方法是（）",
-    "options" : [ "A:严密看管所押物品，确保安全", "B:与事发地公安机关联系", "C:向客户单位说明情况", "D:向本单位报告E:设定安全区域，禁止其他车辆通行" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1453,
-    "type" : "single",
-    "content" : "下列会给火灾紧急疏散造成麻烦的有（）",
-    "options" : [ "A:疏散通道.安全出口.消防车通道不畅通", "B:公共消防设施.器材以及消防安全标志不完整", "C:消防安全责任落实不到位", "D:消防安全疏散标志不符合国家规范" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1454,
-    "type" : "single",
-    "content" : "在火灾现场，被困人员穿越浓烟区时，需要特别注意的是()",
-    "options" : [ "A:低头弯腰", "B:朝明亮处或外面空旷地方跑", "C:若是高层建筑，则向楼房顶层跑", "D:保持冷静.清醒的头脑E:匍匐前进" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1456,
-    "type" : "single",
-    "content" : "火灾现场中被困人员可利用()发出呼救信号，以引起救援人员的注意，帮助自己脱离困境",
-    "options" : [ "A:消防专用电话", "B:大声呼救", "C:手机", "D:向外扔些小物品E:消防电梯里的电话" ],
-    "answer" : "A,B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1457,
-    "type" : "single",
-    "content" : "安全防范技术在守护工作中应用的优势是（）",
-    "options" : [ "A:不间断连续工作", "B:不受环境气候影响", "C:安全性低", "D:隐秘性强E:人力成本低" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1458,
-    "type" : "single",
-    "content" : "在固定岗位工作的保安员应了解电铃.电话等通讯.报警设备的（）",
-    "options" : [ "A:工作原理", "B:位置", "C:维修方法", "D:使用方法E:使用频次" ],
-    "answer" : "B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1459,
-    "type" : "single",
-    "content" : "在固定岗位工作的保安员应了解（）等安全设备的使用方法",
-    "options" : [ "A:对讲机", "B:电闸", "C:移动电话", "D:灭火器E:消火栓" ],
-    "answer" : "B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1460,
-    "type" : "single",
-    "content" : "安全技术防范在目标守护工作中的作用是（）",
-    "options" : [ "A:提高工作效率", "B:提高守护工作的科技含量", "C:提升保安服务水平", "D:提高巡逻人员对科技产品的认知能力E:提高目标部位的安全度" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1461,
-    "type" : "single",
-    "content" : "在目标部位守护中，可采取（）形式对目标部位进行守护",
-    "options" : [ "A:固定岗", "B:流动岗", "C:专用设施控制岗", "D:瞭望岗E:安全技术防范" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1462,
-    "type" : "single",
-    "content" : "目标部位的特点是（）",
-    "options" : [ "A:环境复杂", "B:性质特殊", "C:服务方式特殊", "D:地位重要E:工作人员特殊" ],
-    "answer" : "B,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1463,
-    "type" : "single",
-    "content" : "在目标部位守护中，属于目标部位的有（）",
-    "options" : [ "A:保存有害菌种.毒种的部位", "B:生产业务活动的关键部位", "C:单位内的生活区域", "D:存放重要档案的部位E:人员高度密集的部位" ],
-    "answer" : "A,B,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1464,
-    "type" : "single",
-    "content" : "良好的职业道德,对于()具有十分重要的作用",
-    "options" : [ "A:规范员工职业行为", "B:提高员工心理素质", "C:提高员工技能水平", "D:塑造良好企业形象E:打造企业品牌" ],
-    "answer" : "A,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1465,
-    "type" : "single",
-    "content" : "良好的职业道德,对于()具有十分重要的作用",
-    "options" : [ "A:规范员工职业行为", "B:提高员工服务水平", "C:提高员工技能水平", "D:提高员工心理素质E:打造企业品牌" ],
-    "answer" : "A,B,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1466,
-    "type" : "single",
-    "content" : "企业的社会形象主要由企业的()构成",
-    "options" : [ "A:产品形象", "B:地理位置", "C:服务形象", "D:注册资本E:经营形象" ],
-    "answer" : "A,C,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1467,
-    "type" : "single",
-    "content" : "在我国刑法规定的故意伤害罪中，只有伤害结果达到（）的才能构成故意伤害罪",
-    "options" : [ "A:轻微伤", "B:轻伤", "C:重伤", "D:残疾E:死亡" ],
-    "answer" : "B,C,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1468,
-    "type" : "single",
-    "content" : "人员密集场所可能存在的安全隐患类型有（）",
-    "options" : [ "A:安全事故", "B:治安案件", "C:刑事案件", "D:群体性事件E:自然灾害" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
-    "id" : 1469,
-    "type" : "single",
-    "content" : "我国刑法规定的刑罚有（）等种类",
-    "options" : [ "A:管制", "B:拘役", "C:拘留", "D:逮捕E:死刑" ],
-    "answer" : "A,B,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1470,
-    "type" : "single",
-    "content" : "下列关于道路交通标线的叙述中，正确的是（）",
-    "options" : [ "A:道路交通标线可以单独使用", "B:道路交通标线依照功能可以分为警告标线.禁令标线.指示标线和指路标线", "C:道路交通标线的设置方式应采用单柱式", "D:道路交通标线向道路使用者传递有关道路交通的规则.警告.指示等信息" ],
-    "answer" : "A,D,E",
-    "multiAnswers" : null
-  }, {
-    "id" : 1471,
-    "type" : "single",
-    "content" : "在保安巡逻勤务中，以下关于单线巡逻说法正确的是（）",
-    "options" : [ "A:也称定线巡逻", "B:是保安员按照事先确定的环形巡逻路线.单向行进进行的巡逻", "C:看护对象比较固定", "D:一般以组队形式进行E:巡逻中各组队可以相互呼应.相互支援" ],
-    "answer" : "A,B,C,D",
-    "multiAnswers" : null
-  }, {
+  }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , {
     "id" : 1472,
     "type" : "single",
     "content" : "某夜，保安员甲在客户单位巡逻时，发现保安员乙正在客户单位内一房间行窃，甲遂将乙抓获并关押在保安值班室内，次日上午甲下班时顺便将乙押送到当地公安派出所。甲的这种行为属于（）",
     "options" : [ "A:正当业务行为", "B:见义勇为行为", "C:非法拘禁行为", "D:治安拘留行为" ],
     "answer" : "C",
     "multiAnswers" : null
-  }, {
+  }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,  ],
+  "multiQuestions" : [ {
+    "id" : 324,
+    "type" : "multi",
+    "content" : "下列关于保安服务活动说法正确的是（）",
+    "options" : [ "A:应当文明服务", "B:应当合法经营", "C:不得损害社会公共利益", "D:应当由公安机关监督管理E:不得侵害他人利益" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 914,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，（）不得从事保安服务",
+    "options" : [ "A:在校学习期间，受到通报批评的", "B:曾因盗窃被判处3年有期徒刑的", "C:曾因抢劫被判处3年有期徒刑的", "D:曾因抢劫被劳动教养1年的" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1165,
+    "type" : "multi",
+    "content" : "扑救带电火灾必须使用绝缘性能好.不会发生触电伤人事故的灭火器，下列可以作为扑救带电火灾的有（）",
+    "options" : [ "A:消防水枪直接喷射", "B:泡沫灭火器", "C:干粉灭火器", "D:二氧化碳灭火器E:室内消火栓" ],
+    "answer" : "C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1166,
+    "type" : "multi",
+    "content" : "某饭店因线路电量负荷过大，造成火灾。为控制火灾蔓延，应该使用（）灭火",
+    "options" : [ "A:泡沫灭火器", "B:水", "C:二氧化碳灭火器", "D:干粉灭火器E:水型灭火器" ],
+    "answer" : "C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1167,
+    "type" : "multi",
+    "content" : "道路交通信号包括（）",
+    "options" : [ "A:交通标志", "B:交通标线", "C:交通警察的指挥", "D:交通信号灯E:交通信息诱导板" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1168,
+    "type" : "multi",
+    "content" : "勤务方案是保安员岗位工作的依据和指南，它的编写要求是（）",
+    "options" : [ "A:结构编写合理", "B:全面", "C:细致", "D:文字简练E:操作性强" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1169,
+    "type" : "multi",
+    "content" : "骨折固定时，需要注意的事项有（）",
+    "options" : [ "A:皮肤与固定材料之间要加衬垫", "B:超关节固定", "C:不易过紧，避免影响血液循环", "D:暴露肢体末端，以观察血液循环" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1170,
+    "type" : "multi",
+    "content" : "现场救护常用的止血方法包括（）",
+    "options" : [ "A:指压止血法", "B:加压包扎止血法", "C:止血带止血法", "D:加垫屈肢止血法E:加垫加压止血法" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1171,
+    "type" : "multi",
+    "content" : "加压包扎止血法适用于（）的出血",
+    "options" : [ "A:小动脉", "B:小静脉", "C:毛细血管", "D:大动脉E:大静脉" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1172,
+    "type" : "multi",
+    "content" : "现场救护不能达到（）的目的",
+    "options" : [ "A:减少伤残", "B:为伤员节省费用", "C:代替医务人员，为伤员提供专业的救治", "D:为伤员免除去医院的麻烦E:避免后遗症" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1173,
+    "type" : "multi",
+    "content" : "在救护现场，救护员正确的做法是（）",
+    "options" : [ "A:触电现场要切断电源", "B:煤气泄漏的现场要关掉总闸", "C:煤气泄漏的现场不要拨打电话", "D:煤气泄漏的现场不要开关电灯" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1174,
+    "type" : "multi",
+    "content" : "在现场急救中，对出现（）情况的伤员应实施心肺复苏",
+    "options" : [ "A:心脏失去功能", "B:无呼吸，无心跳", "C:中暑", "D:发高烧E:腿骨折" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1175,
+    "type" : "multi",
+    "content" : "在现场急救中，现场救护人在（）条件下，可以终止心肺复苏",
+    "options" : [ "A:伤员家属要求终止", "B:伤病员恢复自主呼吸及循环", "C:有医务人员来接替", "D:经医务人员检查伤员已死亡E:救护人精疲力竭，无法继续进行心肺复苏" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1176,
+    "type" : "multi",
+    "content" : "（）受伤出血的伤员，采用其他止血法不能奏效时，可以使用止血带",
+    "options" : [ "A:上臂", "B:小腿", "C:脖子", "D:大腿E:胸" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1177,
+    "type" : "multi",
+    "content" : "（）发生火灾可使用泡沫灭火器",
+    "options" : [ "A:石油化工企业", "B:汽车库", "C:柴油仓库", "D:煤矿E:金属" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1178,
+    "type" : "multi",
+    "content" : "现场救护前，要注意排除的险情包括（）",
+    "options" : [ "A:落石", "B:泄漏的煤气", "C:易燃易爆危险品", "D:潜藏的违法犯罪嫌疑人E:太阳的照射" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1179,
+    "type" : "multi",
+    "content" : "（）发生火灾时，可用二氧化碳灭火器灭火",
+    "options" : [ "A:图书馆", "B:档案馆", "C:燃气公司", "D:加油站E:塑料制品厂塑胶车间" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1180,
+    "type" : "multi",
+    "content" : "保护好火灾现场，能为查清火灾发生的真正原因提供许多重要的证据。保护火灾现场的主要措施为（）",
+    "options" : [ "A:划出警戒区，指派专人看护", "B:火灾现场的一切遗留物，燃烧过的物质及其陈设的位置，必须保持原样", "C:火灾现场的一切遗留物，未燃烧过的物质及其陈设的位置，必须保持原样", "D:撤销现场保护，清扫火灾现场，必须得到当地公安消防监督机关的同意" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1181,
+    "type" : "multi",
+    "content" : "接.处警是火灾扑救的开端，火灾发生后，快速.果断的接.处警可以（）",
+    "options" : [ "A:为灭火救援工作赢得宝贵的时间", "B:为成功扑救火灾创造条件", "C:将火灾控制在最小范围", "D:将火灾造成的财产损失控制在最小范围" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1182,
+    "type" : "multi",
+    "content" : "在消防安全管理中，正确.果断的接.处警应该做到（）",
+    "options" : [ "A:确认火情", "B:启动消防设施", "C:及时报警", "D:启动应急预案E:组织疏散与扑救" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1183,
+    "type" : "multi",
+    "content" : "对于进入公共地下停车场的车辆，必须注意的是（）",
+    "options" : [ "A:服从车场管理员的管理", "B:自觉维护停车场的秩序", "C:自觉维护停车场的环境卫生", "D:爱护停车场设施设备" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1184,
+    "type" : "multi",
+    "content" : "针对公共停车场保安员的行为，下列说法正确的是（）",
+    "options" : [ "A:礼貌询问有疑问的机动车驾驶人", "B:对出入的车辆进行登记", "C:维护停车场秩序", "D:允许他人在无人的停车场练车E:允许车辆随意停放" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1185,
+    "type" : "multi",
+    "content" : "下列是物业小区停车场保安的一些做法，其中正确的是（）",
+    "options" : [ "A:使用停车场长期无人使用的车辆", "B:任由陌生人在车库停留", "C:拒绝未登记车辆进入停车场", "D:制止车主在地下停车场修车" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1186,
+    "type" : "multi",
+    "content" : "机动车在距离（）50米以内的路段不得停车",
+    "options" : [ "A:陡坡", "B:急弯路", "C:医院", "D:隧道E:桥梁" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1187,
+    "type" : "multi",
+    "content" : "进入物业小区停车场的车辆和驾驶人应当遵守防火安全规定，严禁（）",
+    "options" : [ "A:在停车场吸烟", "B:携带易燃物品", "C:携带易爆物品", "D:携带剧毒物品E:携带打火机" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1188,
+    "type" : "multi",
+    "content" : "根据我国有关劳动法律法规的规定，（）可以成为合法的劳动合同主体",
+    "options" : [ "A:身高180厘米.年龄15周岁的甲", "B:身高160厘米.年龄17周岁的乙", "C:个体工商户丙", "D:某市保安服务公司E:某市物业管理公司" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1189,
+    "type" : "multi",
+    "content" : "根据我国有关劳动法律法规的规定，劳动者在劳动过程中享有（）等多项权利",
+    "options" : [ "A:社会福利权", "B:劳动报酬权", "C:休息休假权", "D:社会保险权E:获得劳动保护权" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1190,
+    "type" : "multi",
+    "content" : "下列灭火器可用于扑救B类火灾的是（）",
+    "options" : [ "A:水型灭火器", "B:泡沫灭火器", "C:干粉灭火器", "D:二氧化碳灭火器E:干砂" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1191,
+    "type" : "multi",
+    "content" : "在拨打急救电话时，应该将（）等内容报告清楚",
+    "options" : [ "A:意外发生的准确地点", "B:伤病员目前最危重的情况", "C:拨打电话人的电话及姓名", "D:伤病员家庭成员的具体情况及病史" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1192,
+    "type" : "multi",
+    "content" : "机动车在距离（）30米以内的地方不得停车",
+    "options" : [ "A:医院", "B:幼儿园", "C:急救站", "D:加油站E:桥梁" ],
+    "answer" : "C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1193,
+    "type" : "multi",
+    "content" : "进出公共地下停车场的机动车，应当注意（）",
+    "options" : [ "A:遵守交通标志", "B:只要保证安全，行车速度可以自己决定", "C:可以逆行", "D:遵守交通标线E:停车场无车时飙车" ],
+    "answer" : "A,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1194,
+    "type" : "multi",
+    "content" : "物业小区保安巡查的内容包括（）",
+    "options" : [ "A:检查停车所有车辆，有无丢标志，车辆有无损伤，车门窗.后备箱有无撬痕", "B:车辆出库时，应仔细核对出库之车和驾驶人(车主)，有疑问时，应有礼貌盘问", "C:指挥车辆按照规定的秩序停放", "D:及时清扫，保持停车场内清洁" ],
+    "answer" : "A,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1195,
+    "type" : "multi",
+    "content" : "停车场保安员应当严格遵循（）",
+    "options" : [ "A:安全技术检验制度", "B:累计计分制度", "C:巡视检查制度", "D:停车场管理制度" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1196,
+    "type" : "multi",
+    "content" : "物业停车场常用的管理设施有（）",
+    "options" : [ "A:出入登记制度", "B:雷达测速系统", "C:监控系统", "D:智能通行系统E:机动车安全技术检验系统" ],
+    "answer" : "C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1197,
+    "type" : "multi",
+    "content" : "我国的社会保险主要包括（）保险等种类",
+    "options" : [ "A:劳动", "B:救济", "C:生活", "D:失业E:生育" ],
+    "answer" : "D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1198,
+    "type" : "multi",
+    "content" : "常见违反治安管理的行为有（）等几类",
+    "options" : [ "A:扰乱公共秩序", "B:侵犯他人权益", "C:妨害社会管理", "D:妨害公共安全E:无证经营" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1199,
+    "type" : "multi",
+    "content" : "犯罪的主观方面是行为人对于犯罪行为所造成的危害结果所持的心理态度等。下列属于犯罪的主观方面的选项有（）等",
+    "options" : [ "A:犯罪故意", "B:犯罪过失", "C:疏忽大意", "D:过于自信E:意外事件" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1200,
+    "type" : "multi",
+    "content" : "关于保安员对出入车辆和物品的登记，下列说法正确的是（）",
+    "options" : [ "A:保安员一般是在查验出入人员身份证明的基础上登记出入车辆和物品", "B:保安员一般是在登记了出入车辆和物品之后查验出入人员身份证明", "C:保安员登记的方式主要是对出入车辆和物品进行书面记录", "D:保安员登记的对象可以包括所有出入服务区域的人员.车辆和物品的往来情况" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1201,
+    "type" : "multi",
+    "content" : "关于查验出入人员证件，下列说法正确的是（）",
+    "options" : [ "A:查验证件的主要方式是查看.识别和确认", "B:查验证件主要目的是为了明确出入人员的身份证明是否符合安全管理的要求", "C:查验出入证件是门卫工作的主要任务", "D:查验出入证件包括一切出入服务区域的人员的证件" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1202,
+    "type" : "multi",
+    "content" : "下列行为属于违反治安管理行为的是（）",
+    "options" : [ "A:把别人打成轻微伤", "B:私拆他人的信件", "C:偷盗他人的自行车", "D:捡拾他人的钱包E:盗用他人的电话" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1203,
+    "type" : "multi",
+    "content" : "在守卫工作中按照出入人员.车辆归属不同将出入口分为（）出入口",
+    "options" : [ "A:内部人员", "B:来访人员", "C:内部车辆", "D:来访车辆E:货物车辆" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1204,
+    "type" : "multi",
+    "content" : "机动车通过既没有交通信号灯控制也没有交通警察指挥的交叉路口时（）",
+    "options" : [ "A:准备进入环形路口的，应当让已在路口内的车辆先行", "B:有交通标志.交通标线控制的，让优先通行的一方先行", "C:转弯的机动车让直行的车辆先行", "D:相对方向行驶的右转弯机动车让左转弯的机动车先行" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1205,
+    "type" : "multi",
+    "content" : "火灾应急预案中，必须明确人员分工，可以划分为（）",
+    "options" : [ "A:抢救物资组", "B:火灾发生后的报警组", "C:灭火救援组", "D:医疗救护组" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1206,
+    "type" : "multi",
+    "content" : "厨房煤气罐发生火灾，如果你在现场，应该做的是（）",
+    "options" : [ "A:立刻关闭可燃气阀门", "B:立刻逃离现场", "C:使用泡沫灭火器", "D:使用二氧化碳作为灭火器" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1207,
+    "type" : "multi",
+    "content" : "保安员甲与其所在的某市保安服务公司乙发生了劳动争议，甲乙的劳动争议可以通过（）的调解解决",
+    "options" : [ "A:乙公司的工会组织", "B:乙公司劳动争议调解委员会", "C:乙公司所在地街道办事处民事调解室", "D:乙公司所在地公安机关" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1208,
+    "type" : "multi",
+    "content" : "下列叙述涉嫌构成妨害公务罪的是（）",
+    "options" : [ "A:保安员以暴力.威胁方法阻碍某省人大代表团的视察活动", "B:保安员以威胁的方法阻碍着便装的税务人员到其服务的歌厅消费", "C:在抗震救灾中以危险为由阻止红十字会工作人员进入灾区", "D:某歌厅保安员故意设置障碍拒绝民警入内进行安全检查" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1209,
+    "type" : "multi",
+    "content" : "保安押运服务中，发生被押物品丢失时，正确的处理方法是（）",
+    "options" : [ "A:沿途查找", "B:立即报警", "C:向本单位报告", "D:隐瞒不报E:联系客户单位说明情况" ],
+    "answer" : "B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1210,
+    "type" : "multi",
+    "content" : "对人员密集场所可疑情况的识别包括（）",
+    "options" : [ "A:对可疑人员的识别", "B:对重点人口的识别", "C:对可疑物品的识别", "D:对贵重物品的识别E:对车辆的识别" ],
+    "answer" : "A,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1212,
+    "type" : "multi",
+    "content" : "押运中，发现可疑车辆时应该（）",
+    "options" : [ "A:高度警惕，做好应急准备", "B:不继续执行任务，返回单位", "C:将可疑车辆情况报本单位", "D:严密监视可疑车辆动向" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1213,
+    "type" : "multi",
+    "content" : "下列属于人员密集场所巡逻勤务特点的是（）",
+    "options" : [ "A:危险因素不确定", "B:勤务难度大", "C:精力消耗大", "D:处置要求高" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1214,
+    "type" : "multi",
+    "content" : "对脊柱损伤并伴有脊髓损伤的伤员，现场处理的原则是（）",
+    "options" : [ "A:不要轻易搬动伤员", "B:让伤员在原地保持原位不动", "C:迅速拨打急救电话", "D:由两人将伤员抬到车上送医院" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1215,
+    "type" : "multi",
+    "content" : "使用止血带止血时，需要注意的是（）",
+    "options" : [ "A:止血带可以直接扎在出血的肢体上", "B:止血带止血法仅用于四肢的大出血", "C:上好止血带后，要标明时间，定期开放", "D:上止血带时，要松紧适度" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1216,
+    "type" : "multi",
+    "content" : "保安员在遇到丧失意识的病人时，紧急呼救的内容有（）",
+    "options" : [ "A:快来人呀，有人晕倒了", "B:我是保安员，这里有人生病，快来帮忙", "C:请帮忙拨打120急救电话", "D:谁是医生，快来帮帮忙" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1217,
+    "type" : "multi",
+    "content" : "火灾发生时，要按照应急照明指示设施所指引的方向迅速逃生，下列属于逃生出口的有（）",
+    "options" : [ "A:太平门", "B:出入口", "C:非常出口", "D:紧急出口E:安全出口" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1219,
+    "type" : "multi",
+    "content" : "在火灾现场，若选择火势.烟雾难以蔓延的房间作为紧急避难间，应该做的是（）",
+    "options" : [ "A:利用自制灭火器材，阻止或减缓火势和烟雾的蔓延", "B:关好门窗，堵塞间隙", "C:只等待救援", "D:如有水源，要立刻将门.窗和各种可燃物浇湿" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1221,
+    "type" : "multi",
+    "content" : "根据我国有关劳动法律法规的规定，劳动者的合法权益应当受到保护，不能因（）等不同而受歧视",
+    "options" : [ "A:民族", "B:性别", "C:宗教信仰", "D:文化程度E:财产状况" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1222,
+    "type" : "multi",
+    "content" : "保安从业单位应当定期对保安员进行考核，发现（）等品行问题，需要解除劳动合同的，应依法办理",
+    "options" : [ "A:保安员违法犯罪", "B:严重违反管理制度", "C:未取得大专以上文凭", "D:未取得本科文凭E:严重违纪" ],
+    "answer" : "A,B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1223,
+    "type" : "multi",
+    "content" : "下列属于保安员基本条件的是（）",
+    "options" : [ "A:经过保安员资格考试合格", "B:经公安机关审查通过", "C:持有中华人民共和国居民身份证", "D:年满16周岁，身体健康E:具有初中以上文化程度" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1224,
+    "type" : "multi",
+    "content" : "出现（）症状的患者可能是危重伤病员",
+    "options" : [ "A:突然倒地，呼之不应", "B:口涎外泄，半身活动受限", "C:表情淡漠不语.呼吸急促.出冷汗", "D:手背出血，大声呼喊E:额头擦破，大声呼" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1226,
+    "type" : "multi",
+    "content" : "保安员在提供保安服务时遭遇意外伤害可能性较大的有（）",
+    "options" : [ "A:制止不法侵害", "B:调解矛盾纠纷", "C:扑救火灾", "D:紧急救援E:对出入人员进行登记" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1227,
+    "type" : "multi",
+    "content" : "保安服务公司可以为（）提供保安服务",
+    "options" : [ "A:学校", "B:机关", "C:企业", "D:游乐场E:演艺明星" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1228,
+    "type" : "multi",
+    "content" : "某企业必须具备（）条件才能申请成为自行招用保安员的单位",
+    "options" : [ "A:注册资本100万元以上", "B:负责人具有高级保安师资格", "C:具有法人资格", "D:相应的管理制度E:有符合条件的保安员" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1229,
+    "type" : "multi",
+    "content" : "某保安服务公司的保安员肖某与同事被派到某中学提供保安服务，则下列选项中属于肖某与同事的任务有（）",
+    "options" : [ "A:维护该中学内的正常秩序", "B:协助保护发生在该中学内的违法犯罪现场", "C:查破学生自行车丢失案件", "D:在该中学内开展巡逻活动E:在该中学大门口进行巡视并对出入人员进行登记" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1230,
+    "type" : "multi",
+    "content" : "保安服务具有（）等特点",
+    "options" : [ "A:安全性", "B:自助性", "C:防范性", "D:服务性E:有偿性" ],
+    "answer" : "C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1232,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
+    "options" : [ "A:曾被收容教育", "B:曾被领导批评教育", "C:曾被公安机关行政拘留", "D:曾受学校行政处分E:曾被劳动教养" ],
+    "answer" : "A,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1233,
+    "type" : "multi",
+    "content" : "安全防范服务的内容主要包括（）",
+    "options" : [ "A:人防服务", "B:物防服务", "C:技防服务", "D:治安服务E:社会公共秩序维护服务" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1234,
+    "type" : "multi",
+    "content" : "我国刑法对刑事责任年龄作了详细的规定，下列涉及刑事责任年龄的说法正确的是（）",
+    "options" : [ "A:未满16周岁的人犯罪，不负刑事责任", "B:已满16周岁的人犯罪，应当负刑事责任", "C:未满18周岁的人犯罪，不负刑事责任", "D:已满18周岁的人犯罪，应当负刑事责任E:已满14周岁不满16周岁的人犯故意杀人.强奸.投毒等罪的，应当负刑事责任" ],
+    "answer" : "B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1235,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
+    "options" : [ "A:被刑事拘留", "B:被取保候审", "C:被刑事处罚", "D:被行政拘留E:被劳动教养" ],
+    "answer" : "C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1236,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
+    "options" : [ "A:被处一次行政警告", "B:被处1次行政拘留", "C:被处2次行政拘留", "D:被处3次以上行政拘留E:被处1次劳动教养" ],
+    "answer" : "D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1237,
+    "type" : "multi",
+    "content" : "保安服务公司安全防范服务的对象是（）",
+    "options" : [ "A:公民", "B:法人", "C:社会组织", "D:犯罪份子E:犯罪团伙" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1238,
+    "type" : "multi",
+    "content" : "作为保安员，应为公民.法人和其他社会组织提供()服务",
+    "options" : [ "A:人身方面的安全防范", "B:人身方面的治安管理", "C:信息方面的安全防范", "D:信息方面的治安管理E:财产方面的安全防范" ],
+    "answer" : "A,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1239,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，（）文化程度的，可以从事保安服务",
+    "options" : [ "A:高中", "B:初中", "C:中专", "D:小学E:大专" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1240,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，具有下列（）情形之一的人员不得从事保安服务",
+    "options" : [ "A:曾有盗窃嫌疑", "B:曾有抢劫嫌疑", "C:曾因过失被判刑", "D:曾因盗窃被处2年有期徒刑E:曾因抢劫被处3年有期徒刑" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1241,
+    "type" : "multi",
+    "content" : "我国刑法规定，构成犯罪必须具备（）和犯罪的主观方面等要件",
+    "options" : [ "A:犯罪故意", "B:犯罪主体", "C:犯罪客体", "D:犯罪过失E:犯罪客观方面" ],
+    "answer" : "B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1242,
+    "type" : "multi",
+    "content" : "保安从业单位制定的紧急情况应急预案中应当包括（）等内容",
+    "options" : [ "A:应急措施", "B:职责分工", "C:力量配备", "D:任务目的E:通信联络" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1243,
+    "type" : "multi",
+    "content" : "保安从业单位应当依法建立健全的（）等管理制度",
+    "options" : [ "A:保安服务管理制度", "B:保安员身份证管理制度", "C:保安员管理制度", "D:保安服务岗位责任制E:紧急情况应急预案" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1244,
+    "type" : "multi",
+    "content" : "保安员甲与其所在的某市保安服务公司乙发生了劳动争议，甲乙的劳动争议可以通过（）解决",
+    "options" : [ "A:申请调解", "B:劳动仲裁", "C:甲乙协商", "D:信访上访E:提起诉讼" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1245,
+    "type" : "multi",
+    "content" : "根据我国有关劳动法律法规的规定，劳动者在劳动过程中的基本义务是（）等",
+    "options" : [ "A:完成劳动任务", "B:服从管理", "C:听从指挥", "D:保守工作秘密E:提高劳动技能" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1246,
+    "type" : "multi",
+    "content" : "保安员制止违法犯罪行为时，应当注意的事项有（）",
+    "options" : [ "A:不要采取侵害公民权利的行为", "B:要把自身安全置之度外", "C:制止无效时应当立即报警", "D:制止无效时应当采取措施保护现场E:要注意自身安全" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1247,
+    "type" : "multi",
+    "content" : "保安员制止违法犯罪行为的方式主要有（）",
+    "options" : [ "A:劝说", "B:隔离", "C:堵截", "D:正当防卫E:紧急避险" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1248,
+    "type" : "multi",
+    "content" : "根据《治安管理处罚法》的规定，违法行为人侵犯财产权利的行为有（）",
+    "options" : [ "A:非法种植罂粟", "B:携带管制刀具", "C:敲诈勒索", "D:抢夺他人手机E:故意毁损单位桌椅" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1249,
+    "type" : "multi",
+    "content" : "保安员设立隔离区的要求是（）",
+    "options" : [ "A:要根据任务需要来确定是否需要设立", "B:设立隔离区必须是临时性的", "C:一旦保安服务任务完成应立即解除", "D:设立隔离区的必要条件是不影响公民正常活动E:设立隔离区要注意最大限度地减少对公民正常活动的妨碍" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1250,
+    "type" : "multi",
+    "content" : "保安员维护公共场所秩序，具体包括维护（）的正常秩序",
+    "options" : [ "A:公共交通场所", "B:观光游览场所", "C:购物场所", "D:娱乐休闲场所E:生产科研活动场所" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1251,
+    "type" : "multi",
+    "content" : "根据《治安管理处罚法》的规定，对违法行为人（）的处罚决定只能由县级以上公安机关作出",
+    "options" : [ "A:依法拘役3个月", "B:治安拘留5日", "C:吊销保安服务许可证", "D:罚款200元E:强行带离现场" ],
+    "answer" : "B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1252,
+    "type" : "multi",
+    "content" : "保安员在保护区域开展报警监控活动的意义体现在（）",
+    "options" : [ "A:是确保客户单位或服务区域内人身财产安全的有效措施", "B:是消除各种安全隐患的有效措施", "C:是预防违法犯罪的有效措施", "D:是区域保安服务工作的基本任务E:是打击各类违法犯罪的主要手段" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1253,
+    "type" : "multi",
+    "content" : "根据《治安管理处罚法》的规定，下列（）属于公安机关在治安管理中可以采取的其他法律措施",
+    "options" : [ "A:没收非法财物", "B:责令改正", "C:责令赔偿", "D:退赔损失E:责令看管" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1254,
+    "type" : "multi",
+    "content" : "根据《治安管理处罚法》的规定，下列（）属于公安机关在治安管理中可以采取的其他法律措施",
+    "options" : [ "A:管制", "B:拘役", "C:没收违法所得", "D:责令赔偿E:限期改正" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1255,
+    "type" : "multi",
+    "content" : "保安员在保护区域开展巡逻的意义体现在（）",
+    "options" : [ "A:是打击各类违法犯罪的主要手段", "B:是消除各种安全隐患的有效措施", "C:是预防违法犯罪的有效措施", "D:是确保客户单位或服务区域内人身安全的有效措施" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1256,
+    "type" : "multi",
+    "content" : "保安员在保护区域开展守护的意义体现在（）",
+    "options" : [ "A:是区域保安服务工作的基本任务", "B:能够发现各种安全隐患", "C:能够预防违法犯罪行为", "D:确保客户单位或服务区域内人身财产安全" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1258,
+    "type" : "multi",
+    "content" : "下列违反治安管理的行为属于妨害社会管理行为的是（）",
+    "options" : [ "A:吸食毒品", "B:毁损公共设施", "C:强迫劳动", "D:谎报警情E:购买赃物" ],
+    "answer" : "A,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1259,
+    "type" : "multi",
+    "content" : "治安管理处罚是公安机关以国家的名义依法强制剥夺违反治安管理行为人的（）或其他权利的行政法律制裁",
+    "options" : [ "A:政治权", "B:人身自由权", "C:名誉权", "D:财产权E:宗教信仰权" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1260,
+    "type" : "multi",
+    "content" : "根据《治安管理处罚法》的规定，治安处罚分为（）等几类",
+    "options" : [ "A:警告", "B:罚款", "C:拘役", "D:治安拘留E:吊销许可证" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1261,
+    "type" : "multi",
+    "content" : "保安员的职责任务主要有（）",
+    "options" : [ "A:查验出入人员证件", "B:登记出入车辆和物品", "C:开展守卫.巡逻.安全检查活动", "D:侦查破案E:设立临时隔离区" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1262,
+    "type" : "multi",
+    "content" : "对违反治安管理行为人的治安处罚有（）等几类",
+    "options" : [ "A:警告", "B:罚款", "C:拘役", "D:治安拘留E:管制" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1263,
+    "type" : "multi",
+    "content" : "违反治安管理行为必须具备（）等特征",
+    "options" : [ "A:社会危害性", "B:侵害公共财产", "C:违反治安管理法律法规", "D:应受行政处罚" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1264,
+    "type" : "multi",
+    "content" : "依据保安服务合同的约定或者自招保安员单位的要求，保安员的职责任务是（）",
+    "options" : [ "A:维护客户单位及服务区域的正常秩序", "B:预防治安灾害事故的发生", "C:及时发现.制止违法犯罪", "D:确保人身与财产安全E:预防自然灾害事故的发生" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1266,
+    "type" : "multi",
+    "content" : "特种车辆在执行紧急任务时，可以（）",
+    "options" : [ "A:使用警报器", "B:使用标志灯具", "C:遵守交通信号", "D:不受行驶路线.行驶方向限制E:不受行驶速度限制" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1267,
+    "type" : "multi",
+    "content" : "行人在道路上，应注意（）",
+    "options" : [ "A:遵守右侧通行原则", "B:在人行道内行走", "C:若没有人行道，靠路边行走", "D:通过路口或者横过道路，走人行横道或走过街设施" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1268,
+    "type" : "multi",
+    "content" : "我国刑法对防卫过当作了规定，下列行为属于防卫过当的是（）",
+    "options" : [ "A:甲用木棍将正在盗窃的乙打昏在地", "B:甲用木棍将正在持刀抢劫的乙打昏在地", "C:甲用木棍将正在抢夺的乙打昏在地", "D:甲用木棍将正在侮辱他人的乙打昏在地" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1269,
+    "type" : "multi",
+    "content" : "某保安培训单位必须开设的培训内容有（）等",
+    "options" : [ "A:刑事侦查手段", "B:守护巡逻技能", "C:火灾预防技能", "D:礼仪礼貌知识E:犯罪现场勘查方法" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1270,
+    "type" : "multi",
+    "content" : "保安从业单位制定的紧急情况应急预案中应当包括（）等内容",
+    "options" : [ "A:组织指挥", "B:应急措施", "C:力量配备", "D:职责分工E:通信联络" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1271,
+    "type" : "multi",
+    "content" : "保安员维护客户单位及服务区域内的正常秩序，是（）的前提，也是保安服务的基本任务",
+    "options" : [ "A:制止违法犯罪活动", "B:消除治安灾害事故隐患", "C:公安机关侦破案件", "D:确保人身安全E:化解社会矛盾" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1272,
+    "type" : "multi",
+    "content" : "保安员对巡逻中发现的案件.事故.事件现场应当立即进行保护。以下做法正确的是（）",
+    "options" : [ "A:划定现场保护区域", "B:设置警戒标志", "C:不准无关人员进入", "D:保护好现场证据E:抢救伤员" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1273,
+    "type" : "multi",
+    "content" : "在区域巡逻中需要重点检查安全照明的场所是（）",
+    "options" : [ "A:高层建筑的楼梯间", "B:居民楼各单元门口", "C:居民楼楼梯间", "D:区域内人行便道E:区域内主要交通通道" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1274,
+    "type" : "multi",
+    "content" : "现场救护人员应从（）方面区别动脉和静脉出血",
+    "options" : [ "A:颜色", "B:部位", "C:血流速度", "D:伤口的深浅E:伤口大小" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1275,
+    "type" : "multi",
+    "content" : "伤员大腿有很深的刀伤，现场救护员正确的处理方法是（）",
+    "options" : [ "A:用干净的敷料将伤口填塞", "B:加压包扎", "C:必要时可使用止血带", "D:不作处理，直接送医院E:可用电线止血" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1276,
+    "type" : "multi",
+    "content" : "小区内有人斗殴，其中一人右前臂大出血，这时，保安员正确的做法是（）",
+    "options" : [ "A:置之不理", "B:拨打110.120", "C:排除险情，确保安全", "D:为伤员止血E:可使用绳索止血" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1277,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，保安员应享有的权利有（）",
+    "options" : [ "A:正当防卫", "B:接受安全教育", "C:开展巡逻守护", "D:享受社会保险E:登记出入车辆" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1278,
+    "type" : "multi",
+    "content" : "我国刑法明确规定了以危险方法危害公共安全罪，下列不属于以危险方法危害公共安全的行为是（）",
+    "options" : [ "A:放火", "B:驾车撞人", "C:爆炸", "D:投放危险物质E:故意传播突发传染病病原体" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1279,
+    "type" : "multi",
+    "content" : "下列选项中属于职业道德作用的是()",
+    "options" : [ "A:增强员工的独立性", "B:增强企业的凝聚力", "C:决定企业的经济效益", "D:增加员工的福利E:塑造良好的企业形象" ],
+    "answer" : "B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1280,
+    "type" : "multi",
+    "content" : "保安员职业道德的作用有()",
+    "options" : [ "A:规范保安员的服务行为", "B:提高保安员职业素养", "C:塑造良好的企业形象", "D:形成和谐的人际关系E:增强组织的凝聚力" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1281,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》的规定，下列说法正确的是（）",
+    "options" : [ "A:保安员在保安服务过程中，不允许接触商业秘密", "B:不得泄露客户信息属于保安员的义务", "C:不得泄露客户信息属于保安员的权利", "D:泄露客户单位的秘密可能会给国家利益造成损害" ],
+    "answer" : "B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1282,
+    "type" : "multi",
+    "content" : "在道路交通活动中，（）情况可以超车",
+    "options" : [ "A:没有中心线的道路", "B:前车为正在作业的洒水车", "C:前车为前去加油的救护车", "D:行经隧道E:行经窄桥" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1283,
+    "type" : "multi",
+    "content" : "在没有中心线的道路上，机动车相遇相对方向来车时应当（）",
+    "options" : [ "A:减速靠右行驶", "B:保持原有速度行驶", "C:与其他车辆保持必要的安全距离", "D:与行人保持必要的安全距离E:鸣喇叭并迅速通过" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1284,
+    "type" : "multi",
+    "content" : "机动车载人时应当遵守的规定有（）",
+    "options" : [ "A:公路载客汽车在载客人数已满的情况下，按照规定免票的儿童不得超过核定载客人数的15％", "B:载货汽车载物高度超过车厢栏板时，货物上最多可以搭载2名乘客", "C:城市道路上，中型货载货汽车在留有安全位置的情况下，车厢内最多可以附载临时作业人员5人", "D:公路载客汽车不得超过核定的载客人数" ],
+    "answer" : "C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1285,
+    "type" : "multi",
+    "content" : "在道路交通活动中，机动车载物时需要注意的是（）",
+    "options" : [ "A:机动车载物，长度不得超出车厢", "B:机动车载物，高度从地面起不得超出车厢2米", "C:载客汽车不得载货", "D:载货汽车车厢不得载客" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1286,
+    "type" : "multi",
+    "content" : "我国的社会保险主要包括（）保险等种类",
+    "options" : [ "A:养老", "B:救济", "C:医疗", "D:失业E:住房" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1287,
+    "type" : "multi",
+    "content" : "在物业小区内行驶的机动车，应注意（）",
+    "options" : [ "A:按指挥慢行", "B:最高时速不超过２５公里", "C:禁止鸣号", "D:按规定行驶方向行驶E:车辆停放位置适当" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1288,
+    "type" : "multi",
+    "content" : "以下关于停车管理的说法中，正确的是（）",
+    "options" : [ "A:停车管理是静态交通管理的重要组成部分", "B:停车管理包括对车辆的存放管理", "C:停车管理是动态交通管理的重要组成部分", "D:停车管理包括对车辆的停驶管理" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1289,
+    "type" : "multi",
+    "content" : "下列做法正确的是（）",
+    "options" : [ "A:城市公共汽车在站点前5米处停车下客", "B:出租车在没有公交车的公交站点停车上下乘客", "C:出租车在距离加油站１０米左右停车等候加油", "D:在道路上行驶的汽车爆胎时，驾驶人应立即停车，就地更换轮胎" ],
+    "answer" : "C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1290,
+    "type" : "multi",
+    "content" : "保安员在车站候车室座椅下发现一无人认领的包裹，不正确的做法是（）",
+    "options" : [ "A:打开包裹查看", "B:把包裹拿到值班室", "C:立即报警", "D:寻找失主E:记录情况，继续巡逻" ],
+    "answer" : "A,B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1291,
+    "type" : "multi",
+    "content" : "保安员在人员密集场所经常使用的安全探测仪器包括（）",
+    "options" : [ "A:金属探测仪", "B:爆炸物品探测仪", "C:红外体温探测仪", "D:放射性物品探测仪E:有毒气体探测仪" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1292,
+    "type" : "multi",
+    "content" : "保安员李某和王某在某大型人才交流会现场巡逻，应当作为可疑人重点观察的是（）",
+    "options" : [ "A:某甲：举止怪异，神情慌张", "B:某乙：行为局促，对现场保安员的行踪过分关注", "C:某丙：一直尾随一名携包女子", "D:某丁：在现场推销保险E:某戊：行为诡秘，动作反常" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1293,
+    "type" : "multi",
+    "content" : "物业小区停车场保安要严格履行值班制度.巡视检查制度等，主要是为了防止（　　）等事故事件的发生",
+    "options" : [ "A:火灾", "B:盗窃", "C:漏油", "D:水灾E:漏水" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1294,
+    "type" : "multi",
+    "content" : "机动车应该在（　　）停放",
+    "options" : [ "A:规划的停车场", "B:规划的停车位", "C:规划停车位的人行道上严格按规定的时间", "D:规划停车位的人行道上可以超出规定的时间E:人行道上" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1295,
+    "type" : "multi",
+    "content" : "公共停车场管理中，保安的职责是（）",
+    "options" : [ "A:规划好停车位及进出通道", "B:加强停车场巡视检查", "C:车辆出入登记", "D:负责车内物品的看管E:协助驾驶人按顺序停放" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1296,
+    "type" : "multi",
+    "content" : "属于特种车辆的是（）",
+    "options" : [ "A:前往抢救病人的救护车", "B:执行完救火任务的消防车", "C:赶往案发现场的警车", "D:赶往坍塌桥梁现场的工程救险车E:运送邮件的邮政车辆" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1297,
+    "type" : "multi",
+    "content" : "在现场急救中，出现下列（）症状不需做心肺复苏",
+    "options" : [ "A:意识障碍", "B:骨折", "C:呼吸心跳骤停", "D:轻度中暑E:发高烧" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1298,
+    "type" : "multi",
+    "content" : "在搬运伤员中，双人徒手搬运的方式有（）",
+    "options" : [ "A:杠轿式", "B:椅托式", "C:拉车式", "D:扶持法E:背负法" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1299,
+    "type" : "multi",
+    "content" : "在找不到止血带的现场，为避免造成皮肤损伤，不能用（）代替止血带",
+    "options" : [ "A:电线", "B:领带", "C:布条", "D:围巾E:细绳" ],
+    "answer" : "A,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1300,
+    "type" : "multi",
+    "content" : "救护大腿骨折的伤员，正确的做法是（）",
+    "options" : [ "A:可以利用健肢对伤肢进行固定", "B:固定时一定要超关节", "C:绑扎越紧越好", "D:固定后要观察末梢血液循环E:固定材料不直接接触皮肤" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1301,
+    "type" : "multi",
+    "content" : "指压止血法包括（）",
+    "options" : [ "A:直接压迫法", "B:间接压迫法", "C:加压包扎法", "D:止血带法E:三角巾法" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1302,
+    "type" : "multi",
+    "content" : "在救护现场可采用（）作为止血带",
+    "options" : [ "A:电线", "B:领带", "C:布条", "D:围巾E:细绳" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1303,
+    "type" : "multi",
+    "content" : "需要为大腿较深的伤口进行填塞止血时，救护员正确的做法是（）",
+    "options" : [ "A:立即用止血带", "B:用干净的敷料填塞伤口", "C:加压包扎", "D:用绳索绑扎伤口E:如果条件不允许，可以用不干净的敷料" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1304,
+    "type" : "multi",
+    "content" : "火灾得到确认后，保安员在消防控制室可以实施的灭火行为有（）",
+    "options" : [ "A:立即将火灾报警联动控制开关转入自动状态", "B:立即将火灾报警联动控制开关转入手动状态", "C:开启防火门.防火卷帘", "D:立刻拨打“119”报警" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1305,
+    "type" : "multi",
+    "content" : "现场救护的要求是（）",
+    "options" : [ "A:立即将伤病员送医院", "B:在现场展开紧急救护", "C:救护时要注意排除险情", "D:必须由医务人员对伤病员实施救护" ],
+    "answer" : "B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1306,
+    "type" : "multi",
+    "content" : "在人员密集场所的活动中，设置隔离区通常采用的方法包括（）",
+    "options" : [ "A:穿插隔离", "B:包围隔离", "C:设置隔离带", "D:单向隔离E:事先划定隔离区" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1307,
+    "type" : "multi",
+    "content" : "关于骑巡说法正确的有（）",
+    "options" : [ "A:是指骑自行车.骑马的巡逻", "B:是指骑电动车的巡逻", "C:速度较快.行动敏捷", "D:适用于区域范围不大.巡逻中能够将区域全部纳入视线的情况" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1308,
+    "type" : "multi",
+    "content" : "下列关于道路交通标线叙述正确的是（）",
+    "options" : [ "A:颜色可以为白色.黄色", "B:颜色可以为蓝色.橙色", "C:路面图形标记中可以出现红色的图案或文字", "D:路面图形标记中可以出现黑色的图案或文字" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1309,
+    "type" : "multi",
+    "content" : "在保安巡逻勤务中，以下关于交叉巡逻说法正确的是（）",
+    "options" : [ "A:是徒步巡逻的常见形式", "B:是两组以上保安员分别从不同方位沿相互交叉的路线进行的巡逻", "C:可以每名保安员单独编组", "D:可以使保安员相互呼应，相互支援" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1310,
+    "type" : "multi",
+    "content" : "机动车行经交通信号灯控制的交叉路口时，应当（）",
+    "options" : [ "A:夜间行驶开启远光灯", "B:向左转弯时，靠路口中心点左侧转弯", "C:准备进入环形路口的让已在路口内的机动车先行", "D:在没有方向指示信号灯的交叉路口，转弯的机动车让直行的车辆.行人先行" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1311,
+    "type" : "multi",
+    "content" : "非机动车在道路上通行时，（）",
+    "options" : [ "A:可以在任何车行道内行驶", "B:没有非机动车道的，应在人行道上行驶", "C:没有非机动车道的，应在车行道的右侧行驶", "D:不得进入高速公路行驶E:应当在非机动车道内行驶" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1312,
+    "type" : "multi",
+    "content" : "道路养护车辆进行作业时，在不影响过往车辆通行的前提下，（）",
+    "options" : [ "A:行驶方向不受交通标线限制", "B:行驶不受交通信号灯限制", "C:行驶路线不受交通标志限制", "D:行驶不受速度限制E:不得逆行" ],
+    "answer" : "A,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1313,
+    "type" : "multi",
+    "content" : "特种车辆在执行紧急任务时可以（）",
+    "options" : [ "A:撞伤行人不承担责任", "B:闯红灯", "C:逆行", "D:超速E:压禁停线" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1314,
+    "type" : "multi",
+    "content" : "机动车会车时应当遵守（）规则",
+    "options" : [ "A:在有障碍的路段，无障碍的一方先行", "B:夜间在窄桥与非机动车会车时应使用远光灯", "C:夜间在窄路与非机动车会车时应使用近光灯", "D:在有障碍的路段，有障碍的一方已经驶入障碍路段而无障碍的一方未驶入的，有障碍的一方先行" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1315,
+    "type" : "multi",
+    "content" : "在（）的情况下，禁止超车",
+    "options" : [ "A:前车示意左转弯", "B:行经人行横道", "C:前车正在超车时", "D:前车是赶往医院的救护车E:前车是正常行驶.未鸣警笛的警车" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1316,
+    "type" : "multi",
+    "content" : "在目标部位守护中，（）需要设置瞭望岗",
+    "options" : [ "A:危险物品储存单位", "B:单位办公楼", "C:人员密集区域", "D:居民生活区E:电影院" ],
+    "answer" : "A,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1318,
+    "type" : "multi",
+    "content" : "人员密集场所巡逻发现（）时，保安员应当报告场所管理部门，必要时应当立即报警",
+    "options" : [ "A:人潮涌动的地铁站突然发生火灾", "B:演唱会的现场突然天降暴雨", "C:展销会的现场两人因故扭打起来，周围大量围观人员", "D:火车站入口处，两乘客因故发生争吵，经保安员规劝后停止吵闹" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1319,
+    "type" : "multi",
+    "content" : "下列关于物业小区停车场的叙述中，正确的是（）",
+    "options" : [ "A:属于业主等特定对象使用的停车场", "B:属于公共停车场", "C:一般实行封闭式管理", "D:一般实行开放式管理E:一般实行机动车与非机动车分开存放" ],
+    "answer" : "A,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1320,
+    "type" : "multi",
+    "content" : "文明服务要求保安员在保安服务活动中必须()",
+    "options" : [ "A:仪表端庄", "B:语言规范", "C:客观公正", "D:心胸开阔E:尊重客户" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1321,
+    "type" : "multi",
+    "content" : "下面关于团结互助的说法中,错误的是()",
+    "options" : [ "A:可以营造和谐的人际关系", "B:与企业的凝聚力无关", "C:要求大家宽容相待", "D:要求大家加强协作E:要求大家不要竞争" ],
+    "answer" : "B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1322,
+    "type" : "multi",
+    "content" : "关于保安员劳动合同的正确说法是（）",
+    "options" : [ "A:履行合同不仅是保安员的权利，也是保安员的义务", "B:履行合同是保安员的权利", "C:履行合同是保安员的义务", "D:劳动合同是一个整体，各项条款相互联系" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1323,
+    "type" : "multi",
+    "content" : "作为一名保安员，除了依法享有权利，还须履行相应的（）义务",
+    "options" : [ "A:遵守法律", "B:遵守纪律", "C:正当防卫", "D:紧急避险E:勘查现场" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1324,
+    "type" : "multi",
+    "content" : "下列单位属于安全技术防范重点单位的是（）",
+    "options" : [ "A:铁路车站", "B:公园街道", "C:文物系统", "D:国家机关E:居民家庭" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1325,
+    "type" : "multi",
+    "content" : "安全技术防范工程以维护社会公共安全为目的，综合运用安全防范技术和其他科学技术，为建立具有（）.防爆安全检查等功能（或其组合）的系统而实施的工程。通常也称为技防工程",
+    "options" : [ "A:防入侵", "B:防自然灾害", "C:防破坏", "D:防抢劫E:防盗窃" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1326,
+    "type" : "multi",
+    "content" : "在有交通信号灯的交叉路口，非机动车应注意（）",
+    "options" : [ "A:转弯时让直行的车辆.行人先行", "B:遇有停止信号时，没有停止线的，停在路口以外", "C:遇前方交叉路口堵塞时，可以进入交叉路口等候", "D:右转弯时遇有同方向前车正在等候放行信号的，在本车道内能够转弯的，可以通行" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1327,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，（）不属于保安员享有的权利",
+    "options" : [ "A:查验出入证件", "B:登记出入车辆", "C:开展巡逻守护", "D:享受劳动条件E:享受劳动保护" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1328,
+    "type" : "multi",
+    "content" : "道路交通标志的构成要素是（）",
+    "options" : [ "A:交通信号灯", "B:图形", "C:颜色", "D:字符E:形状" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1329,
+    "type" : "multi",
+    "content" : "道路交通信号灯包括（）",
+    "options" : [ "A:人行横道信号灯", "B:方向指示信号灯", "C:闪光警告信号灯", "D:道口信号灯E:非机动车道信号灯" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1330,
+    "type" : "multi",
+    "content" : "下列关于导流岛的叙述正确的是（）",
+    "options" : [ "A:用以诱导车辆运行路线的岛状构筑物", "B:用以控制车辆运行路线的岛状构筑物", "C:用来供过街行人避让车辆", "D:常与道路交通标线配合使用" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1331,
+    "type" : "multi",
+    "content" : "道路交通安全设施中的物理隔离设施有（）",
+    "options" : [ "A:交通护栏", "B:交通信息提示板", "C:交通隔离带", "D:交通岛E:隔离栅栏" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1332,
+    "type" : "multi",
+    "content" : "道路交通标志适用于（）",
+    "options" : [ "A:公路", "B:城市道路", "C:广场", "D:公共停车场E:物业小区内" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1333,
+    "type" : "multi",
+    "content" : "在保安巡逻勤务中，以下关于点线巡逻说法正确的（）",
+    "options" : [ "A:是徒步巡逻的常见形式", "B:须事先确定警戒点部署警戒", "C:须事先确定巡逻路线", "D:巡逻路线应当经过警戒点" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1334,
+    "type" : "multi",
+    "content" : "道路交通标志设置方式有（）",
+    "options" : [ "A:柱式", "B:悬臂式", "C:门架式", "D:附着式E:放置式" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1335,
+    "type" : "multi",
+    "content" : "我国道路交通标志可以分为（）两大类",
+    "options" : [ "A:警告标志", "B:主标志", "C:禁令标志", "D:辅助标志E:指示标志" ],
+    "answer" : "B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1336,
+    "type" : "multi",
+    "content" : "道路交通信号灯由（）组成",
+    "options" : [ "A:红灯", "B:蓝灯", "C:黄灯", "D:绿灯E:橙色灯" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1337,
+    "type" : "multi",
+    "content" : "道路交通标线按照功能可以分为（）",
+    "options" : [ "A:横向标线", "B:指示标线", "C:警告标线", "D:禁止标线E:纵向标线" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1338,
+    "type" : "multi",
+    "content" : "下列关于道路交通安全设施的叙述正确的是（）",
+    "options" : [ "A:设置的目的是保障道路交通的安全和畅通", "B:管制和引导交通的设备", "C:道路交通系统不可缺少的重要组成部分", "D:功能齐全.完备的道路交通设施是保证行车安全.减少和减轻交通事故的重要保障" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1339,
+    "type" : "multi",
+    "content" : "道路交通设施包括（）",
+    "options" : [ "A:交通信号灯", "B:交通警察手势指挥", "C:交通标志", "D:交通标线E:物理隔离设施" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1340,
+    "type" : "multi",
+    "content" : "保安员在查验货物出库单时，应着重查验单据中写明的（）",
+    "options" : [ "A:货物的外形", "B:货物的名称", "C:货物的规格", "D:货物的数量E:货物的型号" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1341,
+    "type" : "multi",
+    "content" : "保安员在（）情况下应立即报警",
+    "options" : [ "A:发现客户单位安全隐患", "B:发现客户单位物资被盗", "C:客户单位发生火灾", "D:发现有人破坏重要设施E:客户单位出现水管爆裂" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1342,
+    "type" : "multi",
+    "content" : "保安员对进入客户单位的车辆进行登记时，应登记的内容有（）",
+    "options" : [ "A:驾驶员姓名", "B:车辆颜色", "C:来访原因", "D:车牌号码E:车辆型号" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1343,
+    "type" : "multi",
+    "content" : "保安员小王在化工厂门卫值勤时，司机小李驾车送货离开。在通过出入口时，小王请其停车核对货物出库单并进行查验，小王的正确做法是（）",
+    "options" : [ "A:对小李说：“你好，请停车，请出示货物出库单。”", "B:在小李停车后，保安员小王打开车门查验货物", "C:请小李打开车门，对照货物出库单进行核对", "D:小李向小王说明货物没问题后，小王放行" ],
+    "answer" : "A,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1344,
+    "type" : "multi",
+    "content" : "文明服务要求保安员在保安服务活动中必须()",
+    "options" : [ "A:仪表端庄", "B:遵纪守法", "C:举止得体", "D:礼貌待人E:心胸开阔" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1345,
+    "type" : "multi",
+    "content" : "文明服务要求保安员在保安服务活动中必须()",
+    "options" : [ "A:仪表端庄", "B:语言规范", "C:举止得体", "D:礼貌待人E:尊重客户" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1346,
+    "type" : "multi",
+    "content" : "下面关于团结互助的说法中,正确的是()",
+    "options" : [ "A:可以营造和谐的人际关系", "B:可以增强企业的凝聚力", "C:要求大家宽容相待", "D:要求大家加强协作E:要求大家不要竞争" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1347,
+    "type" : "multi",
+    "content" : "下面关于团结互助的说法中,正确的是()",
+    "options" : [ "A:可以营造和谐的人际关系", "B:与企业的凝聚力无关", "C:要求大家宽容相待", "D:要求大家加强协作E:要求大家不要竞争" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1348,
+    "type" : "multi",
+    "content" : "保安员遵守职业道德能够()",
+    "options" : [ "A:增强员工的独立性", "B:增强保安从业单位的凝聚力", "C:规范保安员的服务行为", "D:形成高尚的职业情操E:塑造良好的企业形象" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1349,
+    "type" : "multi",
+    "content" : "下列设备是停车场管理系统中出口设备的有（）",
+    "options" : [ "A:发卡机", "B:挡车器", "C:车辆检测线圈", "D:摄像机E:视频监视器" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1350,
+    "type" : "multi",
+    "content" : "下列设备是停车场管理系统中入口设备的有（）",
+    "options" : [ "A:发卡机", "B:挡车器", "C:车辆检测线圈", "D:全方位云台E:视频监视器" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1351,
+    "type" : "multi",
+    "content" : "目前常用的周界报警设备有（）报警器",
+    "options" : [ "A:红外对射", "B:被动红外", "C:激光对射", "D:泄漏电缆E:电子围栏" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1352,
+    "type" : "multi",
+    "content" : "入侵报警系统是指利用（）技术探测，并指示非法进入或试图非法进入设防区域的行为，处理报警信息，发出报警信息的电子系统或网络",
+    "options" : [ "A:传感器", "B:视频压缩", "C:综合布线", "D:电子信息E:生物识别" ],
+    "answer" : "A,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1353,
+    "type" : "multi",
+    "content" : "纵深防护体系是兼有（）的防护体系",
+    "options" : [ "A:周界", "B:盲区", "C:禁区", "D:监视区E:防护区" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1354,
+    "type" : "multi",
+    "content" : "爱岗敬业是一个保安员做好本职工作的重要前提。提倡爱岗敬业，就是要求保安员（）",
+    "options" : [ "A:不要转行", "B:勇于承担职业责任", "C:提高保安服务技能", "D:认识保安服务的社会价值E:不能玩忽职守" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1355,
+    "type" : "multi",
+    "content" : "下列关于保安员的守法义务中，说法正确的是（）",
+    "options" : [ "A:守法是每一个保安员必须履行的基本义务", "B:对于保安员来说，守法有更高的要求", "C:必须遵守《保安服务管理条例》中对保安员行为的禁止性规定", "D:遵守法律法规的有关规定是保安员的基本义务" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1357,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》的规定，作为保安员必须履行的义务有（）",
+    "options" : [ "A:报警监控", "B:遵守纪律", "C:遵守合同", "D:保守秘密E:遵守法律" ],
+    "answer" : "B，C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1358,
+    "type" : "multi",
+    "content" : "在职业活动中形成的（）就是职业道德",
+    "options" : [ "A:行为准则", "B:劳动技能", "C:基本规范", "D:思维习惯E:操作程序" ],
+    "answer" : "A,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1359,
+    "type" : "multi",
+    "content" : "作为一名保安员，除了依法享有权利，还须履行相应的（）义务",
+    "options" : [ "A:保守秘密", "B:勘查现场", "C:正当防卫", "D:紧急避险E:遵守纪律" ],
+    "answer" : "A,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1360,
+    "type" : "multi",
+    "content" : "在现场急救中，现场心肺复苏的三个步骤包括（）",
+    "options" : [ "A:判断意识", "B:人工呼吸", "C:胸外心脏按压", "D:打开气道E:大声呼救" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1361,
+    "type" : "multi",
+    "content" : "加压包扎止血的正确做法是（）",
+    "options" : [ "A:用大块干净的毛巾.手绢等，覆盖伤口", "B:用绷带加压包扎伤口", "C:胸部伤口不能加敷料", "D:观察末梢血液循环" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1362,
+    "type" : "multi",
+    "content" : "用担架抬脊柱损伤伤员时，应注意（）",
+    "options" : [ "A:将伤员固定在担架上，避免摔伤", "B:伤员头部朝前，脚朝后", "C:移动时注意脊柱的稳定", "D:首先要上好颈托E:采用硬质的担架" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1363,
+    "type" : "multi",
+    "content" : "保安员需要掌握的火灾应急疏散基本常识包括（）",
+    "options" : [ "A:常用灭水器材的使用方法", "B:扑救初起火灾的知识", "C:消防控制主机的工作原理", "D:报火警的方法E:自救逃生的知识" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1364,
+    "type" : "multi",
+    "content" : "在发生火灾的房屋里，浓烟弥漫.充满毒气，这时保安员需要做的是（）",
+    "options" : [ "A:先帮助老人.小孩.病人疏散", "B:稳定人员情绪，维护现场秩序", "C:能够安全疏散时，阻止人员跳楼", "D:防止脱离险境的人员再入“火口”" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1365,
+    "type" : "multi",
+    "content" : "发生火灾被迫跳楼时，保安员需要提醒逃生人员注意的是()",
+    "options" : [ "A:将绳子或布条的一端紧拴在牢固的门窗格或其它重物上，再顺着滑下", "B:手扶窗台往下滑，以缩小跳楼高度", "C:保证上肢先着地", "D:向地面抛下一些棉被等物，以增加缓冲E:可以借助木板或竹竿等逃往相邻阳台" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1366,
+    "type" : "multi",
+    "content" : "高层建筑物发生火灾时，保安员需要做好的应急工作有()",
+    "options" : [ "A:拨打“119”电话报警", "B:组织引导疏散", "C:对通风.煤气.电源做应急处理", "D:启动消防水泵E:立即制定应急疏散预案" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1367,
+    "type" : "multi",
+    "content" : "下列属于以生物特征作为识别凭证的出入口目标识别子系统的设备是（）",
+    "options" : [ "A:指纹仪", "B:掌形仪", "C:韦根卡", "D:乱序键盘E:红外探测器" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1368,
+    "type" : "multi",
+    "content" : "文明服务要求保安员在保安服务活动中必须()",
+    "options" : [ "A:客观公正", "B:遵纪守法", "C:举止得体", "D:礼貌待人E:尊重客户" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1369,
+    "type" : "multi",
+    "content" : "保安员张某在享受公民基本权利的同时，还可以享受（）的权利",
+    "options" : [ "A:查验出入证件", "B:登记出入车辆", "C:开展巡逻守护", "D:社会保险E:接受安全教育和技能培训" ],
+    "answer" : "D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1370,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，（）是保安员应享有的权利",
+    "options" : [ "A:开展安全检查", "B:登记出入车辆", "C:签订劳动合同", "D:开展巡逻守护" ],
+    "answer" : "C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1371,
+    "type" : "multi",
+    "content" : "成为一名合格的保安员需要做到品行良好，品行良好的具体含义包括（）",
+    "options" : [ "A:遵守社会主义道德规范", "B:熟悉并遵守保安员道德要求", "C:没有犯罪记录", "D:未曾受过劳动教养E:遵纪守法" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1372,
+    "type" : "multi",
+    "content" : "下列人员中，符合保安员任职资格年龄的有（）",
+    "options" : [ "A:年满16周岁", "B:年满17周岁", "C:年满19周岁", "D:年满30周岁E:年满55周岁" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1373,
+    "type" : "multi",
+    "content" : "在保安巡逻勤务中，以下关于往返巡逻说法正确的是（）",
+    "options" : [ "A:巡逻路线是事先确定的", "B:是由起点到终点，再由终点原路返回到起点", "C:适用于两组以上的保安员相向巡逻", "D:巡逻可以每名保安员单独编组" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1374,
+    "type" : "multi",
+    "content" : "在保安巡逻勤务中，单线巡逻的特点是（）",
+    "options" : [ "A:巡逻路线固定", "B:巡视范围固定", "C:看护对象固定", "D:巡逻范围大E:巡逻人员多" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1375,
+    "type" : "multi",
+    "content" : "在保安巡逻勤务中，常采用的区域巡逻方式有（）",
+    "options" : [ "A:机巡", "B:步巡", "C:骑巡", "D:车巡E:舟巡" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1376,
+    "type" : "multi",
+    "content" : "区域巡逻具有如下特点（）",
+    "options" : [ "A:对象固定", "B:被动性强", "C:主动性强", "D:流动性大E:风险度高" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1377,
+    "type" : "multi",
+    "content" : "小张想成为一名保安员，他需要()才能取得《保安员证》",
+    "options" : [ "A:经设区的市级公安机关考试合格", "B:经设区的市级教育行政机关考试合格", "C:经设区的市级公安机关审查通过", "D:在设区的市级公安机关留存指纹信息" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1378,
+    "type" : "multi",
+    "content" : "火灾报警控制器按其用途不同可分为（）火灾报警控制器几种基本类型",
+    "options" : [ "A:主动型", "B:区域型", "C:集中型", "D:被动性E:通用型" ],
+    "answer" : "B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1379,
+    "type" : "multi",
+    "content" : "（）是全球卫星定位系统的功能",
+    "options" : [ "A:车辆监控", "B:反劫防盗", "C:导航", "D:最优路径向导E:倒车防撞" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1380,
+    "type" : "multi",
+    "content" : "我国刑法规定的刑罚有（）等种类",
+    "options" : [ "A:管制", "B:拘役", "C:罚金", "D:驱逐出境E:死缓" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1381,
+    "type" : "multi",
+    "content" : "我国刑法规定刑罚的目的并非单纯给犯罪人造成一定的痛苦，而是通过刑罚处罚达到（）的目的",
+    "options" : [ "A:侦查犯罪", "B:预防犯罪", "C:查处犯罪", "D:教育罪犯E:关押罪犯" ],
+    "answer" : "B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1382,
+    "type" : "multi",
+    "content" : "下列不属于犯罪行为的是（）",
+    "options" : [ "A:正当防卫", "B:见义勇为", "C:故意伤害", "D:自救行为E:紧急避险" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1383,
+    "type" : "multi",
+    "content" : "在某单位财务室内安装入侵报警设备可选择（　　）",
+    "options" : [ "A:双技术报警器", "B:振动报警器", "C:电子围栏", "D:云台E:读卡器" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1384,
+    "type" : "multi",
+    "content" : "防爆安检系统主要检测的目标是（）",
+    "options" : [ "A:爆炸物品", "B:武器", "C:金属器械", "D:毒品E:有毒食品" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1385,
+    "type" : "multi",
+    "content" : "火灾报警系统一般由（）等部分组成",
+    "options" : [ "A:火灾探测报警器件", "B:火灾报警装置", "C:火灾警报装置", "D:火灾灭火装置" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1386,
+    "type" : "multi",
+    "content" : "下列设备属于防爆安检设备的有（）",
+    "options" : [ "A:X射线检查设备", "B:半球形摄像机", "C:质谱分析设备", "D:毫米波探测设备" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1387,
+    "type" : "multi",
+    "content" : "下列设备是停车场管理系统中控制管理中心设备的有（）",
+    "options" : [ "A:视频矩阵控制器", "B:报表打印机", "C:计算机", "D:收费显示屏E:发卡机" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1388,
+    "type" : "multi",
+    "content" : "“发生火灾时不能使用普通电梯”是国内外消防界的共识。主要原因是（）",
+    "options" : [ "A:普通电梯不能直通安全疏散楼梯间", "B:火灾时的高温烟气和灭火积水蔓延.流淌到前室和电梯井，导致普通电梯故障", "C:普通电梯没有备用电源", "D:普通电梯容易造成人员被困" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1389,
+    "type" : "multi",
+    "content" : "在火场中，防烟是逃生自救的关键。穿越浓烟区时()",
+    "options" : [ "A:用毛巾.口罩.床单.衣服作为临时的“空气呼吸器”", "B:用湿衣服.湿床单.湿毛毯将身体裹好", "C:若感到呼吸困难，可将毛巾从口鼻上拿开", "D:保持冷静.清醒的头脑E:低腰.匍匐前进" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1390,
+    "type" : "multi",
+    "content" : "建筑物在高层发生火灾，在火势较大.无路可逃的情况下，保安员在引导人员疏散时，可以()",
+    "options" : [ "A:向室外扔出小东西，引起救援人员的注意", "B:试图从火中冲出去", "C:大声呼救", "D:清除障碍物后跳楼逃生E:从阳台直接往下跳" ],
+    "answer" : "A,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1391,
+    "type" : "multi",
+    "content" : "高层建筑物发生火灾时，如果楼梯已经烧断，可利用()逃生",
+    "options" : [ "A:建筑物的避雷网（线）", "B:带电电线", "C:落水管", "D:房屋向外突出部分" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1392,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，（）是保安员应享有的权利",
+    "options" : [ "A:接受表彰奖励", "B:登记出入车辆", "C:开展巡逻守护", "D:参加社会保险" ],
+    "answer" : "A,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1393,
+    "type" : "multi",
+    "content" : "关于保安员享受劳动条件和劳动保护的权利，下列说法正确的是（）",
+    "options" : [ "A:劳动保护是用人单位保障保安员身体健康的有效措施", "B:劳动保护是用人单位保障保安员生命安全的有效措施", "C:劳动保护是用人单位预防保安员伤亡事故的有效措施", "D:劳动保护是用人单位避免保安员生病的唯一措施" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1394,
+    "type" : "multi",
+    "content" : "在保安巡逻勤务中，车巡存在的工作缺陷有（）",
+    "options" : [ "A:速度快.行程长.成本高", "B:巡查范围大.机动性不强", "C:速度快.难以细致观察情况", "D:目标明显.隐蔽性不强" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1395,
+    "type" : "multi",
+    "content" : "道路交通标志中的辅助标志按照作用可以分为表示（）的辅助标志",
+    "options" : [ "A:警告", "B:车辆的种类", "C:时间范围", "D:区域E:距离" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1396,
+    "type" : "multi",
+    "content" : "在现场急救中，心肺复苏的有效指征包括（）",
+    "options" : [ "A:伤病员面色由苍白.青紫转向红润", "B:恢复自主呼吸及循环", "C:瞳孔由大变小", "D:眼球转动.呻吟E:瞳孔由小变大" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1397,
+    "type" : "multi",
+    "content" : "在现场急救中，为了使胸外按压更加有效，正确的方法是（）",
+    "options" : [ "A:按压时间长一些，能压出更多的血", "B:按压和解除按压时间相等", "C:按压后，多放松一段时间，使心脏更好的充盈", "D:压5次，休息5分钟后，再压5次，反复操作不间断E:尽量减少按压中断" ],
+    "answer" : "B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1399,
+    "type" : "multi",
+    "content" : "在目标部位守护中，固定岗位应设立在目标部位的（）",
+    "options" : [ "A:出入口", "B:重要地段", "C:便于控制的位置", "D:人员密集区域E:服务人员区域" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1400,
+    "type" : "multi",
+    "content" : "在目标部位守护工作中，流动岗工作的特点是（）",
+    "options" : [ "A:必须注意活动区域内的地形地貌", "B:按照规定的路线和区域巡查", "C:随时加强重要部位的巡查", "D:根据天气变化情况选择巡查路线" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1401,
+    "type" : "multi",
+    "content" : "在保安服务中，目标部位容易发生的问题有（）",
+    "options" : [ "A:群体上访", "B:违法分子破坏", "C:恐怖袭击", "D:不法分子的侵入" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1402,
+    "type" : "multi",
+    "content" : "在保安服务中，针对保安员依法享有的权利，下列说法正确的是（）",
+    "options" : [ "A:保安员有行使紧急避险的权利", "B:保安员有行使正当防卫的权利", "C:保安员依法采取紧急避险，不负刑事责任", "D:保安员依法采取正当防卫，不负刑事责任E:保安员依法采取紧急避险，不负任何责任" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1403,
+    "type" : "multi",
+    "content" : "某公司的保安员小周工作多年，因表现突出，未参加过岗上培训，根据《保安服务管理条例》规定，小周没有享受到（）的权利",
+    "options" : [ "A:劳动保护", "B:技能培训", "C:劳动条件", "D:社会保险E:安全教育" ],
+    "answer" : "B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1404,
+    "type" : "multi",
+    "content" : "下列选项中属于职业道德作用的是()",
+    "options" : [ "A:增强员工的独立性", "B:增强企业的凝聚力", "C:规范保安员的服务行为", "D:增加员工的福利E:塑造良好的企业形象" ],
+    "answer" : "B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1405,
+    "type" : "multi",
+    "content" : "我国的社会保险主要包括（）保险等种类",
+    "options" : [ "A:养老", "B:救济", "C:医疗", "D:失业E:生育" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1406,
+    "type" : "multi",
+    "content" : "一名外国人因为在中国境内贩卖毒品于2009年被我国某市中级人民法院判处有期徒刑8年，没收其财产，并处罚金10万元，同时判决在刑满释放后予以驱逐出境。对这名外国人的处罚中，属于附加刑的有（）",
+    "options" : [ "A:有期徒刑8年", "B:没收财产", "C:罚金", "D:刑满释放E:驱逐出境" ],
+    "answer" : "B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1407,
+    "type" : "multi",
+    "content" : "我国刑法规定的刑罚中，属于附加刑的有（）",
+    "options" : [ "A:管制", "B:罚金", "C:没收财产", "D:拘役E:死缓" ],
+    "answer" : "B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1408,
+    "type" : "multi",
+    "content" : "某市保安服务公司因为经营状况发生严重困难，准备单方面裁减保安员，该保安服务公司不能裁减（）等人员",
+    "options" : [ "A:该公司中层领导", "B:在孕期.产期的女保安员", "C:年龄57岁.连续在该公司工作16年的员工", "D:因提供保安服务而受伤且在治疗期内的保安员E:受过保安专业技能培训的人员" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1409,
+    "type" : "multi",
+    "content" : "下列属于保安员职责任务的是（）",
+    "options" : [ "A:维护客户单位及服务区域的正常秩序", "B:开展守护.巡逻活动", "C:设置临时隔离区", "D:严厉打击违法犯罪活动E:登记出入车辆和物品" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1410,
+    "type" : "multi",
+    "content" : "在治安灾害事故现场，发现现行违法犯罪分子时，保安员应（）",
+    "options" : [ "A:及时堵截", "B:及时扭送到公安机关", "C:没收赃款赃物", "D:及时讯问，掌握证据" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1411,
+    "type" : "multi",
+    "content" : "发生治安灾害事故后，保安员应该做到（）",
+    "options" : [ "A:保护现场", "B:紧急救护受伤人员", "C:排除险情，抢救物资", "D:扣押违法犯罪嫌疑人E:讯问违法犯罪嫌疑人" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1413,
+    "type" : "multi",
+    "content" : "我国的社会保险主要包括（）保险等种类",
+    "options" : [ "A:就业", "B:失业", "C:养老", "D:医疗E:工伤" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1414,
+    "type" : "multi",
+    "content" : "劳动者与用人单位发生劳动争议后申请劳动仲裁，（）争议的劳动仲裁为终局裁决",
+    "options" : [ "A:劳动者追索工伤医疗费不超过当地月最低工资标准12个月金额的", "B:劳动者追索劳动报酬超过当地月最低工资标准12个月金额的", "C:用人单位要求劳动者支付培训费及违约金的", "D:社会保险方面的" ],
+    "answer" : "A,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1415,
+    "type" : "multi",
+    "content" : "区域保安服务工作的基本任务是在服务区域开展（）活动",
+    "options" : [ "A:守护", "B:巡逻", "C:安全检查", "D:报警监控E:隔离犯罪嫌疑人" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1416,
+    "type" : "multi",
+    "content" : "关于设立隔离区的方式，下列说法正确的是（）",
+    "options" : [ "A:拉设警戒线", "B:拉设隔离带", "C:保安员站位", "D:强制隔离可疑人员" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1417,
+    "type" : "multi",
+    "content" : "犯罪的客观方面是犯罪的客观外在表现。下列属于犯罪的客观方面的内容有（）等",
+    "options" : [ "A:危害结果", "B:因果关系", "C:犯罪工具", "D:犯罪客体E:犯罪地点" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1418,
+    "type" : "multi",
+    "content" : "保安员甲看到保安员乙有一部3G手机，心里就盘算趁乙不注意的时候把手机偷了送给其女朋友。但由于乙把手机看管的比较严，甲一直没有机会偷走这部手机。下列说法正确的是（）",
+    "options" : [ "A:甲有犯罪的故意", "B:甲的行为属于犯罪未遂", "C:甲的行为不具备犯罪的客观要件", "D:甲的行为构不成犯罪E:甲的行为属于犯罪中止" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1419,
+    "type" : "multi",
+    "content" : "我国刑法规定，构成犯罪必须具备（）.犯罪客观方面和犯罪的主观方面等要件",
+    "options" : [ "A:犯罪主体", "B:犯罪客体", "C:犯罪年龄", "D:犯罪故意E:犯罪过失" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1420,
+    "type" : "multi",
+    "content" : "保安员在保安服务过程中，要树立（），尽量避免或降低自身伤害风险",
+    "options" : [ "A:主动进攻意识", "B:主动打击意识", "C:安全防范意识", "D:保护证人意识" ],
+    "answer" : "C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1421,
+    "type" : "multi",
+    "content" : "运钞车通过桥梁.隧道.港口遇到险情时，押运人员应该（）",
+    "options" : [ "A:驾驶车辆继续行驶", "B:驾驶车辆离开该路段，绕行其他路段", "C:加强观察，在险情排除后再通过", "D:保持高度警惕，在确保安全情况下通过" ],
+    "answer" : "C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1422,
+    "type" : "multi",
+    "content" : "押运人员站位警戒时，有人进入安全区域，应该（）",
+    "options" : [ "A:将该人强行带离安全区域", "B:保持警惕，及时劝阻", "C:不听劝阻时，求助公安机关协助解决", "D:对无理取闹的要积极劝阻" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1423,
+    "type" : "multi",
+    "content" : "保安押运服务中，勘察的目的是（）",
+    "options" : [ "A:选择交通工具", "B:掌握单程距离及时间", "C:掌握甲方经营及付款方式", "D:掌握沿途周边的社会治安情况E:掌握物品交接的位置及迂回路线" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1424,
+    "type" : "multi",
+    "content" : "在大型活动保卫工作中，保安员所采取的事先划定隔离区的方法有（）",
+    "options" : [ "A:划线隔离", "B:利用专用设施隔离", "C:采用人墙隔离", "D:利用汽车隔离E:活动进行中设置隔离区" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1425,
+    "type" : "multi",
+    "content" : "春运期间，保安员李某和张某在候车大厅巡逻时发现两名乘客因相互碰撞而大声争吵，引来不少围观人员。保安员张某和李某的正确做法是（）",
+    "options" : [ "A:两人对争吵人员进行劝说，使其停止争吵", "B:由于双方争吵激烈，两名保安员将两人分开进行劝解", "C:在争吵的过程中，围观人员越来越多，两名保安员劝解两人，并疏散围观群众", "D:两名保安员劝说无效后，继续巡逻" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1426,
+    "type" : "multi",
+    "content" : "保安员在巡逻过程中，发现地震等自然灾害事故，应当（）",
+    "options" : [ "A:报告", "B:报警", "C:协助有关部门做好应急处置工作", "D:保护现场，防止有人趁火打劫E:抓捕趁火打劫者" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1427,
+    "type" : "multi",
+    "content" : "在区域巡逻服务中，需要重点检查消防设备的场所有（）",
+    "options" : [ "A:交通干道", "B:重要仓库", "C:易燃易爆品集中地", "D:工程施工现场E:室外休闲场地" ],
+    "answer" : "B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1428,
+    "type" : "multi",
+    "content" : "区域巡逻中要排除的各种不安全因素包括（）",
+    "options" : [ "A:有无照明灯具", "B:有无漏电", "C:有无断线", "D:有无电火花" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1429,
+    "type" : "multi",
+    "content" : "在区域巡逻勤务中，属于区域巡逻任务的是（）",
+    "options" : [ "A:维护巡逻区域内秩序", "B:协助处置区域内的自然灾害事故", "C:排除各种不安全因素", "D:为区域内群众需求提供服务E:抓捕犯罪嫌疑人" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1430,
+    "type" : "multi",
+    "content" : "我国刑法明确规定了以危险方法危害公共安全罪，下列属于以危险方法危害公共安全的行为是（）",
+    "options" : [ "A:放火", "B:驾车撞人", "C:爆炸", "D:投放危险物质E:故意传播突发传染病病原体" ],
+    "answer" : "B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1431,
+    "type" : "multi",
+    "content" : "根据《保安服务管理条例》规定，（）不得从事保安服务",
+    "options" : [ "A:曾被劳动教养2年的", "B:被吊销《保安员证》未满2年的", "C:曾经被吊销《保安员证》2次的", "D:曾经被吊销《保安员证》1次的" ],
+    "answer" : "A,B,C",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1433,
+    "type" : "multi",
+    "content" : "机动车载运易燃易爆化学物品时（）",
+    "options" : [ "A:应取得公安机关批准", "B:机动车驾驶人可以在车内吸烟", "C:按指定的速度行驶", "D:按指定的时间.路线E:悬挂警示标志" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1434,
+    "type" : "multi",
+    "content" : "机动车超车时，应注意（）",
+    "options" : [ "A:超车前应开启左转向灯", "B:发超车信号，示意前车做好被超越准备", "C:超车完毕返回原车道时，关闭左转向灯，开启右转向灯", "D:在确认安全的情况下驶回原车道" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1435,
+    "type" : "multi",
+    "content" : "交通主体参与交通活动时，必须遵守（）",
+    "options" : [ "A:左侧通行原则", "B:右侧通行原则", "C:各行其道原则", "D:优先通行原则" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1436,
+    "type" : "multi",
+    "content" : "在目标部位守护中，瞭望岗一般设置在（）部位的最高处",
+    "options" : [ "A:分布面广", "B:区域较大", "C:地形复杂", "D:视线障碍多E:能见度低" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1437,
+    "type" : "multi",
+    "content" : "在固定岗位工作的保安员应了解（）等通讯.报警设备的位置和使用方法",
+    "options" : [ "A:电闸", "B:保安棍", "C:电铃", "D:电话E:手电筒" ],
+    "answer" : "C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1438,
+    "type" : "multi",
+    "content" : "在固定岗位工作的保安员应了解电闸.灭火器.消火栓等安全设备的（）",
+    "options" : [ "A:所在位置", "B:工作原理", "C:使用方法", "D:性能E:维修方法" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1439,
+    "type" : "multi",
+    "content" : "在大型活动保卫工作中，出现（）情况时，保安员可以在活动现场设置隔离区",
+    "options" : [ "A:个别观众大声喧哗", "B:人员无序涌动", "C:场内设施异常", "D:人员拥挤的苗头" ],
+    "answer" : "B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1440,
+    "type" : "multi",
+    "content" : "按照使用交通工具的不同，保安押运可划分为（）",
+    "options" : [ "A:长途押运", "B:短途押运", "C:空中押运", "D:汽车押运E:船舶押运" ],
+    "answer" : "C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1441,
+    "type" : "multi",
+    "content" : "保安公司在进行押运勘察时，（）均应参加",
+    "options" : [ "A:主管勤务的工作人员", "B:主管业务的工作人员", "C:主管消防的工作人员", "D:主管后勤的工作人员E:派出所民警" ],
+    "answer" : "A,B",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1442,
+    "type" : "multi",
+    "content" : "保安押运服务方案的内容包括（）",
+    "options" : [ "A:确定交通工具", "B:制定较为完备的通讯联络方案", "C:确定枪弹及其他械具的配备", "D:制定巡逻方案E:制定应急预案" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1443,
+    "type" : "multi",
+    "content" : "在一起大型的展销会现场出现了大量的人员哄抢行为，这时，保安人员应该采取的处置措施为（）",
+    "options" : [ "A:会同场所的工作人员制止哄抢", "B:通过扩音设备进行劝告", "C:设置隔离区，疏导围观人员", "D:报告现场管理部门E:抓捕哄抢人员" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1444,
+    "type" : "multi",
+    "content" : "制定押运应急预案的主要内容包括（）",
+    "options" : [ "A:防盗抢预案", "B:车辆事故预案", "C:技术防范预案", "D:自然灾害预案" ],
+    "answer" : "A,B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1445,
+    "type" : "multi",
+    "content" : "在保安押运过程中，运钞车辆临时停驶的要求是（）",
+    "options" : [ "A:车辆停到安全位置", "B:押运人员可下车休息", "C:时刻观察周围情况", "D:妥善保管枪支弹药E:可不采取相应的警戒措施" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1446,
+    "type" : "multi",
+    "content" : "上下款过程中，发现可疑人时，下列正确的做法是（）",
+    "options" : [ "A:做好应急准备", "B:不执行上下款任务，车辆返回原单位", "C:将可疑人扭送公安机关", "D:立即向本单位报告E:严密监视可疑人员动向" ],
+    "answer" : "A,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1447,
+    "type" : "multi",
+    "content" : "通常情况下武装押运的物品是（）",
+    "options" : [ "A:现金", "B:钢材", "C:剧毒物品", "D:黄金E:防水材料" ],
+    "answer" : "A,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1448,
+    "type" : "multi",
+    "content" : "保安员人员密集场所情况处置的内容包括（）",
+    "options" : [ "A:人员密集场所可疑情况的识别", "B:人员密集场所纠纷的处理", "C:人员密集场所人群的疏导", "D:人员密集场所隔离区的设置" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1449,
+    "type" : "multi",
+    "content" : "下列属于人员密集场所可疑情况的是（）",
+    "options" : [ "A:保安员甲在演唱会的入口处发现一个黑色的袋子，内装不明物品", "B:保安员乙在展览会的现场发现一青年手拿镊子尾随一带包女子", "C:保安员丙在候机厅外发现有人抽烟", "D:保安员丁在候车室内发现有三名青年随身携带管制刀具" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1450,
+    "type" : "multi",
+    "content" : "识别人员密集场所可疑情况的方法包括（）",
+    "options" : [ "A:直接观察法", "B:仪器探测法", "C:查问法", "D:接受群众举报E:秘密工作发现" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1451,
+    "type" : "multi",
+    "content" : "有关保安押运任务实施前的准备，下列描述正确的是（）",
+    "options" : [ "A:勘察", "B:制作合同文本", "C:签订合同意向书", "D:制定押运方案" ],
+    "answer" : "A,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1452,
+    "type" : "multi",
+    "content" : "押运中发生交通事故时，正确的处理方法是（）",
+    "options" : [ "A:严密看管所押物品，确保安全", "B:与事发地公安机关联系", "C:向客户单位说明情况", "D:向本单位报告E:设定安全区域，禁止其他车辆通行" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1453,
+    "type" : "multi",
+    "content" : "下列会给火灾紧急疏散造成麻烦的有（）",
+    "options" : [ "A:疏散通道.安全出口.消防车通道不畅通", "B:公共消防设施.器材以及消防安全标志不完整", "C:消防安全责任落实不到位", "D:消防安全疏散标志不符合国家规范" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1454,
+    "type" : "multi",
+    "content" : "在火灾现场，被困人员穿越浓烟区时，需要特别注意的是()",
+    "options" : [ "A:低头弯腰", "B:朝明亮处或外面空旷地方跑", "C:若是高层建筑，则向楼房顶层跑", "D:保持冷静.清醒的头脑E:匍匐前进" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1456,
+    "type" : "multi",
+    "content" : "火灾现场中被困人员可利用()发出呼救信号，以引起救援人员的注意，帮助自己脱离困境",
+    "options" : [ "A:消防专用电话", "B:大声呼救", "C:手机", "D:向外扔些小物品E:消防电梯里的电话" ],
+    "answer" : "A,B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1457,
+    "type" : "multi",
+    "content" : "安全防范技术在守护工作中应用的优势是（）",
+    "options" : [ "A:不间断连续工作", "B:不受环境气候影响", "C:安全性低", "D:隐秘性强E:人力成本低" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1458,
+    "type" : "multi",
+    "content" : "在固定岗位工作的保安员应了解电铃.电话等通讯.报警设备的（）",
+    "options" : [ "A:工作原理", "B:位置", "C:维修方法", "D:使用方法E:使用频次" ],
+    "answer" : "B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1459,
+    "type" : "multi",
+    "content" : "在固定岗位工作的保安员应了解（）等安全设备的使用方法",
+    "options" : [ "A:对讲机", "B:电闸", "C:移动电话", "D:灭火器E:消火栓" ],
+    "answer" : "B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1460,
+    "type" : "multi",
+    "content" : "安全技术防范在目标守护工作中的作用是（）",
+    "options" : [ "A:提高工作效率", "B:提高守护工作的科技含量", "C:提升保安服务水平", "D:提高巡逻人员对科技产品的认知能力E:提高目标部位的安全度" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1461,
+    "type" : "multi",
+    "content" : "在目标部位守护中，可采取（）形式对目标部位进行守护",
+    "options" : [ "A:固定岗", "B:流动岗", "C:专用设施控制岗", "D:瞭望岗E:安全技术防范" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1462,
+    "type" : "multi",
+    "content" : "目标部位的特点是（）",
+    "options" : [ "A:环境复杂", "B:性质特殊", "C:服务方式特殊", "D:地位重要E:工作人员特殊" ],
+    "answer" : "B,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1463,
+    "type" : "multi",
+    "content" : "在目标部位守护中，属于目标部位的有（）",
+    "options" : [ "A:保存有害菌种.毒种的部位", "B:生产业务活动的关键部位", "C:单位内的生活区域", "D:存放重要档案的部位E:人员高度密集的部位" ],
+    "answer" : "A,B,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1464,
+    "type" : "multi",
+    "content" : "良好的职业道德,对于()具有十分重要的作用",
+    "options" : [ "A:规范员工职业行为", "B:提高员工心理素质", "C:提高员工技能水平", "D:塑造良好企业形象E:打造企业品牌" ],
+    "answer" : "A,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1465,
+    "type" : "multi",
+    "content" : "良好的职业道德,对于()具有十分重要的作用",
+    "options" : [ "A:规范员工职业行为", "B:提高员工服务水平", "C:提高员工技能水平", "D:提高员工心理素质E:打造企业品牌" ],
+    "answer" : "A,B,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1466,
+    "type" : "multi",
+    "content" : "企业的社会形象主要由企业的()构成",
+    "options" : [ "A:产品形象", "B:地理位置", "C:服务形象", "D:注册资本E:经营形象" ],
+    "answer" : "A,C,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1467,
+    "type" : "multi",
+    "content" : "在我国刑法规定的故意伤害罪中，只有伤害结果达到（）的才能构成故意伤害罪",
+    "options" : [ "A:轻微伤", "B:轻伤", "C:重伤", "D:残疾E:死亡" ],
+    "answer" : "B,C,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1468,
+    "type" : "multi",
+    "content" : "人员密集场所可能存在的安全隐患类型有（）",
+    "options" : [ "A:安全事故", "B:治安案件", "C:刑事案件", "D:群体性事件E:自然灾害" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1469,
+    "type" : "multi",
+    "content" : "我国刑法规定的刑罚有（）等种类",
+    "options" : [ "A:管制", "B:拘役", "C:拘留", "D:逮捕E:死刑" ],
+    "answer" : "A,B,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1470,
+    "type" : "multi",
+    "content" : "下列关于道路交通标线的叙述中，正确的是（）",
+    "options" : [ "A:道路交通标线可以单独使用", "B:道路交通标线依照功能可以分为警告标线.禁令标线.指示标线和指路标线", "C:道路交通标线的设置方式应采用单柱式", "D:道路交通标线向道路使用者传递有关道路交通的规则.警告.指示等信息" ],
+    "answer" : "A,D,E",
+    "multiAnswers" : null
+  },
+  {
+    "id" : 1471,
+    "type" : "multi",
+    "content" : "在保安巡逻勤务中，以下关于单线巡逻说法正确的是（）",
+    "options" : [ "A:也称定线巡逻", "B:是保安员按照事先确定的环形巡逻路线.单向行进进行的巡逻", "C:看护对象比较固定", "D:一般以组队形式进行E:巡逻中各组队可以相互呼应.相互支援" ],
+    "answer" : "A,B,C,D",
+    "multiAnswers" : null
+  },
+  {
     "id" : 1473,
-    "type" : "single",
+    "type" : "multi",
     "content" : "有权发放《保安员证》的部门有（）",
     "options" : [ "A:直辖市的人民政府公安部门", "B:设区的市级人民政府人力资源与社会保障部门", "C:设区的市级人民政府人事部门", "D:设区的市级人民政府教育部门" ],
     "answer" : "A,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1474,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在某地铁站，有一乘客向保安员举报：某人携带枪支。保安员使用金属探测仪器对其进行检查，未发现可疑物品，通过询问，该人携带了一把塑料玩具手枪，保安员随即放行。保安员在处置中使用的方法有（）",
     "options" : [ "A:直接观察法", "B:仪器探测法", "C:查问法", "D:接受群众举报E:跟踪法" ],
     "answer" : "B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1475,
-    "type" : "single",
+    "type" : "multi",
     "content" : "人员密集场所巡逻区域的警戒方法包括（）",
     "options" : [ "A:设置警戒线警戒", "B:设置哨位警戒", "C:设置路障警戒", "D:设置监控设施警戒" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1476,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在保安押运途中，被押物品包装发生损坏，押运员正确的做法是（）",
     "options" : [ "A:立即查明原因", "B:重新包装好", "C:做好检查记录", "D:及时报告E:不做任何处理" ],
     "answer" : "A,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1477,
-    "type" : "single",
+    "type" : "multi",
     "content" : "运钞车行进中，实施押运工作时，押运员正确的工作方式是（）",
     "options" : [ "A:保持高度警惕", "B:按正确位置站位.警戒", "C:注意观察情况", "D:设定安全区域" ],
     "answer" : "A,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1478,
-    "type" : "single",
+    "type" : "multi",
     "content" : "押运途中遇物品中转.改换交通工具时，下列做法正确的是（）",
     "options" : [ "A:押运员立即做好站位.警戒工作", "B:对所押物品形成安全区域", "C:押运员轮流就餐.饮水或处理其他生活事宜", "D:车辆按方案要求办理交接.转换手续，并在现场实施监督" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1479,
-    "type" : "single",
+    "type" : "multi",
     "content" : "押运任务实施前，押运人员正确的做法是（）",
     "options" : [ "A:熟悉押运方案", "B:与客户商讨服务费的收取", "C:与客户单位研究合同文本", "D:与接收方接洽有关押运的具体事宜" ],
     "answer" : "A,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1480,
-    "type" : "single",
+    "type" : "multi",
     "content" : "人员密集场所危险因素不确定的原因为（）",
     "options" : [ "A:人.财.物高度集散和人员的异质性", "B:保安员的能力要求高", "C:存在多种安全隐患", "D:保安员数量有一定的要求E:保安员的身体素质要求高" ],
     "answer" : "A,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1481,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列属于人员密集场所巡逻任务的是（）",
     "options" : [ "A:疏导人员有序的行进和流动", "B:巡视.检查场所内的安全设施，确保运转正常", "C:进行安全宣传", "D:协助处理紧急情况E:预防制止违法犯罪活动" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1482,
-    "type" : "single",
+    "type" : "multi",
     "content" : "抢救外伤大出血伤员的关键是（）",
     "options" : [ "A:不作处理，尽快将病人送往医院", "B:判断出血部位和性质", "C:迅速止血", "D:尽快拨打急救电话E:直接使用止血带止血" ],
     "answer" : "B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1483,
-    "type" : "single",
+    "type" : "multi",
     "content" : "手部出血时，压迫（）血管可以止血",
     "options" : [ "A:桡动脉", "B:股动脉", "C:尺动脉", "D:颞浅动脉E:肱动脉" ],
     "answer" : "A,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1484,
-    "type" : "single",
+    "type" : "multi",
     "content" : "以下关于舟巡说法正确的是（）",
     "options" : [ "A:巡逻人员驾驶船.艇等水上交通工具进行的巡逻", "B:适用于江河水面的巡逻", "C:适用于海域水面的巡逻", "D:适用于湖海水面的巡逻E:对驾船技术要求高" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1485,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列关于道路交通指示标志的叙述中，正确的是（）",
     "options" : [ "A:形状为圆形和矩形，颜色除个别标志外为蓝底.白图案", "B:多用于城市道路", "C:多用于高等级公路", "D:在村村通公路上比较常见E:一般设置在需要限制或者禁止的地方" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1486,
-    "type" : "single",
+    "type" : "multi",
     "content" : "道路交通设施中的交通岛分为（）",
     "options" : [ "A:公交港湾", "B:导流岛", "C:安全岛", "D:中心岛E:指挥岛" ],
     "answer" : "B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1487,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列关于道路交通主标志的叙述中，正确的是（）",
     "options" : [ "A:必须和辅助标志配合使用", "B:能够传递特定交通管理信息的标志", "C:可以单独使用", "D:可以表示警告和禁令的理由E:警告标志属于主标志" ],
     "answer" : "B,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1488,
-    "type" : "single",
+    "type" : "multi",
     "content" : "交通标志中单柱式的支撑方式一般适用于中.小型尺寸的（）",
     "options" : [ "A:道路施工安全标志", "B:警告标志", "C:禁令标志", "D:指示标志E:旅游区标志" ],
     "answer" : "B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1490,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列属于保安从业单位的是（）",
     "options" : [ "A:某市保安服务公司", "B:自行招用保安员的某中学", "C:自行招用保安员的某大学保卫处", "D:自行招用保安员的某企业保卫部E:自行招用保安员的某企业" ],
     "answer" : "A,B,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1491,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安服务的主要任务有（）",
     "options" : [ "A:维护服务区域内的正常秩序", "B:协助保护服务区域内的违法犯罪现场", "C:预防服务区域内的治安灾害事故", "D:预防服务区域内的治安案件" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1492,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安服务公司为客户单位提供的保安服务可以是（）等服务",
     "options" : [ "A:武装守护", "B:保安巡逻", "C:保安押运", "D:随身护卫E:搜身检查" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1493,
-    "type" : "single",
+    "type" : "multi",
     "content" : "以下关于保安员遵守纪律的正确说法是（）",
     "options" : [ "A:既要遵守规章制度，也要遵守工作纪律", "B:既要遵守本单位的规章制度，也要遵守客户单位的规章制度", "C:既要遵守本单位的工作纪律，也要遵守客户单位的工作纪律", "D:只要遵守本单位的规章制度，不必考虑客户单位的规章制度" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1494,
-    "type" : "single",
+    "type" : "multi",
     "content" : "爱岗敬业是一个保安员做好本职工作的重要前提。提倡爱岗敬业，就是要求保安员（）",
     "options" : [ "A:认识保安服务的社会价值", "B:勇于承担职业责任", "C:提高履行职责的能力", "D:不要转行E:不能玩忽职守" ],
     "answer" : "A,B,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1495,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员职业道德的主要内容是（）",
     "options" : [ "A:诚实守信", "B:爱岗敬业", "C:团结互助", "D:文明服务E:勤俭节约" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1496,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在依法享有权利的同时，还须履行相应的（）义务",
     "options" : [ "A:遵守纪律", "B:履行合同", "C:正当防卫", "D:紧急避险E:勘查现场" ],
     "answer" : "A,B",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1497,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在出入口履行疏导职责时，正确的做法是（）",
     "options" : [ "A:劝阻逗留在出入口的来访人员离开", "B:在出入口出现交通拥堵时进行疏导", "C:在疏导时发现可疑人立即报告客户单位", "D:遇有火灾或其他紧急情况应配合相关部门完成工作" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1498,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某天，保安员小张在出入口值勤时正逢上班高峰期，进入服务单位的人员较集中。突然，他发现一个鬼鬼祟祟，形迹可疑的人正随着人流进入。此时小张错误的做法是（）",
     "options" : [ "A:上前抓住可疑人送交客户单位保卫部门", "B:立即向客户单位保卫部门报告可疑人行迹", "C:立即将大门关上，禁止人员出入", "D:上前查验可疑人证件并向客户单位报告" ],
     "answer" : "A,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1499,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员小陈在政府机关门卫值勤，遇一来访者，小陈请其出示有效证件，来访人将身份证交给小陈，小陈查验证件的正确做法是（）",
     "options" : [ "A:查看身份证上的出生日期与来访者年龄是否相符", "B:核对身份证上的照片与本人是否相符", "C:请来访人出示其他有效证件", "D:查验身份证真伪" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1500,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下面关于团结互助的说法中,正确的是()",
     "options" : [ "A:可以营造和谐的人际关系", "B:与企业的凝聚力无关", "C:要求大家宽容相待", "D:要求大家加强协作" ],
     "answer" : "A,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1501,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据《保安服务管理条例》的规定，（）是保安员必须履行的义务",
     "options" : [ "A:遵守法律", "B:遵守纪律", "C:遵守合同", "D:保守秘密E:守护巡逻" ],
     "answer" : "A,B，C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1502,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在依法享有权利的同时，还须履行相应的（）义务",
     "options" : [ "A:正当防卫", "B:履行合同", "C:保守秘密", "D:紧急避险E:勘查现场" ],
     "answer" : "B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1503,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在组织火灾应急疏散时，切忌()",
     "options" : [ "A:互相拥挤，乱跑乱窜", "B:因顾及个人财物再入“火口”", "C:在疏散通道里逗留", "D:靠近承重墙E:随意打开房间门" ],
     "answer" : "A,B,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1504,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在现场急救中，下面关于胸外心脏按压说法正确的是（）",
     "options" : [ "A:每5个循环更换一个按压者", "B:吹两口气后，立即进行按压", "C:按压频率为100次/分钟", "D:按压深度为4-5厘米" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1506,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在现场急救中，判断伤员有无意识的方法是（）",
     "options" : [ "A:双手轻拍伤病员肩部", "B:在其耳边大声呼唤", "C:摇晃伤病员身体", "D:拍打脸部的同时，高声呼唤" ],
     "answer" : "A,B",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1507,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在安全疏散时，可选择消防电梯作为疏散通道，这是因为消防电梯()",
     "options" : [ "A:载重量大", "B:具有紧急迫降的功能", "C:速度快，可直接在首层停", "D:配有接通火灾控制中心的联系电话E:配有备电，可防止因火灾发生而造成的断电" ],
     "answer" : "B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1508,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某保安服务公司的保安员小王享有的权利是（）",
     "options" : [ "A:参加社会保险", "B:检查出入车辆", "C:开展巡逻守护", "D:保守勤务秘密" ],
     "answer" : "A,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1509,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在目标部位守护中，下列（）属于目标部位",
     "options" : [ "A:存放珍贵文物部位", "B:流动岗守护的部位", "C:服务单位要求守护的重要部位", "D:重要的供油供热部位" ],
     "answer" : "A,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1510,
-    "type" : "single",
+    "type" : "multi",
     "content" : "出入口目标识别子系统的主要功能是通过出入凭证所提供的出入人员信息进行识别和校验，下列属于出入口目标识别子系统出入凭证的是（）",
     "options" : [ "A:磁卡", "B:乱序键盘", "C:指纹", "D:虹膜E:体型" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1511,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列设备中是视频安防监控系统的终端设备的有（）",
     "options" : [ "A:视频监视器", "B:门禁控制器", "C:变焦镜头", "D:视频矩阵控制主机" ],
     "answer" : "A,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1512,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列设备中是视频安防监控系统的前端设备的有（）",
     "options" : [ "A:摄像机", "B:读卡器", "C:震动电缆", "D:硬盘录像机E:镜头" ],
     "answer" : "A,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1513,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列设备属于视频安防监控系统的有（）",
     "options" : [ "A:球形摄像机", "B:解码器", "C:视频分配器", "D:震动探测器E:微波探测器" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1514,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某市保安服务公司的保安员小王在（）等情况下，可以单方面解除与该保安服务公司的劳动合同",
     "options" : [ "A:结婚", "B:父母生病", "C:保安服务公司没有按约支付工资", "D:提前30日书面通知保安服务公司E:保安服务公司以暴力手段强迫小王工作" ],
     "answer" : "C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1515,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某市保安服务公司因为经营状况发生严重困难，准备单方面裁减保安员，该保安服务公司应当满足（）等条件才能单方面解除劳动合同",
     "options" : [ "A:提前30日向全体保安员说明情况", "B:在裁减具体人员前严格保密", "C:公布裁减保安员的方案", "D:向某市劳动行政部门报告" ],
     "answer" : "A,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1516,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据我国有关劳动法律法规的规定，用人单位与劳动者劳动关系一经确定，用人单位应当按照劳动合同的约定为劳动者提供（）等",
     "options" : [ "A:上下班交通工具", "B:通讯工具", "C:食宿条件", "D:劳动安全条件E:劳动报酬" ],
     "answer" : "D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1517,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据我国有关劳动法律法规的规定，劳动者在劳动过程中的基本义务是（）等",
     "options" : [ "A:遵守劳动纪律", "B:服从管理", "C:听从指挥", "D:保守工作秘密E:履行劳动合同" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1518,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列属于公安机关治安管理的是（）",
     "options" : [ "A:危险物品管理", "B:管制刀具管理", "C:警察内务管理", "D:交通安全管理" ],
     "answer" : "A,B,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1519,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员刘某在为客户单位提供保安服务时，下列选项中属于刘某职责范围的是（）",
     "options" : [ "A:在客户单位的出入口对出入人员进行登记", "B:在客户单位内进行巡视检查", "C:在客户单位内查找安全隐患", "D:在客户单位内完善安全防范措施" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1520,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安服务具有（）的特点",
     "options" : [ "A:特许性", "B:契约性", "C:防范性", "D:风险性E:有偿性" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1521,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安服务具有（）等特点",
     "options" : [ "A:特许性", "B:自助性", "C:防范性", "D:单一性E:有偿性" ],
     "answer" : "A,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1522,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安服务公司为客户单位提供的保安服务可以是（）等服务",
     "options" : [ "A:门卫守护", "B:安全检查", "C:保安押运", "D:随身护卫E:人身搜查" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1523,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安服务的客户单位可以是（）",
     "options" : [ "A:机关团体", "B:企业单位", "C:事业单位", "D:居民家庭E:公民个人" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1524,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在提供保安服务时，主要履行（）等职责",
     "options" : [ "A:秩序维护", "B:便民助民", "C:侦查破案", "D:保护人身安全E:保护财产安全" ],
     "answer" : "A,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1525,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某大学自行招用了120名保安员，保安员可以在该大学（）区域开展安全防范工作",
     "options" : [ "A:学生食堂", "B:图书馆", "C:实验室", "D:家属区停车场E:学生宿舍" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1526,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员对巡逻中发现的案件.事故.事件现场应当立即进行保护。以下做法正确的是（）",
     "options" : [ "A:划定保护区域", "B:保护现场证据", "C:在现场内巡查", "D:抢救伤员" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1527,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某保安员甲在超市内着便衣巡视时，发现偷盗者并将其扭送到保安值班室内进行询问，同时强行要求偷盗者写检查并交纳赔偿金，最后将偷盗者放行。保安员甲的行为属于违法行为的有（）",
     "options" : [ "A:在超市内着便衣巡视", "B:将偷盗者扭送到保安值班室询问", "C:强行要求偷盗者写检查", "D:将偷盗者放行E:强行要求偷盗者交纳赔偿金" ],
     "answer" : "A,B,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1528,
-    "type" : "single",
+    "type" : "multi",
     "content" : "我国刑法对正当防卫作了规定，关于正当防卫，下列说法正确的是（）",
     "options" : [ "A:必须有正当的防卫意图", "B:有不法侵害发生", "C:必须针对第三人或其他物", "D:可以不受加害限度的制约" ],
     "answer" : "A,B,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1529,
-    "type" : "single",
+    "type" : "multi",
     "content" : "马某等四人在一批发市场内游荡时，发现一摊位上的商品不错，于是强行以很低的价位拿走，因摊主追要，马某等人将该摊位掀翻后扬长而去。随后马某等人又到一歌厅内唱歌，买了500元的啤酒，因抢风头，又与人大打出手，并起哄闹事，导致歌厅秩序大乱。马某等人的行为属于寻衅滋事的是（）",
     "options" : [ "A:在批发市场内游荡", "B:强行以低价拿走商品", "C:将摊位掀翻在地", "D:在歌厅内起哄闹事E:买了500元啤酒" ],
     "answer" : "B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1530,
-    "type" : "single",
+    "type" : "multi",
     "content" : "（）引起的火灾不能使用干粉扑救",
     "options" : [ "A:钾.钠.镁.钛等活泼金属", "B:金属氢化物", "C:金属氧化物", "D:天然气储罐E:电源电线" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1531,
-    "type" : "single",
+    "type" : "multi",
     "content" : "高楼发生火灾时，逃生自救的一般做法是()",
     "options" : [ "A:用湿毛巾.口罩捂住口鼻", "B:遇有浓烟时，应匍匐前进", "C:乘坐普通电梯快速撤离", "D:沿不易倒塌的承重墙逃生" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1532,
-    "type" : "single",
+    "type" : "multi",
     "content" : "影响目标部位安全的因素有（）",
     "options" : [ "A:物", "B:人", "C:高压变电站", "D:技术E:自然" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1533,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在值勤中发现可疑情况时，常用（）向服务单位或有关单位报告",
     "options" : [ "A:移动电话", "B:可视电话", "C:对讲机", "D:固定电话E:楼宇对讲" ],
     "answer" : "A,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1534,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在履行登记职责时，错误的做法有（）",
     "options" : [ "A:单独对登记人进行搜身", "B:处理可疑人员和物品", "C:登记时与对方保持安全距离", "D:注意自身防护E:发现可疑人及时报告" ],
     "answer" : "A,B",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1535,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在出入口守卫勤务实施中，保安员按照规定应做好的工作有（）",
     "options" : [ "A:处理纠纷", "B:验证", "C:登记", "D:报告E:交接班" ],
     "answer" : "B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1536,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在出入口守卫中，专用设施控制岗是对（）进行控制的岗位",
     "options" : [ "A:内部管理设备", "B:出入口专用设施设备", "C:楼宇对讲系统", "D:电子系统E:特殊设施设备" ],
     "answer" : "B,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1537,
-    "type" : "single",
+    "type" : "multi",
     "content" : "出入口守卫的特点有（）",
     "options" : [ "A:接触对象复杂", "B:位置独立", "C:岗位固定", "D:工作连续E:工作人员较多" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1538,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在出入口值勤时查验的证件有（）",
     "options" : [ "A:工作证", "B:出入证", "C:团员证", "D:货物出入单E:医疗证" ],
     "answer" : "A,B,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1539,
-    "type" : "single",
+    "type" : "multi",
     "content" : "我国的社会保险主要包括（）保险等种类",
     "options" : [ "A:养老", "B:救济", "C:就业", "D:失业E:生活" ],
     "answer" : "A,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1540,
-    "type" : "single",
+    "type" : "multi",
     "content" : "干粉灭火器使用的注意事项有（）",
     "options" : [ "A:要对有关人员进行适当的培训，确保火灾时在场人员能够正确使用所配置的灭火器", "B:对准火焰根部，用力压下开启压把并紧压不松开，由近而远左右扫射，直至将火焰全部扑灭", "C:操作时需要保持直立，以确保灭火剂完全喷出，要避免横置或倒立，以防驱动气体泄漏", "D:灭液体火灾时，注意不能直接对着液面喷射，防止燃烧液体飞溅，造成火势蔓延扩大，增加扑救难度" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1541,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在保安巡逻勤务中，供水设施异常主要是指（）",
     "options" : [ "A:室内输水管道堵塞", "B:公共区域的自来水管道漏水", "C:住户室内的水流到公共区域中", "D:地下输水管线漏水造成地面塌陷" ],
     "answer" : "B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1542,
-    "type" : "single",
+    "type" : "multi",
     "content" : "我国的社会保险主要包括（）保险等种类",
     "options" : [ "A:养老", "B:工伤", "C:医疗", "D:失业E:生育" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1543,
-    "type" : "single",
+    "type" : "multi",
     "content" : "拨打“119”电话报警，需要向接警中心说明的情况有（）",
     "options" : [ "A:失火单位的名称和地址", "B:什么东西着火.火势大小", "C:着火范围", "D:是否有人员被困E:告知对方自己的电话号码和姓名" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1544,
-    "type" : "single",
+    "type" : "multi",
     "content" : "如果高层建筑疏散通道被大火阻断，则可以按照以下方式引导人员逃生（）",
     "options" : [ "A:多层建筑可利用房屋的阳台.落水管或竹竿等逃生", "B:疏散到相对安全的房间，关闭好门窗，堵死缝隙，防止烟气进入", "C:确实无路可逃时，可利用身边的绳子或将床单.被罩等撕成条状连接起来，系牢后顺沿滑下逃生", "D:楼层不高.必须跳楼逃生时，可用棉被.床单保护好头部.胸部等重点部位，并先抛下一些物品，以增加缓冲，然后用手扶住窗台往下滑，并保证双脚首先落地" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1545,
-    "type" : "single",
+    "type" : "multi",
     "content" : "建筑物内火灾发生时，保安员在组织引导楼上人员逃生时，应当提示人们（）",
     "options" : [ "A:用湿毛巾或衣物捂住口鼻", "B:以弯腰或匍匐的行进姿势，撤到安全地点寻机逃生", "C:如果通道被大火阻断，可选择跳楼逃生", "D:可利用房屋的阳台.落水管或竹竿等逃生" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1546,
-    "type" : "single",
+    "type" : "multi",
     "content" : "高层建筑物火灾发生时，正确的组织疏散逃生方法包括（）",
     "options" : [ "A:按照最短.最安全的逃生路线", "B:按照“疏散走道--疏散楼梯--安全出口&”这一路线逃生", "C:避难层.避难间可作为相对安全的逃生区域", "D:组织着火层的下一层人员向楼顶疏散" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1547,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员甲与某市保安服务公司签订了2年期限的劳动合同，在合同期满前，如果保安员甲与该保安服务公司要解除合同，根据我国有关劳动法律法规的规定，甲可以通过（）解除这一劳动合同",
     "options" : [ "A:第三人替代", "B:随时离开", "C:提前30日向某市保安服务公司提出", "D:与某市保安服务公司协商" ],
     "answer" : "C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1548,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列属于保安员职责任务的是（）",
     "options" : [ "A:维护客户单位及服务区域的正常秩序", "B:开展守护.巡逻活动", "C:设置临时隔离区", "D:制止违法犯罪行为E:查验出入人员的证件" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1549,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据我国有关劳动法律法规的规定，劳动者在劳动过程中享有（）等多项权利",
     "options" : [ "A:劳动保护权", "B:劳动报酬权", "C:休息休假权", "D:社会保险权E:接受技能培训权" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1550,
-    "type" : "single",
+    "type" : "multi",
     "content" : "实施现场保护的保安员应向到达现场的民警报告的主要情况有（）",
     "options" : [ "A:案件发生的时间", "B:保护现场的时间", "C:勘察现场痕迹.物证的情况", "D:堵截犯罪嫌疑人的实施情况E:被害人的情况" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1551,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在巡逻区域发现液化石油气味后，正确的做法是（）",
     "options" : [ "A:及时报告", "B:仔细检查.寻找异常气味来源", "C:破窗入户寻找气味来源", "D:关闭漏气阀门E:在现场及时用手机拨打报警电话" ],
     "answer" : "A,B,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1552,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据《治安管理处罚法》的规定，下列行为属于扰乱公共秩序的是（）",
     "options" : [ "A:甲到某中学吵闹致使班级无法正常上课", "B:乙因某行政机关一工作人员欠款不还而到该机关吵闹", "C:丙在自己家中大吵大闹影响邻居休息", "D:丁在某歌厅娱乐时高声吼叫" ],
     "answer" : "A,B,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1553,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据《治安管理处罚法》的规定，公安机关对违法行为人（）可以适用没收措施",
     "options" : [ "A:用于赌博的赌资", "B:携带的管制刀具", "C:携带的银行工资卡", "D:赌博赢得的现金E:携带的淫秽物品" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1554,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据《治安管理处罚法》的规定，下列（）属于公安机关在治安管理中可以采取的其他法律措施",
     "options" : [ "A:依法拘役", "B:责令停止活动", "C:强行带离现场", "D:驱逐出境E:收缴违法工具" ],
     "answer" : "B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1555,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据《治安管理处罚法》的规定，下列（）属于公安机关在治安管理中可以采取的其他法律措施",
     "options" : [ "A:扣押物品", "B:责令停止活动", "C:强行带离现场", "D:依法取缔E:收缴违法工具" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1556,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在保护区域开展安全检查的意义体现在（）",
     "options" : [ "A:是区域保安服务工作的基本任务", "B:是消除各种安全隐患的有效措施", "C:是预防违法犯罪的有效措施", "D:是确保客户单位或服务区域内人身财产安全的有效措施" ],
     "answer" : "A,B,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1557,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某县级公安机关查破了一批治安案件，根据《治安管理处罚法》的规定，可以以自己的名义独立作出治安罚款决定的治安行政执法主体有该县（）",
     "options" : [ "A:公安局", "B:公安局所属派出所民警", "C:公安局所属派出所", "D:公安局交通警察大队民警E:公安局治安大队民警" ],
     "answer" : "A,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1558,
-    "type" : "single",
+    "type" : "multi",
     "content" : "某县级公安机关查破了一批治安案件，根据《治安管理处罚法》的规定，可以以自己的名义独立作出治安罚款决定的治安行政执法主体有该县（）",
     "options" : [ "A:公安局", "B:公安局所属派出所", "C:公安局交通警察大队", "D:公安局治安大队E:公安局法制室" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1559,
-    "type" : "single",
+    "type" : "multi",
     "content" : "机动车在道路上临时停放时，应当注意的事项有（）",
     "options" : [ "A:不得妨碍其他车辆和行人通行", "B:应当紧靠道路右侧", "C:雨.雪天临时停车可以不开启示廓灯.尾灯", "D:车辆停稳前可以先打开车门" ],
     "answer" : "A,B,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1560,
-    "type" : "single",
+    "type" : "multi",
     "content" : "给伤员止血前，救护员应当（）",
     "options" : [ "A:观察环境，保证安全", "B:表明自己的身份", "C:做好自我防护", "D:寻找铁丝或细绳E:寻找伤员家属" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1561,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员小李在某大学机动车出入口值勤时，学生小张步行要进入校区，小李上前进行劝阻，正确的做法是（）",
     "options" : [ "A:用礼貌用语劝阻他通行", "B:大声喊：“站住，你不能从这里过！”", "C:向小张说明此出入口只能通过机动车", "D:强行阻止小张进入" ],
     "answer" : "A,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1562,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在出入口守卫中，属于专用设施控制岗位的有（）",
     "options" : [ "A:消防监控岗", "B:巡逻服务岗", "C:报警监控岗", "D:专业守护岗E:出入口控制系统操作岗" ],
     "answer" : "A,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1563,
-    "type" : "single",
+    "type" : "multi",
     "content" : "在出入口守卫中，保安员在观察时应具备的能力有（）",
     "options" : [ "A:敏锐的观察力", "B:处理纠纷的能力", "C:准确的判断力", "D:快速的反应力E:处理紧急情况的能力" ],
     "answer" : "A,C,D",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1564,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在登记时，应注意的事项有（）",
     "options" : [ "A:详细询问来访者个人情况", "B:登记时要与对方保持安全距离", "C:质押来访人员证件", "D:注意自身防护E:发现可疑人要及时报告" ],
     "answer" : "B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1565,
-    "type" : "single",
+    "type" : "multi",
     "content" : "下列属于出入口守卫方案的内容是（）",
     "options" : [ "A:出入口守卫任务", "B:上岗保安员人数", "C:具体岗位要求", "D:客户单位人员情况E:应急措施" ],
     "answer" : "A,B,C,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1566,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在出入口值勤时，主要完成的职责任务是（）",
     "options" : [ "A:查验证件", "B:来访登记", "C:帮助他人", "D:疏导人员与车辆E:维护秩序" ],
     "answer" : "A,B,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1567,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在守护时发现目标区域存在安全隐患，正确的做法是（）",
     "options" : [ "A:向客户单位报告", "B:及时采取有效措施", "C:消除隐患", "D:向保安公司管理部门报告E:保护现场" ],
     "answer" : "A,B,C",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1568,
-    "type" : "single",
+    "type" : "multi",
     "content" : "保安员在交接班时应完成（）",
     "options" : [ "A:交班人员要认真做好记录", "B:记录当班时岗位情况并签字", "C:交代接班人员应继续关注的问题", "D:将携带的防护器材交给接班人员" ],
     "answer" : "A,B,C,D,E",
     "multiAnswers" : null
-  }, {
+  },
+  {
     "id" : 1569,
-    "type" : "single",
+    "type" : "multi",
     "content" : "根据道路交通管理法规的规定，行人在道路上禁止（）",
     "options" : [ "A:使用滑板.旱冰鞋等滑行工具", "B:不得倚坐道路隔离设施", "C:追车", "D:快速行走E:在车行道内嬉闹" ],
     "answer" : "A,B,C,E",
     "multiAnswers" : null
   } ],
-  "multiQuestions" : [ ],
   "judgeQuestions" : [ {
     "id" : 1570,
     "type" : "judge",
@@ -11691,6 +12081,7 @@ const QUESTIONS_DATA = {
             // 合并所有题目
             allQuestions = [
                 ...QUESTIONS_DATA.singleQuestions,
+                ...QUESTIONS_DATA.multiQuestions,
                 ...QUESTIONS_DATA.judgeQuestions
             ];
 
@@ -11829,22 +12220,64 @@ const QUESTIONS_DATA = {
     function selectOption(index) {
         if (confirmedQuestions.has(currentIndex)) return;
 
-        const items = elements.optionsContainer.querySelectorAll('.option-item');
-        items.forEach((item, i) => {
-            item.classList.toggle('selected', i === index);
-        });
-
         const question = allQuestions[currentIndex];
-        const option = question.options[index];
-        let answer = '';
+        const isMulti = question.type === 'multi';
 
-        if (option.includes(':')) {
-            answer = option.split(':')[0];
+        if (isMulti) {
+            // 多选题：支持多选
+            const items = elements.optionsContainer.querySelectorAll('.option-item');
+            const option = question.options[index];
+            let prefix = '';
+            if (option.includes(':')) {
+                prefix = option.split(':')[0];
+            } else {
+                prefix = String.fromCharCode(65 + index);
+            }
+
+            // 获取当前已选答案
+            let currentAnswers = userAnswers[currentIndex] ? userAnswers[currentIndex].split(',') : [];
+
+            // toggle该选项
+            if (currentAnswers.includes(prefix)) {
+                currentAnswers = currentAnswers.filter(a => a !== prefix);
+            } else {
+                currentAnswers.push(prefix);
+            }
+
+            // 排序后保存
+            currentAnswers.sort();
+            userAnswers[currentIndex] = currentAnswers.join(',');
+
+            // 更新UI
+            items.forEach((item, i) => {
+                const itemOption = question.options[i];
+                let itemPrefix = '';
+                if (itemOption.includes(':')) {
+                    itemPrefix = itemOption.split(':')[0];
+                } else {
+                    itemPrefix = String.fromCharCode(65 + i);
+                }
+                item.classList.toggle('selected', currentAnswers.includes(itemPrefix));
+            });
         } else {
-            answer = String.fromCharCode(65 + index); // A, B, C, D...
+            // 单选题：只选一个
+            const items = elements.optionsContainer.querySelectorAll('.option-item');
+            items.forEach((item, i) => {
+                item.classList.toggle('selected', i === index);
+            });
+
+            const option = question.options[index];
+            let answer = '';
+
+            if (option.includes(':')) {
+                answer = option.split(':')[0];
+            } else {
+                answer = String.fromCharCode(65 + index); // A, B, C, D...
+            }
+
+            userAnswers[currentIndex] = answer;
         }
 
-        userAnswers[currentIndex] = answer;
         answeredQuestions.add(currentIndex);
         updateStats();
     }
@@ -11872,6 +12305,7 @@ const QUESTIONS_DATA = {
     function restoreAnswer(index) {
         const question = allQuestions[index];
         const answer = userAnswers[index];
+        const isMulti = question.type === 'multi';
 
         if (question.type === 'judge') {
             const item = elements.optionsContainer.querySelector('.option-item');
@@ -11886,23 +12320,20 @@ const QUESTIONS_DATA = {
         } else {
             const options = question.options || [];
             const prefixes = ['A', 'B', 'C', 'D', 'E', 'F'];
-            let selectedIndex = -1;
+
+            // 多选题答案可能是 "A,B,C" 格式
+            const answerParts = isMulti ? answer.split(',') : [answer];
 
             for (let i = 0; i < options.length; i++) {
                 let prefix = prefixes[i];
                 if (options[i].includes(':')) {
                     prefix = options[i].split(':')[0];
                 }
-                if (prefix === answer) {
-                    selectedIndex = i;
-                    break;
-                }
-            }
-
-            if (selectedIndex >= 0) {
-                const items = elements.optionsContainer.querySelectorAll('.option-item');
-                if (items[selectedIndex]) {
-                    items[selectedIndex].classList.add('selected');
+                if (answerParts.includes(prefix)) {
+                    const items = elements.optionsContainer.querySelectorAll('.option-item');
+                    if (items[i]) {
+                        items[i].classList.add('selected');
+                    }
                 }
             }
         }
@@ -11923,7 +12354,16 @@ const QUESTIONS_DATA = {
 
         const question = allQuestions[currentIndex];
         const userAnswer = userAnswers[currentIndex];
-        const isCorrect = userAnswer === question.answer;
+        // 多选题需要排序后比较，确保顺序无关
+        const isMulti = question.type === 'multi';
+        let isCorrect;
+        if (isMulti) {
+            const userSorted = userAnswer.split(',').sort().join(',');
+            const answerSorted = question.answer.split(',').sort().join(',');
+            isCorrect = userSorted === answerSorted;
+        } else {
+            isCorrect = userAnswer === question.answer;
+        }
 
         // 显示反馈
         elements.feedback.textContent = isCorrect ? '回答正确！' : `回答错误！正确答案：${question.answer}`;
