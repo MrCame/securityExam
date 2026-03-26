@@ -12050,6 +12050,7 @@ const QUESTIONS_DATA = {
         btnNext: document.getElementById('btnNext'),
         btnSubmit: document.getElementById('btnSubmit'),
         statSingle: document.getElementById('statSingle'),
+        statMulti: document.getElementById('statMulti'),
         statJudge: document.getElementById('statJudge'),
         resultModal: document.getElementById('resultModal'),
         resultScore: document.getElementById('resultScore'),
@@ -12087,6 +12088,7 @@ const QUESTIONS_DATA = {
 
             // 更新统计信息
             elements.statSingle.textContent = `0/${QUESTIONS_DATA.singleCount}`;
+            elements.statMulti.textContent = `0/${QUESTIONS_DATA.multiCount}`;
             elements.statJudge.textContent = `0/${QUESTIONS_DATA.judgeCount}`;
             elements.totalQuestions.textContent = allQuestions.length;
 
@@ -12437,26 +12439,22 @@ const QUESTIONS_DATA = {
     // 更新统计
     function updateStats() {
         let singleAnswered = 0;
+        let multiAnswered = 0;
         let judgeAnswered = 0;
-        let singleCorrect = 0;
-        let judgeCorrect = 0;
 
         answeredQuestions.forEach(index => {
             const q = allQuestions[index];
             if (q.type === 'judge') {
                 judgeAnswered++;
-                if (userAnswers[index] === q.answer) {
-                    judgeCorrect++;
-                }
+            } else if (q.type === 'multi') {
+                multiAnswered++;
             } else {
                 singleAnswered++;
-                if (userAnswers[index] === q.answer) {
-                    singleCorrect++;
-                }
             }
         });
 
         elements.statSingle.textContent = `${singleAnswered}/${QUESTIONS_DATA.singleCount}`;
+        elements.statMulti.textContent = `${multiAnswered}/${QUESTIONS_DATA.multiCount}`;
         elements.statJudge.textContent = `${judgeAnswered}/${QUESTIONS_DATA.judgeCount}`;
     }
 
