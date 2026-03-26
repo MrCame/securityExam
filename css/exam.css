@@ -96,8 +96,8 @@ body {
 }
 
 .question-content {
-    font-size: 16px;
-    line-height: 1.7;
+    font-size: 1rem;
+    line-height: 1.6;
     color: #333;
     word-break: break-word;
 }
@@ -123,13 +123,13 @@ body {
 .option-item {
     display: flex;
     align-items: center;
-    padding: 14px 16px;
+    padding: 0.75rem 1rem;
     background-color: #fafafa;
     border: 2px solid #e0e0e0;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.2s;
-    min-height: 48px;
+    min-height: 3rem;
 }
 
 .option-item:hover {
@@ -161,13 +161,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 1.75rem;
+    height: 1.75rem;
     border-radius: 50%;
     background-color: #e0e0e0;
     color: #666;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
+    flex-shrink: 0;
+}
     margin-right: 12px;
     flex-shrink: 0;
 }
@@ -189,9 +191,10 @@ body {
 
 .option-text {
     flex: 1;
-    font-size: 15px;
+    font-size: 1rem;
     color: #333;
-    line-height: 1.5;
+    line-height: 1.4;
+    word-break: break-word;
 }
 
 .option-item.selected .option-text {
@@ -206,7 +209,7 @@ body {
 }
 
 .option-item.judge-option .option-text {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
 }
 
@@ -475,49 +478,37 @@ body {
     }
 
     .question-panel {
-        padding: 14px;
-    }
-
-    .question-content {
-        font-size: 15px;
+        padding: 0.875rem;
     }
 
     .option-item {
-        padding: 12px 14px;
-    }
-
-    .option-text {
-        font-size: 14px;
+        padding: 0.625rem 0.875rem;
     }
 
     .footer-left {
-        gap: 6px;
+        gap: 0.375rem;
     }
 
     .footer-right {
-        gap: 6px;
+        gap: 0.375rem;
     }
 
     .btn-nav, .btn-submit {
-        padding: 8px 12px;
-        font-size: 13px;
-        min-height: 36px;
+        padding: 0.5rem 0.75rem;
+        min-height: 2.25rem;
     }
 
     .jump-box input {
-        width: 50px;
-        padding: 6px;
-        font-size: 12px;
+        width: 3rem;
+        padding: 0.375rem;
     }
 
     .jump-box .btn-nav {
-        padding: 6px 10px;
-        font-size: 12px;
+        padding: 0.375rem 0.625rem;
     }
 
     .stat-item {
-        font-size: 11px;
-        padding: 5px 8px;
+        padding: 0.3125rem 0.5rem;
     }
 }
 
@@ -533,20 +524,17 @@ body {
     }
 
     .btn-nav, .btn-submit {
-        padding: 8px 10px;
-        font-size: 12px;
-        min-height: 34px;
+        padding: 0.5rem 0.625rem;
+        min-height: 2.125rem;
     }
 
     .jump-box input {
-        width: 45px;
-        padding: 5px;
-        font-size: 11px;
+        width: 2.75rem;
+        padding: 0.3125rem;
     }
 
     .stat-item {
-        font-size: 10px;
-        padding: 4px 6px;
+        padding: 0.25rem 0.375rem;
     }
 }
 
