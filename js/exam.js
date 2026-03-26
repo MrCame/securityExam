@@ -12295,6 +12295,8 @@ const QUESTIONS_DATA = {
         }
 
         answeredQuestions.add(currentIndex);
+        // 重新选择时清除确认状态，这样点击确定会重新确认而不是跳过
+        confirmedQuestions.delete(currentIndex);
         updateStats();
     }
 
@@ -12312,6 +12314,8 @@ const QUESTIONS_DATA = {
 
         userAnswers[currentIndex] = answer;
         answeredQuestions.add(currentIndex);
+        // 重新选择时清除确认状态
+        confirmedQuestions.delete(currentIndex);
         updateStats();
     }
 
