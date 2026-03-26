@@ -293,8 +293,8 @@ body {
 }
 
 .jump-box input {
-    width: 60px;
-    padding: 8px;
+    width: 48px;
+    padding: 8px 4px;
     border: 1px solid #ddd;
     border-radius: 6px;
     font-size: 14px;

@@ -12137,6 +12137,7 @@ const QUESTIONS_DATA = {
 
         // 更新题号
         elements.questionNumber.textContent = `${index + 1}/${allQuestions.length}`;
+        elements.jumpInput.value = index + 1;
 
         // 更新题目类型
         let typeText = '单选题';
@@ -12167,6 +12168,8 @@ const QUESTIONS_DATA = {
         // 如果已答过，恢复答案
         if (userAnswers[index] !== undefined) {
             restoreAnswer(index);
+            // 清除确认状态，这样点击确定可以重新确认
+            confirmedQuestions.delete(index);
         }
     }
 
